@@ -75,6 +75,9 @@ st.markdown("""
   [data-testid="stExpander"] details {border: 1px solid #E5E7EB; border-radius: 6px;}
   [data-testid="stPopover"] button {font-size: .85rem;}
   .stTabs [data-baseweb="tab"] {font-size: .86rem; font-weight: 500;}
+  /* hide only Streamlit's Deploy button and the "Made with Streamlit" line in the menu */
+  [data-testid="stAppDeployButton"] {display: none !important;}
+  [data-testid="stMainMenuPopover"] [data-testid="stMainMenuList"] ~ div {display: none !important;}
   .nm-brand {font-size: 1.15rem; font-weight: 600; color: #111827; margin: 0;}
   .nm-brand-sub {font-size: .8rem; color: #6B7280; margin: .1rem 0 1rem 0;}
 </style>

@@ -397,3 +397,31 @@ def test_real_incident_after_general_question_opens_a_case(db):
 def test_private_defence_retrieval():
     ids = [d.doc_id for d in get_kb().search(["can I defend myself against a thief at night"], ["Criminal Law"])]
     assert ids[0] == "BNS2023_S34_35" and "BNS2023_S41" in ids and "BNS2023_S37" in ids
+
+
+# ------------------------------------------------------------ language detection (English vs Hinglish)
+def test_roman_language_detection():
+    from llm.llm1_classifier import roman_language
+    english = "hey i want to know what should i do, my boss has not given me my salary for last month"
+    assert roman_language(english, "hinglish") == "en"          # model mislabel is overridden
+    assert roman_language("meri wife mujhe chhod ke ja rahi hai", "en") == "hinglish"
+    assert roman_language("mera landlord deposit wapas nahi de raha", "en") == "hinglish"
+    assert roman_language("Please help me, I have a problem to discuss", "hinglish") == "en"  # 'me', 'to' are English
+    assert roman_language("salary nahi mili", "en") == "hinglish"
+    assert roman_language("hello, salary nahi", "en") == "en" and roman_language("hello, salary nahi", "hinglish") == "hinglish"
+
+
+def test_english_case_is_asked_in_english(db):
+    """Even if LLM 1 labels an English message 'hinglish', the questions come in English."""
+    from tests.fake_llm import FakeClient
+
+    class MislabelHinglish(FakeClient):
+        def chat_json(self, system, user, max_tokens=0):
+            out = super().chat_json(system, user, max_tokens)
+            if "You are LLM 1" in system:
+                out["language"] = "hinglish"
+            return out
+    p = NyayaMitraPipeline(db, lambda role, usage: MislabelHinglish(role, usage), today=date(2026, 11, 9))
+    st, out = p.handle("lang1", "my boss has not given me my salary for last month")
+    assert st.language == "en"
+    assert out.startswith("Are you still working there")

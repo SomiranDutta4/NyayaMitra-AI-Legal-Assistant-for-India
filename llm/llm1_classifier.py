@@ -80,6 +80,32 @@ def _script_language(text: str) -> Optional[str]:
     return "hi" if re.search(r"[ऀ-ॿ]", text or "") else None
 
 
+# Common Hindi words written in Roman script. English and Hinglish share the same letters, so the model's
+# label alone is not trusted: a Roman-script message is Hinglish only if it actually contains Hindi words.
+HINGLISH_WORDS = set("""
+hai hain ho hoon hu tha thi the hoga hogi nahi nahin nhi mat
+mera meri mere mujhe mujhko hum hamara humara hamari tum tumhara aap aapka aapki aapke apna apni apne
+kya kyu kyun kyon kaise kab kahan kaun kitna kitne kitni
+raha rahi rahe rha rhi gaya gayi gaye gya gyi kar karo karna karke kiya kiye diya diye de dete deta deti
+liya lena dena milta mila mili chahiye chahta chahti chahte batao bataiye bataye samajh
+ke ki ka ko se mein me par pe wala wali wale aur lekin magar bhi abhi phir fir toh to
+yeh ye woh wo koi kuch sab bahut bohot thoda zyada jaldi
+bhai behen didi ji haan han theek thik accha acha bas wapas paise paisa ghar kaam naukri
+""".split())
+
+
+def roman_language(text: str, model_label: Optional[str]) -> str:
+    """'hinglish' if the Roman-script text has Hindi words, else 'en'. One Hindi word is ambiguous
+    ('me', 'to', 'de' are also English), so then the model's label decides."""
+    tokens = re.findall(r"[a-z]+", (text or "").lower())
+    hits = sum(1 for t in tokens if t in HINGLISH_WORDS and t not in ("me", "to", "de", "the", "par", "ho", "han"))
+    if hits >= 2:
+        return "hinglish"
+    if hits == 0:
+        return "en"
+    return model_label if model_label in ("en", "hinglish") else "en"
+
+
 class LLM1Intake:
     def __init__(self, client: LLMClient):
         self.llm = client
@@ -96,7 +122,7 @@ class LLM1Intake:
         except ValueError:
             status = ClarificationStatus.AMBIGUOUS
         intent = str(data.get("intent", "VAGUE")).upper()
-        lang = _script_language(message) or (data.get("language") if data.get("language") in ("en", "hi", "hinglish") else "en")
+        lang = _script_language(message) or roman_language(message, data.get("language"))
         reply = data.get("reply")
         return TurnAnalysis(
             language=lang,
