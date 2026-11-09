@@ -1,0 +1,727 @@
+{
+ "session_id": "11_followup_new_problem-1794199320",
+ "status": "COMPLETED",
+ "language": "en",
+ "language_locked": true,
+ "language_override": null,
+ "domains": [
+  "Property Law",
+  "Criminal Law"
+ ],
+ "transcript": [
+  {
+   "role": "user",
+   "display": "My landlord in Pune is not returning my ₹40,000 security deposit. I vacated on 15 August 2026 and returned the keys.",
+   "en": "My landlord in Pune is not returning my ₹40,000 security deposit. I vacated on 15 August 2026 and returned the keys."
+  },
+  {
+   "role": "assistant",
+   "display": "Did your landlord give any reason for not returning your deposit, like damage to the flat or unpaid bills?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "No reason given.",
+   "en": "No reason given."
+  },
+  {
+   "role": "assistant",
+   "display": "Thank you. Do you have a rent or sale agreement, rent or deposit payment receipts, or messages with the other side? Anything else I should know? (You can reply 'no'.)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "no",
+   "en": "no"
+  },
+  {
+   "role": "assistant",
+   "display": "### Understanding your situation\nYou vacated your rented premises in Pune on 15 August 2026 and handed back the keys, but your landlord has not returned your ₹40,000 security deposit and has given no reason for withholding it.\n\n### Where you stand legally\n- As a tenant, you have the duty upon the end of the lease to hand back possession of the property to the landlord, which you completed on 15 August 2026. [1]\n- Under the Model Tenancy Act, a landlord must refund the security deposit at the time of taking over vacant possession after making due deductions for any liability, though this Act only applies in states that have enacted a law based on it. [2]\n- For civil suits to recover money such as an unreturned security deposit, the general limitation period is three years from when the right to sue accrues. [3]\n\n### Your options\n1. **Civil Money Recovery Suit** — File a civil suit in the appropriate civil court to recover the ₹40,000 security deposit based on the general limitation period of three years. [3]\n\n### Time limits\n- You have a limitation period of three years from when the right to sue accrues to file a civil suit for recovering the unreturned security deposit. [3]\n\n### What to do next\n1. Send a written demand to your landlord asking for the immediate return of your ₹40,000 security deposit.\n2. Gather your rent agreement, payment receipts, and proof of vacating the premises on 15 August 2026.\n3. Consult a local advocate in Pune to discuss filing a civil recovery suit if the landlord continues to withhold the money.\n\n### Keep these ready\n- Rent agreement\n- Proof of payment of the ₹40,000 security deposit\n- Receipt or written acknowledgment of handing back the keys on 15 August 2026\n- Any written communication with the landlord\n\n### Draft: Legal notice (edit before using)\n> To,\n> [Landlord's Name]\n> [Landlord's Address]\n>\n> Subject: Demand for refund of security deposit of ₹40,000\n>\n> Dear Sir/Madam,\n>\n> I was a tenant at your property in Pune, which I vacated on 15 August 2026, at which time I handed back the possession and keys to you. You have withheld my security deposit of ₹40,000 without giving any reason.\n>\n> Please note that under the law, upon the end of the lease and handing back possession, the security deposit must be refunded after making due deductions for any tenant liability. \n>\n> I hereby demand that you refund the full amount of ₹40,000 within a reasonable time from the receipt of this notice, failing which I shall be forced to initiate legal proceedings for recovery.\n>\n> Sincerely,\n> [Your Name]\n> [Your Contact Information]\n\n### When to involve a lawyer\n- You can usually start this yourself. If the other side does not respond, or you are unsure about any step, consult a lawyer.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- The Model Tenancy Act provisions cited apply only if Maharashtra has enacted a law based on it; otherwise, your matter is governed by your rent agreement and applicable state rent laws.\n- It is assumed that you fulfilled your tenant duties under the lease agreement up to the date of vacating.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 108, *Transfer of Property Act, 1882* — Rights and duties of landlord and tenant\n2. Section 11, *Model Tenancy Act, 2021* — Security deposit limits and refund\n3. Article 113 (Schedule), *Limitation Act, 1963* — General limitation period for civil money suits\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "Also, yesterday when I asked again, he threatened to beat me.",
+   "en": "Also, yesterday when I asked again, he threatened to beat me."
+  },
+  {
+   "role": "assistant",
+   "display": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n\nSince your landlord threatened you yesterday, are you safe right now and is he continuing to contact or threaten you?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "Yes, I am safe now, he is not near me.",
+   "en": "Yes, I am safe now, he is not near me."
+  },
+  {
+   "role": "assistant",
+   "display": "In which city or area did this happen?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "Pune.",
+   "en": "Pune."
+  },
+  {
+   "role": "assistant",
+   "display": "Have you gone to the police or filed a complaint/FIR yet? What happened there?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "No, I have not gone to the police.",
+   "en": "No, I have not gone to the police."
+  },
+  {
+   "role": "assistant",
+   "display": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n\n### Understanding your situation\nYou vacated your rented premises in Pune on 15 August 2026, but your landlord has not returned your ₹40,000 security deposit without giving any reason. Additionally, when you asked about the deposit, the landlord threatened to beat you.\n\n### Where you stand legally\n- The landlord must refund your security deposit at the time of taking over vacant possession, after making due deductions for any of your liabilities. [1]\n- You generally have three years from when the right to sue accrues to file a civil money suit for recovering your unreturned security deposit. [2]\n- Threatening a person with injury to their person with intent to cause alarm is criminal intimidation, which is punishable under criminal law. [3]\n\n### Your options\n1. **Civil Suit for Money Recovery** — File a civil suit to recover your ₹40,000 deposit before the civil court, utilizing the general limitation period of three years. [2]\n2. **Police Complaint for Criminal Intimidation** — Report the landlord's threat to beat you to the police station to register information about the cognizable offence. [4]\n\n### Time limits\n- You have three years from when your right to sue accrues to file a civil suit for recovering the money. [2]\n\n### What to do next\n1. Organize your rental agreement, receipts of payment, and proof of vacating on 15 August 2026.\n2. Consider visiting the local police station in Pune to file a complaint regarding the threat of being beaten.\n3. Consult a local lawyer to draft a formal demand notice for the return of your ₹40,000 deposit.\n4. Prepare for filing a civil money suit if the landlord fails to respond to demands.\n\n### Keep these ready\n- Rental agreement\n- Proof of payment of the ₹40,000 security deposit\n- Receipt or acknowledgment of returning the keys on 15 August 2026\n- Any text messages, call logs, or recordings related to the threats\n\n### Draft: Police complaint (edit before using)\n> To,\n> The Officer in Charge,\n> Police Station, Pune, Maharashtra.\n>\n> Subject: Complaint regarding criminal intimidation and withholding of security deposit.\n>\n> Respected Sir/Madam,\n>\n> I, [Your Name], resident of Pune, state that I was a tenant in premises owned by [Landlord's Name]. I vacated the premises on 15 August 2026 and handed back the keys. My landlord has wrongfully withheld my security deposit of ₹40,000 without providing any reason.\n>\n> On [Date of incident, e.g., 2026-11-08], when I asked for the return of my deposit, [Landlord's Name] threatened to beat me, causing me severe alarm and apprehension for my safety.\n>\n> I request you to kindly take strict legal action against the landlord under the Bharatiya Nyaya Sanhita, 2023.\n>\n> Yours faithfully,\n> [Your Name]\n> [Your Contact Information]\n\n### When to involve a lawyer\n- Criminal matters can affect your liberty and record; have a lawyer review the complaint or FIR before you file or respond.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- It is assumed that the Model Tenancy Act provisions apply if Maharashtra has enacted a corresponding rent act incorporating similar security deposit refund rules; otherwise, the terms are governed by your rent agreement and general transfer of property principles.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 11, *Model Tenancy Act, 2021* — Security deposit limits and refund\n2. Article 113 (Schedule), *Limitation Act, 1963* — General limitation period for civil money suits\n3. Section 351, *Bharatiya Nyaya Sanhita, 2023* — Criminal intimidation (threats)\n4. Section 173, *Bharatiya Nagarik Suraksha Sanhita, 2023* — Filing an FIR (including Zero FIR and e-FIR)\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+   "en": ""
+  }
+ ],
+ "case_statements_en": [
+  "My landlord in Pune is not returning my ₹40,000 security deposit. I vacated on 15 August 2026 and returned the keys.",
+  "No reason given.",
+  "Also, yesterday when I asked again, he threatened to beat me.",
+  "Yes, I am safe now, he is not near me.",
+  "Pune.",
+  "No, I have not gone to the police."
+ ],
+ "checklist": {
+  "p_role": {
+   "field_id": "p_role",
+   "domain": "Property Law",
+   "label": "Your role",
+   "category": "critical",
+   "description": "Whether the user is the tenant, the landlord, or a buyer from a builder.",
+   "group": "p_role",
+   "status": "COLLECTED",
+   "value": "Tenant"
+  },
+  "p_problem": {
+   "field_id": "p_problem",
+   "domain": "Property Law",
+   "label": "The dispute",
+   "category": "critical",
+   "description": "The main problem in one line (deposit, eviction, lock-out, builder delay...).",
+   "group": "p_problem",
+   "status": "COLLECTED",
+   "value": "Security deposit of ₹40,000 not returned by landlord in Pune after vacating on 15 August 2026"
+  },
+  "p_location": {
+   "field_id": "p_location",
+   "domain": "Property Law",
+   "label": "City and state",
+   "category": "critical",
+   "description": "City and state of the property (tenancy and RERA rules differ by state).",
+   "group": "p_location",
+   "status": "COLLECTED",
+   "value": "Pune, Maharashtra"
+  },
+  "p_deposit_amount": {
+   "field_id": "p_deposit_amount",
+   "domain": "Property Law",
+   "label": "Deposit amount",
+   "category": "critical",
+   "description": "Security deposit paid, in rupees.",
+   "group": "p_deposit_amount",
+   "status": "COLLECTED",
+   "value": "40000"
+  },
+  "p_vacated": {
+   "field_id": "p_vacated",
+   "domain": "Property Law",
+   "label": "Date vacated / keys returned",
+   "category": "critical",
+   "description": "When the user vacated and handed over the keys.",
+   "group": "p_vacated",
+   "status": "COLLECTED",
+   "value": "2026-08-15"
+  },
+  "p_deduction_reason": {
+   "field_id": "p_deduction_reason",
+   "domain": "Property Law",
+   "label": "Landlord's reason for keeping it",
+   "category": "critical",
+   "description": "Any reason the landlord gave (damage, unpaid rent, bills) or 'no reason'.",
+   "group": "p_deduction_reason",
+   "status": "COLLECTED",
+   "value": "No reason given"
+  },
+  "p_agreement": {
+   "field_id": "p_agreement",
+   "domain": "Property Law",
+   "label": "Written agreement",
+   "category": "supporting",
+   "description": "Rent agreement / builder-buyer agreement, registered or not; RERA registration.",
+   "group": "p_agreement",
+   "status": "MISSING",
+   "value": null
+  },
+  "r_safe": {
+   "field_id": "r_safe",
+   "domain": "Criminal Law",
+   "label": "Safe right now",
+   "category": "critical",
+   "description": "Whether the user is safe now and whether the threat/harassment is ongoing.",
+   "group": "r_safe",
+   "status": "COLLECTED",
+   "value": "Safe now, landlord is not near"
+  },
+  "r_incident": {
+   "field_id": "r_incident",
+   "domain": "Criminal Law",
+   "label": "What happened and who",
+   "category": "critical",
+   "description": "The incident and who did it (known or unknown person).",
+   "group": "r_incident",
+   "status": "COLLECTED",
+   "value": "Landlord threatened to beat the user when asked about the deposit"
+  },
+  "r_date": {
+   "field_id": "r_date",
+   "domain": "Criminal Law",
+   "label": "Date of incident",
+   "category": "critical",
+   "description": "When it happened (before or after 1 July 2024 decides IPC vs BNS).",
+   "group": "r_date",
+   "status": "COLLECTED",
+   "value": "2026-11-08"
+  },
+  "r_place": {
+   "field_id": "r_place",
+   "domain": "Criminal Law",
+   "label": "City / place",
+   "category": "critical",
+   "description": "Where it happened (which police station area).",
+   "group": "r_place",
+   "status": "COLLECTED",
+   "value": "Pune"
+  },
+  "r_police": {
+   "field_id": "r_police",
+   "domain": "Criminal Law",
+   "label": "Police complaint status",
+   "category": "critical",
+   "description": "Whether the user went to the police / filed an FIR and what happened.",
+   "group": "r_police",
+   "status": "COLLECTED",
+   "value": "No, I have not gone to the police."
+  },
+  "r_evidence": {
+   "field_id": "r_evidence",
+   "domain": "Criminal Law",
+   "label": "Evidence",
+   "category": "supporting",
+   "description": "Bank records, chats, call logs, recordings, CCTV, witnesses.",
+   "group": "r_evidence",
+   "status": "MISSING",
+   "value": null
+  }
+ },
+ "sub_issues": {
+  "Property Law": [
+   "deposit"
+  ],
+  "Criminal Law": [
+   "threat"
+  ]
+ },
+ "key_date": "2026-08-15",
+ "amount_inr": 40000.0,
+ "pending_field": null,
+ "pending_retries": 0,
+ "questions_asked": 3,
+ "additional_asked": true,
+ "grounding_retries": 0,
+ "safety_flags": [
+  "danger"
+ ],
+ "retrieval_calls": 2,
+ "retrieval_log": [
+  {
+   "call": 1,
+   "queries": [
+    "security deposit refund tenant landlord",
+    "recovery of deposit residential lease tenant",
+    "My landlord in Pune is not returning my ₹40,000 security deposit. I vacated on 15 August 2026 and returned the keys. No reason given."
+   ],
+   "doc_ids": [
+    "MTA2021_S11",
+    "TPA1882_S108",
+    "TPA1882_S105",
+    "LIM1963_A113",
+    "MTA2021_S20",
+    "TPA1882_S106"
+   ]
+  },
+  {
+   "call": 2,
+   "queries": [
+    "security deposit refund tenant landlord",
+    "criminal intimidation assault threat",
+    "My landlord in Pune is not returning my ₹40,000 security deposit. I vacated on 15 August 2026 and returned the keys. No reason given. Also, yesterday when I asked again, he threatened to beat me. Yes, I am safe now, he is not near me. Pune. No, I have not gone to the police."
+   ],
+   "doc_ids": [
+    "BNS2023_S329",
+    "SRA1963_S6",
+    "RERA2016_S18",
+    "LSAA1987_S12",
+    "BNS2023_S351",
+    "BNSS2023_S173",
+    "NIA1881_S138",
+    "BNSS2023_S175",
+    "RERA2016_S31",
+    "NIA1881_S142"
+   ]
+  }
+ ],
+ "evidence_ids": [
+  "MTA2021_S11",
+  "TPA1882_S108",
+  "TPA1882_S105",
+  "LIM1963_A113",
+  "MTA2021_S20",
+  "TPA1882_S106",
+  "BNS2023_S329",
+  "SRA1963_S6",
+  "RERA2016_S18",
+  "LSAA1987_S12",
+  "BNS2023_S351",
+  "BNSS2023_S173",
+  "NIA1881_S138",
+  "BNSS2023_S175",
+  "RERA2016_S31",
+  "NIA1881_S142"
+ ],
+ "computed": {
+  "today": "2026-11-09",
+  "key_date": "2026-08-15",
+  "time_elapsed": "about 2 months since 2026-08-15",
+  "months_elapsed": 2,
+  "criminal_code": "Bharatiya Nyaya Sanhita, 2023 / Bharatiya Nagarik Suraksha Sanhita, 2023 (incident on or after 1 July 2024)",
+  "amount": "₹40,000"
+ },
+ "audit_reports": [
+  {
+   "attempt": 1,
+   "status": "REVISE",
+   "deterministic_issues": [
+    {
+     "item": "N4",
+     "check": "number",
+     "detail": "Number(s) 14 day(s) do not appear in the cited provisions or the user's facts."
+    }
+   ],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects user facts and general legal position on security deposits."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Matches Section 108 regarding tenant obligations and landlord duties upon lease end."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately paraphrases Section 11 of the Model Tenancy Act, 2021 including its state-specific applicability."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Matches Article 113 of the Limitation Act, 1963 regarding the 3-year limitation period."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with recovering an unreturned security deposit."
+    },
+    {
+     "id": "O2",
+     "verdict": "SUPPORTED",
+     "reason": "Supported by the general limitation and civil suit provisions for money recovery."
+    },
+    {
+     "id": "D1",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately applies the three-year limitation period starting from the date of vacating."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice."
+    },
+    {
+     "id": "N5",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice."
+    }
+   ],
+   "failing_items": [
+    "N4"
+   ],
+   "feedback": "- [N4] number: Number(s) 14 day(s) do not appear in the cited provisions or the user's facts.",
+   "suggested_query": "Maharashtra Rent Control Act security deposit jurisdiction",
+   "audit_error": ""
+  },
+  {
+   "attempt": 2,
+   "status": "PASS",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user's stated facts regarding the date, location, amount, and lack of reason."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly cites Section 108 of the Transfer of Property Act, 1882, which mandates the tenant to hand back possession at the end of the lease."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the refund obligation under Section 11 of the Model Tenancy Act, 2021, and accurately notes the caveat that it applies only in states that have enacted it."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly cites Article 113 of the Limitation Act, 1963, which provides a three-year general limitation period for civil money suits."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "The advice to file a civil suit is a valid legal remedy for money recovery, and the cited limitation period is correct."
+    },
+    {
+     "id": "D1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the three-year limitation period for filing a civil suit for money recovery as per the Limitation Act."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to send a written demand, which makes no specific legal claim."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to gather evidence, which makes no specific legal claim."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to consult a local advocate, which makes no specific legal claim."
+    }
+   ],
+   "failing_items": [],
+   "feedback": "",
+   "suggested_query": "",
+   "audit_error": ""
+  },
+  {
+   "attempt": 1,
+   "status": "PASS",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user's facts."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "MTA2021_S11 states the landlord must refund the deposit at the time of taking over vacant possession after due deductions."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "LIM1963_A113 provides a three-year limitation period for civil money recovery suits."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "BNS2023_S351 defines criminal intimidation by threatening injury to person with intent to cause alarm."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Advises filing a civil suit based on the three-year limitation period."
+    },
+    {
+     "id": "O2",
+     "verdict": "SUPPORTED",
+     "reason": "Advises reporting the threat to the police station referencing BNSS2023_S173."
+    },
+    {
+     "id": "D1",
+     "verdict": "SUPPORTED",
+     "reason": "Repeats the correct limitation period under LIM1963_A113."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to keep receipts and documents."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to visit the police station."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to consult a lawyer for a demand notice."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to prepare for a civil suit."
+    }
+   ],
+   "failing_items": [],
+   "feedback": "",
+   "suggested_query": "",
+   "audit_error": ""
+  }
+ ],
+ "answer": {
+  "summary": "You vacated your rented premises in Pune on 15 August 2026, but your landlord has not returned your ₹40,000 security deposit without giving any reason. Additionally, when you asked about the deposit, the landlord threatened to beat you.",
+  "legal_position": [
+   {
+    "text": "The landlord must refund your security deposit at the time of taking over vacant possession, after making due deductions for any of your liabilities.",
+    "cites": [
+     "MTA2021_S11"
+    ]
+   },
+   {
+    "text": "You generally have three years from when the right to sue accrues to file a civil money suit for recovering your unreturned security deposit.",
+    "cites": [
+     "LIM1963_A113"
+    ]
+   },
+   {
+    "text": "Threatening a person with injury to their person with intent to cause alarm is criminal intimidation, which is punishable under criminal law.",
+    "cites": [
+     "BNS2023_S351"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Civil Suit for Money Recovery",
+    "detail": "File a civil suit to recover your ₹40,000 deposit before the civil court, utilizing the general limitation period of three years.",
+    "cites": [
+     "LIM1963_A113"
+    ]
+   },
+   {
+    "title": "Police Complaint for Criminal Intimidation",
+    "detail": "Report the landlord's threat to beat you to the police station to register information about the cognizable offence.",
+    "cites": [
+     "BNSS2023_S173"
+    ]
+   }
+  ],
+  "deadlines": [
+   {
+    "text": "You have three years from when your right to sue accrues to file a civil suit for recovering the money.",
+    "cites": [
+     "LIM1963_A113"
+    ]
+   }
+  ],
+  "next_steps": [
+   "Organize your rental agreement, receipts of payment, and proof of vacating on 15 August 2026.",
+   "Consider visiting the local police station in Pune to file a complaint regarding the threat of being beaten.",
+   "Consult a local lawyer to draft a formal demand notice for the return of your ₹40,000 deposit.",
+   "Prepare for filing a civil money suit if the landlord fails to respond to demands."
+  ],
+  "evidence_to_collect": [
+   "Rental agreement",
+   "Proof of payment of the ₹40,000 security deposit",
+   "Receipt or acknowledgment of returning the keys on 15 August 2026",
+   "Any text messages, call logs, or recordings related to the threats"
+  ],
+  "draft_document": {
+   "type": "Police complaint",
+   "text": "To,\nThe Officer in Charge,\nPolice Station, Pune, Maharashtra.\n\nSubject: Complaint regarding criminal intimidation and withholding of security deposit.\n\nRespected Sir/Madam,\n\nI, [Your Name], resident of Pune, state that I was a tenant in premises owned by [Landlord's Name]. I vacated the premises on 15 August 2026 and handed back the keys. My landlord has wrongfully withheld my security deposit of ₹40,000 without providing any reason.\n\nOn [Date of incident, e.g., 2026-11-08], when I asked for the return of my deposit, [Landlord's Name] threatened to beat me, causing me severe alarm and apprehension for my safety.\n\nI request you to kindly take strict legal action against the landlord under the Bharatiya Nyaya Sanhita, 2023.\n\nYours faithfully,\n[Your Name]\n[Your Contact Information]"
+  },
+  "assumptions": [
+   "It is assumed that the Model Tenancy Act provisions apply if Maharashtra has enacted a corresponding rent act incorporating similar security deposit refund rules; otherwise, the terms are governed by your rent agreement and general transfer of property principles."
+  ]
+ },
+ "answer_en_md": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n\n### Understanding your situation\nYou vacated your rented premises in Pune on 15 August 2026, but your landlord has not returned your ₹40,000 security deposit without giving any reason. Additionally, when you asked about the deposit, the landlord threatened to beat you.\n\n### Where you stand legally\n- The landlord must refund your security deposit at the time of taking over vacant possession, after making due deductions for any of your liabilities. [1]\n- You generally have three years from when the right to sue accrues to file a civil money suit for recovering your unreturned security deposit. [2]\n- Threatening a person with injury to their person with intent to cause alarm is criminal intimidation, which is punishable under criminal law. [3]\n\n### Your options\n1. **Civil Suit for Money Recovery** — File a civil suit to recover your ₹40,000 deposit before the civil court, utilizing the general limitation period of three years. [2]\n2. **Police Complaint for Criminal Intimidation** — Report the landlord's threat to beat you to the police station to register information about the cognizable offence. [4]\n\n### Time limits\n- You have three years from when your right to sue accrues to file a civil suit for recovering the money. [2]\n\n### What to do next\n1. Organize your rental agreement, receipts of payment, and proof of vacating on 15 August 2026.\n2. Consider visiting the local police station in Pune to file a complaint regarding the threat of being beaten.\n3. Consult a local lawyer to draft a formal demand notice for the return of your ₹40,000 deposit.\n4. Prepare for filing a civil money suit if the landlord fails to respond to demands.\n\n### Keep these ready\n- Rental agreement\n- Proof of payment of the ₹40,000 security deposit\n- Receipt or acknowledgment of returning the keys on 15 August 2026\n- Any text messages, call logs, or recordings related to the threats\n\n### Draft: Police complaint (edit before using)\n> To,\n> The Officer in Charge,\n> Police Station, Pune, Maharashtra.\n>\n> Subject: Complaint regarding criminal intimidation and withholding of security deposit.\n>\n> Respected Sir/Madam,\n>\n> I, [Your Name], resident of Pune, state that I was a tenant in premises owned by [Landlord's Name]. I vacated the premises on 15 August 2026 and handed back the keys. My landlord has wrongfully withheld my security deposit of ₹40,000 without providing any reason.\n>\n> On [Date of incident, e.g., 2026-11-08], when I asked for the return of my deposit, [Landlord's Name] threatened to beat me, causing me severe alarm and apprehension for my safety.\n>\n> I request you to kindly take strict legal action against the landlord under the Bharatiya Nyaya Sanhita, 2023.\n>\n> Yours faithfully,\n> [Your Name]\n> [Your Contact Information]\n\n### When to involve a lawyer\n- Criminal matters can affect your liberty and record; have a lawyer review the complaint or FIR before you file or respond.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- It is assumed that the Model Tenancy Act provisions apply if Maharashtra has enacted a corresponding rent act incorporating similar security deposit refund rules; otherwise, the terms are governed by your rent agreement and general transfer of property principles.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 11, *Model Tenancy Act, 2021* — Security deposit limits and refund\n2. Article 113 (Schedule), *Limitation Act, 1963* — General limitation period for civil money suits\n3. Section 351, *Bharatiya Nyaya Sanhita, 2023* — Criminal intimidation (threats)\n4. Section 173, *Bharatiya Nagarik Suraksha Sanhita, 2023* — Filing an FIR (including Zero FIR and e-FIR)\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+ "removed_items": [],
+ "usage": [
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1191,
+   "prompt_tokens": 984,
+   "completion_tokens": 130
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1460,
+   "prompt_tokens": 2141,
+   "completion_tokens": 211
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1014,
+   "prompt_tokens": 1013,
+   "completion_tokens": 99
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1629,
+   "prompt_tokens": 2205,
+   "completion_tokens": 182
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1394,
+   "prompt_tokens": 1052,
+   "completion_tokens": 98
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1050,
+   "prompt_tokens": 237,
+   "completion_tokens": 31
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3776,
+   "prompt_tokens": 1673,
+   "completion_tokens": 1099
+  },
+  {
+   "role": "llm3",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 2065,
+   "prompt_tokens": 2031,
+   "completion_tokens": 572
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3049,
+   "prompt_tokens": 1732,
+   "completion_tokens": 900
+  },
+  {
+   "role": "llm3",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 2675,
+   "prompt_tokens": 1813,
+   "completion_tokens": 567
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1225,
+   "prompt_tokens": 1073,
+   "completion_tokens": 115
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1949,
+   "prompt_tokens": 3134,
+   "completion_tokens": 288
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1268,
+   "prompt_tokens": 1063,
+   "completion_tokens": 110
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1699,
+   "prompt_tokens": 3175,
+   "completion_tokens": 284
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1253,
+   "prompt_tokens": 994,
+   "completion_tokens": 100
+  },
+  {
+   "role": "llm2",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 1387,
+   "prompt_tokens": 3121,
+   "completion_tokens": 421
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1357,
+   "prompt_tokens": 1020,
+   "completion_tokens": 86
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1797,
+   "prompt_tokens": 3203,
+   "completion_tokens": 325
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 775,
+   "prompt_tokens": 356,
+   "completion_tokens": 16
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3415,
+   "prompt_tokens": 3037,
+   "completion_tokens": 952
+  },
+  {
+   "role": "llm3",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 2621,
+   "prompt_tokens": 3226,
+   "completion_tokens": 570
+  }
+ ],
+ "last_error": null
+}

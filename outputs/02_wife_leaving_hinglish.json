@@ -1,0 +1,455 @@
+{
+ "session_id": "02_wife_leaving_hinglish-1794198937",
+ "status": "COMPLETED",
+ "language": "hinglish",
+ "language_locked": true,
+ "language_override": null,
+ "domains": [
+  "Family Law"
+ ],
+ "transcript": [
+  {
+   "role": "user",
+   "display": "meri wife mujhe chhod ke ja rahi hai",
+   "en": "My wife is leaving me."
+  },
+  {
+   "role": "assistant",
+   "display": "Aapne bataya ki aapki wife aapko chhod kar ja rahi hain, thoda batayenge ki kya hua hai aur abhi aap log alag reh rahe hain kya?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "woh apne maayke chali gayi hai aur wapas nahi aana chahti",
+   "en": "She has gone to her parents' house and does not want to come back."
+  },
+  {
+   "role": "assistant",
+   "display": "Aapki wife ghar chali gayi hain, toh ab aap kya chahte hain - reconciliation, divorce, ya kuch aur?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "main chahta hoon ki woh wapas aa jaye, divorce nahi chahiye",
+   "en": "I want her to come back, I don't want a divorce."
+  },
+  {
+   "role": "assistant",
+   "display": "Aapki wife ne abhi tak koi police complaint, court case ya legal notice bheja hai kya?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "nahi, koi case ya notice nahi hai",
+   "en": "No, there is no case or notice."
+  },
+  {
+   "role": "assistant",
+   "display": "Aapki shaadi kis riti-riwaz ya dharm ke anusaar hui thi?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "Hindu rituals se shaadi hui thi",
+   "en": "The marriage was performed under Hindu rituals."
+  },
+  {
+   "role": "assistant",
+   "display": "Aapki shaadi kab hui thi aur kitne samay se aap dono alag reh rahe hain? (Approximate month ya saal bata sakte hain)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "2021 mein shaadi hui thi, 2 mahine se alag reh rahe hain",
+   "en": "I got married in 2021, and we have been living apart for 2 months."
+  },
+  {
+   "role": "assistant",
+   "display": "Thank you. Kya aapke paas marriage certificate ya shaadi ki photos, messages, ya koi medical ya police records hain? Kuch aur jo mujhe jaanna chahiye? (Aap 'no' likh sakte hain.)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "nahi",
+   "en": "No"
+  },
+  {
+   "role": "assistant",
+   "display": "### Aapki situation ko samajhna\nAapki shaadi 2021 mein Hindu rituals ke mutabiq hui thi, aur aapki wife apne parents ke ghar chali gayi hain aur wapas aana nahi chahti hain. Aap log September 2026 se lagbhag 2 months se alag reh rahe hain, aur aap divorce lene ke bajaye chahte hain ki woh wapas aa jayein.\n\n### Aapka legal stand kya hai\n- Kyunki aapki wife ne bina kisi reasonable excuse ke aapka sath chhod diya hai, aap district court mein restitution of conjugal rights (pati-patni ke sath rehne ke adhikar ki bahali) ke liye petition daal sakte hain taaki woh wapas aa sakein. [1]\n- Agar aap restitution of conjugal rights ke liye file karte hain, toh chhod kar jaane ka koi reasonable excuse saabit karne ki zimmedari aapki wife ki hogi. [1]\n- Divorce ki petition file karne ke liye desertion (alag rehna) kam se kam continuous 2 years tak hona chahiye, aur aapko alag rehte hue abhi sirf lagbhag 2 months hi hue hain. [2]\n\n### Aapke paas kya options hain\n1. **Restitution of Conjugal Rights** — District court (ya Family Court agar bani ho) mein petition file karein jisme court se request ki jaye ki aapki wife ko wapas aane ka order diya jaye. [1][3]\n2. **Reconciliation and Counseling** — Family Court ya community/family mediators ki madad lein taaki aapke differences solve ho sakein aur aapki wife khushi-khushi wapas aane ke liye maan jaye, kyunki abhi tak koi formal case ya notice file nahi kiya gaya hai. [3]\n\n### Aage kya karein\n1. Reconciliation (sulah) ke baare mein baat karne ke liye apni wife ya unke family members se aaram se contact karein.\n2. Agar baatchit kaam na aaye, toh restitution of conjugal rights ke liye ek formal request ya petition draft karne ke liye kisi local advocate se consult karein.\n3. Apna marriage certificate ya wedding photographs taiyar rakhein.\n4. Separation (alag rehne) ki dates aur communications ka record banakar rakhein.\n\n### Yeh cheezein ready rakhein\n- Marriage certificate ya wedding photographs\n- Unke jaane ya alag rehne ke baare mein hue koi bhi messages ya written communication\n\n### Lawyer ko kab involve karein\n- Family disputes (divorce, maintenance, custody) poori tarah facts aur evidence par depend karte hain; court filing kisi family lawyer ya DLSA ke through karwayi honi chahiye.\n- Free legal aid ke liye: NALSA helpline **15100**, ya apne District Legal Services Authority (DLSA) se contact karein.\n\n### Assumptions aur gaps\n- Aaj ki date yani November 9, 2026 tak dono taraf se koi bhi formal case ya notice file nahi kiya gaya hai.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 9, *Hindu Marriage Act, 1955* — Restitution of conjugal rights (spouse has left)\n2. Section 13, *Hindu Marriage Act, 1955* — Grounds for divorce\n3. Section 7, *Family Courts Act, 1984* — Family Court jurisdiction\n\n_NyayaMitra upar diye gaye Bare Act provisions ke aadhar par general legal information deta hai. Yeh legal advice nahi hai aur isse koi lawyer-client relationship nahi banti. Laws aur state rules badalte rehte hain; kuch bhi file karne se pehle kisi advocate ya apne District Legal Services Authority se confirm zaroor karein._",
+   "en": ""
+  }
+ ],
+ "case_statements_en": [
+  "My wife is leaving me.",
+  "She has gone to her parents' house and does not want to come back.",
+  "I want her to come back, I don't want a divorce.",
+  "No, there is no case or notice.",
+  "The marriage was performed under Hindu rituals.",
+  "I got married in 2021, and we have been living apart for 2 months."
+ ],
+ "checklist": {
+  "f_relationship": {
+   "field_id": "f_relationship",
+   "domain": "Family Law",
+   "label": "Relationship",
+   "category": "critical",
+   "description": "Who the user is and who the other party is (e.g. user is the husband, other party is his wife).",
+   "group": "f_relationship",
+   "status": "COLLECTED",
+   "value": "User is the husband; the other party is his wife"
+  },
+  "f_situation": {
+   "field_id": "f_situation",
+   "domain": "Family Law",
+   "label": "What is happening",
+   "category": "critical",
+   "description": "What has happened so far.",
+   "group": "f_situation",
+   "status": "COLLECTED",
+   "value": "Wife has gone to her parents' house and does not want to come back"
+  },
+  "f_goal": {
+   "field_id": "f_goal",
+   "domain": "Family Law",
+   "label": "What you want",
+   "category": "critical",
+   "description": "Outcome wanted: reconcile, divorce, maintenance, custody, protection.",
+   "group": "f_goal",
+   "status": "COLLECTED",
+   "value": "User wants her to come back and does not want a divorce"
+  },
+  "f_case_filed": {
+   "field_id": "f_case_filed",
+   "domain": "Family Law",
+   "label": "Any case or notice already",
+   "category": "critical",
+   "description": "Whether either side has filed a case or sent a legal notice.",
+   "group": "f_case_filed",
+   "status": "COLLECTED",
+   "value": "No case or notice has been filed"
+  },
+  "f_marriage_law": {
+   "field_id": "f_marriage_law",
+   "domain": "Family Law",
+   "label": "Marriage law / rites",
+   "category": "critical",
+   "description": "Hindu rites, Muslim law, Christian law or Special Marriage Act (only Hindu Marriage Act is covered).",
+   "group": "f_marriage_law",
+   "status": "COLLECTED",
+   "value": "Hindu rituals"
+  },
+  "f_marriage_date": {
+   "field_id": "f_marriage_date",
+   "domain": "Family Law",
+   "label": "Marriage date and time apart",
+   "category": "critical",
+   "description": "When married and how long living separately (1-year rules for divorce).",
+   "group": "f_marriage_date",
+   "status": "COLLECTED",
+   "value": "Married in 2021; living apart for 2 months"
+  },
+  "f_evidence": {
+   "field_id": "f_evidence",
+   "domain": "Family Law",
+   "label": "Proof",
+   "category": "supporting",
+   "description": "Marriage certificate, messages, medical reports, police complaints.",
+   "group": "f_evidence",
+   "status": "MISSING",
+   "value": null
+  }
+ },
+ "sub_issues": {
+  "Family Law": [
+   "spouse_left"
+  ]
+ },
+ "key_date": "2026-09",
+ "amount_inr": null,
+ "pending_field": null,
+ "pending_retries": 0,
+ "questions_asked": 5,
+ "additional_asked": true,
+ "grounding_retries": 0,
+ "safety_flags": [],
+ "retrieval_calls": 1,
+ "retrieval_log": [
+  {
+   "call": 1,
+   "queries": [
+    "restitution of conjugal rights Hindu marriage",
+    "petition for restitution of conjugal rights",
+    "My wife is leaving me. She has gone to her parents' house and does not want to come back. I want her to come back, I don't want a divorce. No, there is no case or notice. The marriage was performed under Hindu rituals. I got married in 2021, and we have been living apart for 2 months."
+   ],
+   "doc_ids": [
+    "HMA1955_S9",
+    "HMA1955_S13",
+    "HMA1955_S14",
+    "HMA1955_S13B",
+    "FCA1984_S7",
+    "BNSS2023_S144",
+    "HMA1955_S25"
+   ]
+  }
+ ],
+ "evidence_ids": [
+  "HMA1955_S9",
+  "HMA1955_S13",
+  "HMA1955_S14",
+  "HMA1955_S13B",
+  "FCA1984_S7",
+  "BNSS2023_S144",
+  "HMA1955_S25"
+ ],
+ "computed": {
+  "today": "2026-11-09",
+  "key_date": "September 2026 (month only, approximate)",
+  "time_elapsed": "about 2 months since September 2026",
+  "months_elapsed": 2
+ },
+ "audit_reports": [
+  {
+   "attempt": 1,
+   "status": "PASS",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user's stated facts and system-computed timeline."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly applies Section 9 HMA 1955; the wife has withdrawn from society, and the user is the aggrieved spouse."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the burden of proof as per Section 9 HMA 1955."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly cites the 2-year desertion requirement under Section 13 HMA 1955 and accurately notes the user has only been apart for 2 months."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly identifies the forum (District Court or Family Court) for a restitution petition based on HMA S9 and FCA S7."
+    },
+    {
+     "id": "O2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with the Family Court's jurisdiction and the user's goal of reconciliation."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice with no specific legal claim."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to seek legal representation."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to keep documents ready."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to maintain records."
+    }
+   ],
+   "failing_items": [],
+   "feedback": "",
+   "suggested_query": "",
+   "audit_error": ""
+  }
+ ],
+ "answer": {
+  "summary": "You got married in 2021 under Hindu rituals, and your wife has gone to her parents' house and does not want to come back. You have been living apart for about 2 months since September 2026, and you want her to return rather than seek a divorce.",
+  "legal_position": [
+   {
+    "text": "Since your wife has withdrawn from your society without reasonable excuse, you may petition the district court for restitution of conjugal rights to have her return.",
+    "cites": [
+     "HMA1955_S9"
+    ]
+   },
+   {
+    "text": "The burden of proving a reasonable excuse for leaving is on your wife if you file for restitution of conjugal rights.",
+    "cites": [
+     "HMA1955_S9"
+    ]
+   },
+   {
+    "text": "Desertion must be for a continuous period of not less than two years before a divorce petition can be based on it, and you have only been living apart for about 2 months.",
+    "cites": [
+     "HMA1955_S13"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Restitution of Conjugal Rights",
+    "detail": "File a petition in the district court (or Family Court if set up) asking the court to order your wife to return to your society.",
+    "cites": [
+     "HMA1955_S9",
+     "FCA1984_S7"
+    ]
+   },
+   {
+    "title": "Reconciliation and Counseling",
+    "detail": "Approach the Family Court or community/family mediators to resolve differences and encourage your wife to come back voluntarily, as no formal case or notice has been filed yet.",
+    "cites": [
+     "FCA1984_S7"
+    ]
+   }
+  ],
+  "deadlines": [],
+  "next_steps": [
+   "Reach out to your wife or her family members calmly to discuss reconciliation.",
+   "Consult a local advocate to draft a formal request or petition for restitution of conjugal rights if discussions fail.",
+   "Keep copies of your marriage certificate or wedding photographs ready.",
+   "Maintain a record of dates and communications regarding the separation."
+  ],
+  "evidence_to_collect": [
+   "Marriage certificate or wedding photographs",
+   "Any messages or written communication exchanged regarding her leaving or living apart"
+  ],
+  "draft_document": {
+   "type": "None",
+   "text": ""
+  },
+  "assumptions": [
+   "No formal case or notice has been filed by either party as of today, November 9, 2026."
+  ]
+ },
+ "answer_en_md": "### Understanding your situation\nYou got married in 2021 under Hindu rituals, and your wife has gone to her parents' house and does not want to come back. You have been living apart for about 2 months since September 2026, and you want her to return rather than seek a divorce.\n\n### Where you stand legally\n- Since your wife has withdrawn from your society without reasonable excuse, you may petition the district court for restitution of conjugal rights to have her return. [1]\n- The burden of proving a reasonable excuse for leaving is on your wife if you file for restitution of conjugal rights. [1]\n- Desertion must be for a continuous period of not less than two years before a divorce petition can be based on it, and you have only been living apart for about 2 months. [2]\n\n### Your options\n1. **Restitution of Conjugal Rights** — File a petition in the district court (or Family Court if set up) asking the court to order your wife to return to your society. [1][3]\n2. **Reconciliation and Counseling** — Approach the Family Court or community/family mediators to resolve differences and encourage your wife to come back voluntarily, as no formal case or notice has been filed yet. [3]\n\n### What to do next\n1. Reach out to your wife or her family members calmly to discuss reconciliation.\n2. Consult a local advocate to draft a formal request or petition for restitution of conjugal rights if discussions fail.\n3. Keep copies of your marriage certificate or wedding photographs ready.\n4. Maintain a record of dates and communications regarding the separation.\n\n### Keep these ready\n- Marriage certificate or wedding photographs\n- Any messages or written communication exchanged regarding her leaving or living apart\n\n### When to involve a lawyer\n- Family disputes (divorce, maintenance, custody) depend heavily on facts and evidence; a family lawyer or the DLSA should handle the court filing.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- No formal case or notice has been filed by either party as of today, November 9, 2026.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 9, *Hindu Marriage Act, 1955* — Restitution of conjugal rights (spouse has left)\n2. Section 13, *Hindu Marriage Act, 1955* — Grounds for divorce\n3. Section 7, *Family Courts Act, 1984* — Family Court jurisdiction\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+ "removed_items": [],
+ "usage": [
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1185,
+   "prompt_tokens": 958,
+   "completion_tokens": 103
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1501,
+   "prompt_tokens": 1701,
+   "completion_tokens": 231
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 612,
+   "prompt_tokens": 1044,
+   "completion_tokens": 114
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1867,
+   "prompt_tokens": 1732,
+   "completion_tokens": 157
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 600,
+   "prompt_tokens": 1056,
+   "completion_tokens": 111
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1562,
+   "prompt_tokens": 1767,
+   "completion_tokens": 236
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 2332,
+   "prompt_tokens": 1014,
+   "completion_tokens": 106
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 4378,
+   "prompt_tokens": 1792,
+   "completion_tokens": 184
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 537,
+   "prompt_tokens": 1018,
+   "completion_tokens": 73
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3052,
+   "prompt_tokens": 1811,
+   "completion_tokens": 264
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 725,
+   "prompt_tokens": 1056,
+   "completion_tokens": 119
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1538,
+   "prompt_tokens": 1838,
+   "completion_tokens": 233
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 701,
+   "prompt_tokens": 1062,
+   "completion_tokens": 68
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 5611,
+   "prompt_tokens": 283,
+   "completion_tokens": 22
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3126,
+   "prompt_tokens": 1847,
+   "completion_tokens": 626
+  },
+  {
+   "role": "llm3",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 1677,
+   "prompt_tokens": 1992,
+   "completion_tokens": 560
+  },
+  {
+   "role": "translate",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3658,
+   "prompt_tokens": 755,
+   "completion_tokens": 807
+  }
+ ],
+ "last_error": null
+}

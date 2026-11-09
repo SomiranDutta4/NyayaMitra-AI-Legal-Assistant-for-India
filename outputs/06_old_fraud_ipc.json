@@ -1,0 +1,401 @@
+{
+ "session_id": "06_old_fraud_ipc-1794199136",
+ "status": "COMPLETED",
+ "language": "en",
+ "language_locked": true,
+ "language_override": null,
+ "domains": [
+  "Criminal Law"
+ ],
+ "transcript": [
+  {
+   "role": "user",
+   "display": "A man took ₹2 lakh from me in March 2024 promising a government job and disappeared.",
+   "en": "A man took ₹2 lakh from me in March 2024 promising a government job and disappeared."
+  },
+  {
+   "role": "assistant",
+   "display": "Could you tell me the exact or rough date in March 2024 when this happened?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "March 2024.",
+   "en": "March 2024."
+  },
+  {
+   "role": "assistant",
+   "display": "In which city or place did this happen?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "Lucknow, Uttar Pradesh.",
+   "en": "Lucknow, Uttar Pradesh."
+  },
+  {
+   "role": "assistant",
+   "display": "Have you been to the police or filed an FIR about this man taking your money in Lucknow?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "I have not filed an FIR yet.",
+   "en": "I have not filed an FIR yet."
+  },
+  {
+   "role": "assistant",
+   "display": "Thank you. Do you have any evidence — bank or UPI records, chats, call logs, recordings, CCTV, or witnesses? Anything else I should know? (You can reply 'no'.)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "I have the UPI screenshots and his phone number.",
+   "en": "I have the UPI screenshots and his phone number."
+  },
+  {
+   "role": "assistant",
+   "display": "### Understanding your situation\nIn March 2024 in Lucknow, a man took ₹2,00,000 from you promising a government job and disappeared. You have not yet filed an FIR, but you possess UPI screenshots and his phone number as evidence.\n\n### Where you stand legally\n- Because the incident occurred in March 2024, which is before 1 July 2024, your case falls under the Indian Penal Code, 1860 for cheating and dishonestly inducing delivery of property. [1]\n- The offence of cheating and dishonestly inducing delivery of property carries a punishment of imprisonment up to seven years and a fine. [1]\n- You have the right to report information about this cognizable offence to the officer in charge of a police station to have an FIR recorded, and you must be given a free copy. [2]\n\n### Your options\n1. **Police Complaint / FIR** — Go to the local police station in Lucknow to report the crime under Section 154 of the Code of Criminal Procedure, 1973, for an official investigation into the cheating. [2][1]\n2. **Superintendent of Police Complaint** — If the police station officer refuses to record your information, you may send the information in writing to the Superintendent of Police. [2]\n\n### What to do next\n1. Prepare a written complaint detailing how the man took ₹2,00,000 in March 2024 promising a government job and then disappeared.\n2. Print out your UPI screenshots and note down his phone number clearly.\n3. Visit the local police station in Lucknow to file your FIR under Section 154.\n4. Obtain and keep safe a free copy of the recorded FIR from the police officer.\n5. If the police station refuses to record your complaint, send a written complaint to the Superintendent of Police.\n\n### Keep these ready\n- UPI screenshots showing the transfer of ₹2,00,000\n- The man's phone number\n- Any chat history or call logs if available\n\n### Draft: Police complaint (edit before using)\n> To,\n> The Officer in Charge,\n> [Local Police Station Name],\n> Lucknow, Uttar Pradesh.\n>\n> Subject: Complaint regarding cheating and fraudulent taking of money for a government job.\n>\n> Respected Sir/Madam,\n>\n> I am a resident of Lucknow. In March 2024, a man whose phone number is [Man's Phone Number] approached me and promised to secure a government job for me. Trusting his promise, I paid him a sum of ₹2,00,000 through UPI.\n>\n> After taking the money, the said person has disappeared and is not reachable. I have attached the UPI payment screenshots and his phone number as evidence of the transaction.\n>\n> I request you to register an FIR under Section 420 of the Indian Penal Code, 1860, investigate the matter, and take strict legal action against the accused.\n>\n> Sincerely,\n> [Your Name]\n> [Your Contact Information]\n\n### When to involve a lawyer\n- Criminal matters can affect your liberty and record; have a lawyer review the complaint or FIR before you file or respond.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- It is assumed the exact date in March 2024 is not formally documented beyond the month itself, and no subsequent threats or breaches of trust occurred beyond the initial cheating.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 420, *Indian Penal Code, 1860* — Cheating and dishonestly inducing delivery of property (offences before 1 July 2024)\n2. Section 154, *Code of Criminal Procedure, 1973* — FIR under the older procedure law (offences before 1 July 2024)\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+   "en": ""
+  }
+ ],
+ "case_statements_en": [
+  "A man took ₹2 lakh from me in March 2024 promising a government job and disappeared.",
+  "March 2024.",
+  "Lucknow, Uttar Pradesh.",
+  "I have not filed an FIR yet.",
+  "I have the UPI screenshots and his phone number."
+ ],
+ "checklist": {
+  "r_incident": {
+   "field_id": "r_incident",
+   "domain": "Criminal Law",
+   "label": "What happened and who",
+   "category": "critical",
+   "description": "The incident and who did it (known or unknown person).",
+   "group": "r_incident",
+   "status": "COLLECTED",
+   "value": "A man took money promising a government job and disappeared"
+  },
+  "r_date": {
+   "field_id": "r_date",
+   "domain": "Criminal Law",
+   "label": "Date of incident",
+   "category": "critical",
+   "description": "When it happened (before or after 1 July 2024 decides IPC vs BNS).",
+   "group": "r_date",
+   "status": "COLLECTED",
+   "value": "March 2024"
+  },
+  "r_money": {
+   "field_id": "r_money",
+   "domain": "Criminal Law",
+   "label": "Money lost and how it was paid",
+   "category": "critical",
+   "description": "Amount lost, payment method (UPI, bank, card, cash) and exact time.",
+   "group": "r_money",
+   "status": "COLLECTED",
+   "value": "₹2 lakh paid to a man promising a government job"
+  },
+  "r_place": {
+   "field_id": "r_place",
+   "domain": "Criminal Law",
+   "label": "City / place",
+   "category": "critical",
+   "description": "Where it happened (which police station area).",
+   "group": "r_place",
+   "status": "COLLECTED",
+   "value": "Lucknow, Uttar Pradesh"
+  },
+  "r_police": {
+   "field_id": "r_police",
+   "domain": "Criminal Law",
+   "label": "Police complaint status",
+   "category": "critical",
+   "description": "Whether the user went to the police / filed an FIR and what happened.",
+   "group": "r_police",
+   "status": "COLLECTED",
+   "value": "Not filed an FIR yet"
+  },
+  "r_evidence": {
+   "field_id": "r_evidence",
+   "domain": "Criminal Law",
+   "label": "Evidence",
+   "category": "supporting",
+   "description": "Bank records, chats, call logs, recordings, CCTV, witnesses.",
+   "group": "r_evidence",
+   "status": "COLLECTED",
+   "value": "UPI screenshots and his phone number"
+  }
+ },
+ "sub_issues": {
+  "Criminal Law": [
+   "fraud"
+  ]
+ },
+ "key_date": "2024-03",
+ "amount_inr": 200000.0,
+ "pending_field": null,
+ "pending_retries": 0,
+ "questions_asked": 3,
+ "additional_asked": true,
+ "grounding_retries": 0,
+ "safety_flags": [],
+ "retrieval_calls": 1,
+ "retrieval_log": [
+  {
+   "call": 1,
+   "queries": [
+    "cheating by personation dishonest inducement delivery of property",
+    "criminal breach of trust punishment fraudulent job offer",
+    "A man took ₹2 lakh from me in March 2024 promising a government job and disappeared. March 2024. Lucknow, Uttar Pradesh. I have not filed an FIR yet. I have the UPI screenshots and his phone number."
+   ],
+   "doc_ids": [
+    "IPC1860_S406",
+    "IPC1860_S420",
+    "ITA2000_S66D",
+    "CRPC1973_S154",
+    "IPC1860_S506"
+   ]
+  }
+ ],
+ "evidence_ids": [
+  "IPC1860_S406",
+  "IPC1860_S420",
+  "ITA2000_S66D",
+  "CRPC1973_S154",
+  "IPC1860_S506"
+ ],
+ "computed": {
+  "today": "2026-11-09",
+  "key_date": "March 2024 (month only, approximate)",
+  "time_elapsed": "about 32 months since March 2024",
+  "months_elapsed": 32,
+  "criminal_code": "Indian Penal Code, 1860 / Code of Criminal Procedure, 1973 (incident before 1 July 2024)",
+  "amount": "₹2,00,000"
+ },
+ "audit_reports": [
+  {
+   "attempt": 1,
+   "status": "PASS",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user facts provided."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Incident is before 1 July 2024, fitting IPC Section 420 for cheating."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Directly matches IPC Section 420 penalty provisions."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Directly matches CrPC Section 154 provisions."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Directly supported by the cited laws and facts."
+    },
+    {
+     "id": "O2",
+     "verdict": "SUPPORTED",
+     "reason": "Directly matches CrPC Section 154 remedy for refusal."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with the facts."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with the evidence."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with the law and facts."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with CrPC Section 154."
+    },
+    {
+     "id": "N5",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with CrPC Section 154."
+    }
+   ],
+   "failing_items": [],
+   "feedback": "",
+   "suggested_query": "limitation period for filing criminal complaint under Section 420 IPC cheating",
+   "audit_error": ""
+  }
+ ],
+ "answer": {
+  "summary": "In March 2024 in Lucknow, a man took ₹2,00,000 from you promising a government job and disappeared. You have not yet filed an FIR, but you possess UPI screenshots and his phone number as evidence.",
+  "legal_position": [
+   {
+    "text": "Because the incident occurred in March 2024, which is before 1 July 2024, your case falls under the Indian Penal Code, 1860 for cheating and dishonestly inducing delivery of property.",
+    "cites": [
+     "IPC1860_S420"
+    ]
+   },
+   {
+    "text": "The offence of cheating and dishonestly inducing delivery of property carries a punishment of imprisonment up to seven years and a fine.",
+    "cites": [
+     "IPC1860_S420"
+    ]
+   },
+   {
+    "text": "You have the right to report information about this cognizable offence to the officer in charge of a police station to have an FIR recorded, and you must be given a free copy.",
+    "cites": [
+     "CRPC1973_S154"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Police Complaint / FIR",
+    "detail": "Go to the local police station in Lucknow to report the crime under Section 154 of the Code of Criminal Procedure, 1973, for an official investigation into the cheating.",
+    "cites": [
+     "CRPC1973_S154",
+     "IPC1860_S420"
+    ]
+   },
+   {
+    "title": "Superintendent of Police Complaint",
+    "detail": "If the police station officer refuses to record your information, you may send the information in writing to the Superintendent of Police.",
+    "cites": [
+     "CRPC1973_S154"
+    ]
+   }
+  ],
+  "deadlines": [],
+  "next_steps": [
+   "Prepare a written complaint detailing how the man took ₹2,00,000 in March 2024 promising a government job and then disappeared.",
+   "Print out your UPI screenshots and note down his phone number clearly.",
+   "Visit the local police station in Lucknow to file your FIR under Section 154.",
+   "Obtain and keep safe a free copy of the recorded FIR from the police officer.",
+   "If the police station refuses to record your complaint, send a written complaint to the Superintendent of Police."
+  ],
+  "evidence_to_collect": [
+   "UPI screenshots showing the transfer of ₹2,00,000",
+   "The man's phone number",
+   "Any chat history or call logs if available"
+  ],
+  "draft_document": {
+   "type": "Police complaint",
+   "text": "To,\nThe Officer in Charge,\n[Local Police Station Name],\nLucknow, Uttar Pradesh.\n\nSubject: Complaint regarding cheating and fraudulent taking of money for a government job.\n\nRespected Sir/Madam,\n\nI am a resident of Lucknow. In March 2024, a man whose phone number is [Man's Phone Number] approached me and promised to secure a government job for me. Trusting his promise, I paid him a sum of ₹2,00,000 through UPI.\n\nAfter taking the money, the said person has disappeared and is not reachable. I have attached the UPI payment screenshots and his phone number as evidence of the transaction.\n\nI request you to register an FIR under Section 420 of the Indian Penal Code, 1860, investigate the matter, and take strict legal action against the accused.\n\nSincerely,\n[Your Name]\n[Your Contact Information]"
+  },
+  "assumptions": [
+   "It is assumed the exact date in March 2024 is not formally documented beyond the month itself, and no subsequent threats or breaches of trust occurred beyond the initial cheating."
+  ]
+ },
+ "answer_en_md": "### Understanding your situation\nIn March 2024 in Lucknow, a man took ₹2,00,000 from you promising a government job and disappeared. You have not yet filed an FIR, but you possess UPI screenshots and his phone number as evidence.\n\n### Where you stand legally\n- Because the incident occurred in March 2024, which is before 1 July 2024, your case falls under the Indian Penal Code, 1860 for cheating and dishonestly inducing delivery of property. [1]\n- The offence of cheating and dishonestly inducing delivery of property carries a punishment of imprisonment up to seven years and a fine. [1]\n- You have the right to report information about this cognizable offence to the officer in charge of a police station to have an FIR recorded, and you must be given a free copy. [2]\n\n### Your options\n1. **Police Complaint / FIR** — Go to the local police station in Lucknow to report the crime under Section 154 of the Code of Criminal Procedure, 1973, for an official investigation into the cheating. [2][1]\n2. **Superintendent of Police Complaint** — If the police station officer refuses to record your information, you may send the information in writing to the Superintendent of Police. [2]\n\n### What to do next\n1. Prepare a written complaint detailing how the man took ₹2,00,000 in March 2024 promising a government job and then disappeared.\n2. Print out your UPI screenshots and note down his phone number clearly.\n3. Visit the local police station in Lucknow to file your FIR under Section 154.\n4. Obtain and keep safe a free copy of the recorded FIR from the police officer.\n5. If the police station refuses to record your complaint, send a written complaint to the Superintendent of Police.\n\n### Keep these ready\n- UPI screenshots showing the transfer of ₹2,00,000\n- The man's phone number\n- Any chat history or call logs if available\n\n### Draft: Police complaint (edit before using)\n> To,\n> The Officer in Charge,\n> [Local Police Station Name],\n> Lucknow, Uttar Pradesh.\n>\n> Subject: Complaint regarding cheating and fraudulent taking of money for a government job.\n>\n> Respected Sir/Madam,\n>\n> I am a resident of Lucknow. In March 2024, a man whose phone number is [Man's Phone Number] approached me and promised to secure a government job for me. Trusting his promise, I paid him a sum of ₹2,00,000 through UPI.\n>\n> After taking the money, the said person has disappeared and is not reachable. I have attached the UPI payment screenshots and his phone number as evidence of the transaction.\n>\n> I request you to register an FIR under Section 420 of the Indian Penal Code, 1860, investigate the matter, and take strict legal action against the accused.\n>\n> Sincerely,\n> [Your Name]\n> [Your Contact Information]\n\n### When to involve a lawyer\n- Criminal matters can affect your liberty and record; have a lawyer review the complaint or FIR before you file or respond.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- It is assumed the exact date in March 2024 is not formally documented beyond the month itself, and no subsequent threats or breaches of trust occurred beyond the initial cheating.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 420, *Indian Penal Code, 1860* — Cheating and dishonestly inducing delivery of property (offences before 1 July 2024)\n2. Section 154, *Code of Criminal Procedure, 1973* — FIR under the older procedure law (offences before 1 July 2024)\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+ "removed_items": [],
+ "usage": [
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1297,
+   "prompt_tokens": 971,
+   "completion_tokens": 121
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1435,
+   "prompt_tokens": 1584,
+   "completion_tokens": 146
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1329,
+   "prompt_tokens": 1020,
+   "completion_tokens": 95
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1513,
+   "prompt_tokens": 1605,
+   "completion_tokens": 152
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1005,
+   "prompt_tokens": 994,
+   "completion_tokens": 100
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1581,
+   "prompt_tokens": 1633,
+   "completion_tokens": 184
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1293,
+   "prompt_tokens": 1015,
+   "completion_tokens": 100
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1286,
+   "prompt_tokens": 1650,
+   "completion_tokens": 197
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1201,
+   "prompt_tokens": 1063,
+   "completion_tokens": 106
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1344,
+   "prompt_tokens": 1669,
+   "completion_tokens": 166
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1002,
+   "prompt_tokens": 241,
+   "completion_tokens": 38
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3425,
+   "prompt_tokens": 1529,
+   "completion_tokens": 926
+  },
+  {
+   "role": "llm3",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 2300,
+   "prompt_tokens": 1762,
+   "completion_tokens": 407
+  }
+ ],
+ "last_error": null
+}

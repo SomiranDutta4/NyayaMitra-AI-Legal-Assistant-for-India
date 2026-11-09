@@ -1,0 +1,416 @@
+{
+ "session_id": "03_tv_refund_en-1794198990",
+ "status": "COMPLETED",
+ "language": "en",
+ "language_locked": true,
+ "language_override": null,
+ "domains": [
+  "Consumer Law"
+ ],
+ "transcript": [
+  {
+   "role": "user",
+   "display": "I ordered a Sony LED TV from Amazon for ₹45,000 on 2 October 2026. It arrived with a broken screen and the seller refused replacement and closed my ticket.",
+   "en": "I ordered a Sony LED TV from Amazon for ₹45,000 on 2 October 2026. It arrived with a broken screen and the seller refused replacement and closed my ticket."
+  },
+  {
+   "role": "assistant",
+   "display": "Thank you. Do you have the invoice, order ID, emails or chats with the seller, or photos of the problem? Anything else I should know? (You can reply 'no'.)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "no, that's all",
+   "en": "no, that's all"
+  },
+  {
+   "role": "assistant",
+   "display": "### Understanding your situation\nYou ordered a Sony LED TV from Amazon for ₹45,000 on 2 October 2026, which arrived with a broken screen. The seller refused replacement and closed your ticket, amounting to a defect in goods and an unfair trade practice.\n\n### Where you stand legally\n- The broken screen on your television qualifies as a defect in goods, which is any fault, imperfection, or shortcoming in the quality or standard of goods required under contract. [1]\n- The seller's refusal to take back the defective goods and refund or replace them constitutes an unfair trade practice under the law. [2]\n- Since the amount paid for the goods is ₹45,000 (which does not exceed fifty lakh rupees), your complaint falls within the jurisdiction of the District Consumer Disputes Redressal Commission. [3]\n\n### Your options\n1. **District Consumer Commission Complaint** — You can file a formal consumer complaint before the District Consumer Disputes Redressal Commission (which can be done electronically through the e-Daakhil portal) to seek replacement of the goods, return of the price paid with interest, or compensation. [4][5][3]\n\n### Time limits\n- You must file your consumer complaint within two years from 2 October 2026, the date on which the cause of action arose. [6]\n\n### What to do next\n1. Check Amazon's platform details for the designated grievance officer to ensure all digital communications and ticket closures are documented.\n2. Organize your purchase invoice, payment proof of ₹45,000 dated 2 October 2026, and photographs of the broken screen.\n3. Draft your consumer complaint summary detailing the purchase and the seller's refusal to replace the defective TV.\n4. Access the e-Daakhil portal to prepare for filing your complaint before the District Consumer Disputes Redressal Commission.\n\n### Keep these ready\n- Invoice or cash memo for the Sony LED TV showing the purchase date of 2 October 2026 and amount of ₹45,000\n- Photographs and video evidence of the broken screen as received\n- Screenshots of the closed support ticket and the seller's refusal to provide a replacement\n\n### Draft: Consumer complaint summary (edit before using)\n> Before the District Consumer Disputes Redressal Commission\n>\n> Complainant: [Your Name], residing at [Your Address]\n> Opposite Party: Amazon / Seller [Seller Name], [Seller Address]\n>\n> Subject: Complaint regarding defective Sony LED TV with broken screen and unfair trade practice.\n>\n> 1. That on 2 October 2026, I purchased a Sony LED TV from Amazon for an amount of ₹45,000.\n> 2. That the product arrived with a broken screen, constituting a defect in goods under Section 2(10) of the Consumer Protection Act, 2019.\n> 3. That I promptly raised a complaint with the seller, but they refused replacement and closed my ticket, amounting to an unfair trade practice under Section 2(47).\n> 4. That the total consideration paid is ₹45,000, which is within the fifty lakh rupees limit of this District Commission.\n>\n> Prayer:\n> It is respectfully prayed that the opposite party be ordered to replace the goods or return the price of ₹45,000 along with interest, and pay adequate compensation and costs as per Section 39.\n>\n> [Your Name]\n\n### When to involve a lawyer\n- You can usually start this yourself. If the other side does not respond, or you are unsure about any step, consult a lawyer.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- It is assumed that no formal refund or replacement has been processed by the seller since the ticket was closed.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 2(10), *Consumer Protection Act, 2019* — Defect in goods\n2. Section 2(47), *Consumer Protection Act, 2019* — Unfair trade practice (including refusal to take back defective goods)\n3. Rules 3 to 5, *Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021* — Money limits for District, State and National Commissions\n4. Section 35, *Consumer Protection Act, 2019* — How to file a consumer complaint\n5. Section 39, *Consumer Protection Act, 2019* — What the District Commission can order\n6. Section 69, *Consumer Protection Act, 2019* — Limitation period for consumer complaints\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+   "en": ""
+  }
+ ],
+ "case_statements_en": [
+  "I ordered a Sony LED TV from Amazon for ₹45,000 on 2 October 2026. It arrived with a broken screen and the seller refused replacement and closed my ticket."
+ ],
+ "checklist": {
+  "c_item": {
+   "field_id": "c_item",
+   "domain": "Consumer Law",
+   "label": "What was bought and from whom",
+   "category": "critical",
+   "description": "The product or service, and the company / shop / website it was bought from.",
+   "group": "c_item",
+   "status": "COLLECTED",
+   "value": "Sony LED TV from Amazon"
+  },
+  "c_problem": {
+   "field_id": "c_problem",
+   "domain": "Consumer Law",
+   "label": "What went wrong",
+   "category": "critical",
+   "description": "The specific defect or service failure.",
+   "group": "c_problem",
+   "status": "COLLECTED",
+   "value": "Arrived with a broken screen and seller refused replacement and closed the ticket"
+  },
+  "c_amount": {
+   "field_id": "c_amount",
+   "domain": "Consumer Law",
+   "label": "Amount paid",
+   "category": "critical",
+   "description": "Price actually paid, in rupees (decides which consumer commission and the fee).",
+   "group": "c_amount",
+   "status": "COLLECTED",
+   "value": "45000"
+  },
+  "c_date": {
+   "field_id": "c_date",
+   "domain": "Consumer Law",
+   "label": "Date of purchase / problem",
+   "category": "critical",
+   "description": "When it was bought or the problem started (2-year limit).",
+   "group": "c_date",
+   "status": "COLLECTED",
+   "value": "2026-10-02"
+  },
+  "c_complained": {
+   "field_id": "c_complained",
+   "domain": "Consumer Law",
+   "label": "Complaint to seller / platform",
+   "category": "critical",
+   "description": "Whether the user already complained to the seller, company or platform, and their response.",
+   "group": "c_complained",
+   "status": "COLLECTED",
+   "value": "Complained to the seller, but they refused replacement and closed the ticket"
+  },
+  "c_order": {
+   "field_id": "c_order",
+   "domain": "Consumer Law",
+   "label": "Platform and order ID",
+   "category": "supporting",
+   "description": "E-commerce platform name and order / ticket number.",
+   "group": "c_order",
+   "status": "MISSING",
+   "value": null
+  },
+  "c_evidence": {
+   "field_id": "c_evidence",
+   "domain": "Consumer Law",
+   "label": "Proof available",
+   "category": "supporting",
+   "description": "Invoice, order ID, emails, chats, photos, warranty card.",
+   "group": "c_evidence",
+   "status": "MISSING",
+   "value": null
+  }
+ },
+ "sub_issues": {
+  "Consumer Law": [
+   "defective_product",
+   "online_order"
+  ]
+ },
+ "key_date": "2026-10-02",
+ "amount_inr": 45000.0,
+ "pending_field": null,
+ "pending_retries": 0,
+ "questions_asked": 0,
+ "additional_asked": true,
+ "grounding_retries": 1,
+ "safety_flags": [],
+ "retrieval_calls": 2,
+ "retrieval_log": [
+  {
+   "call": 1,
+   "queries": [
+    "deficiency in service refund replacement consumer complaint",
+    "unfair trade practice defective goods consumer protection",
+    "I ordered a Sony LED TV from Amazon for ₹45,000 on 2 October 2026. It arrived with a broken screen and the seller refused replacement and closed my ticket."
+   ],
+   "doc_ids": [
+    "CPA2019_S2_47",
+    "CPA2019_S39",
+    "CPA2019_S2_11",
+    "CPA2019_S2_10",
+    "ECOM2020_R4",
+    "CPA2019_S35"
+   ]
+  },
+  {
+   "call": 2,
+   "queries": [
+    "Consumer Protection Act 2019 Section 34 pecuniary jurisdiction District Commission"
+   ],
+   "doc_ids": [
+    "CPJR2021_R3_5",
+    "CPA2019_S34",
+    "CPA2019_S41",
+    "CPA2019_S38",
+    "CPA2019_S69"
+   ]
+  }
+ ],
+ "evidence_ids": [
+  "CPA2019_S2_47",
+  "CPA2019_S39",
+  "CPA2019_S2_11",
+  "CPA2019_S2_10",
+  "ECOM2020_R4",
+  "CPA2019_S35",
+  "CPJR2021_R3_5",
+  "CPA2019_S34",
+  "CPA2019_S41",
+  "CPA2019_S38",
+  "CPA2019_S69"
+ ],
+ "computed": {
+  "today": "2026-11-09",
+  "key_date": "2026-10-02",
+  "time_elapsed": "about 1 months since 2026-10-02",
+  "months_elapsed": 1,
+  "amount": "₹45,000",
+  "consumer_forum": "District Consumer Disputes Redressal Commission (amount ₹45,000)"
+ },
+ "audit_reports": [
+  {
+   "attempt": 1,
+   "status": "RETRIEVE_AGAIN",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user's stated facts regarding the purchase, defect, and seller's refusal."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly applies Section 2(10) definition of 'defect' to the broken screen."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly applies Section 2(47) which explicitly includes 'refusal to take back defective goods' as an unfair trade practice."
+    },
+    {
+     "id": "L3",
+     "verdict": "UNSUPPORTED",
+     "reason": "Section 35 (cited) only explains who can file a complaint and how, but does not define the pecuniary jurisdiction (amount limits) of the District Commission. The jurisdictional limit is found in Section 34, which is not in the evidence."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Section 39 lists replacement, refund with interest, and compensation as valid orders the Commission can pass."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice with no specific legal claim."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with Rule 4 of E-Commerce Rules (though not cited, it is valid practical advice)."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with Section 35."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice."
+    }
+   ],
+   "failing_items": [
+    "L3"
+   ],
+   "feedback": "- [L3] unsupported: Section 35 (cited) only explains who can file a complaint and how, but does not define the pecuniary jurisdiction (amount limits) of the District Commission. The jurisdictional limit is found in Section 34, which is not in the evidence.",
+   "suggested_query": "Consumer Protection Act 2019 Section 34 pecuniary jurisdiction District Commission",
+   "audit_error": ""
+  },
+  {
+   "attempt": 2,
+   "status": "PASS",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user facts and definitions provided in the evidence."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly applies CPA Section 2(10) regarding defect in goods."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly applies CPA Section 2(47) regarding unfair trade practice for refusal to take back defective goods."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly applies the monetary jurisdiction rule (under 50 lakh rupees for District Commission)."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly cites Section 35, 39, and jurisdiction rules for filing a District Commission complaint and seeking reliefs."
+    },
+    {
+     "id": "D1",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the two-year limitation period under Section 69 from the date of the cause of action."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice that makes no unsupported legal claims."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice regarding documentation."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice on drafting the complaint."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice on using the e-Daakhil portal."
+    }
+   ],
+   "failing_items": [],
+   "feedback": "",
+   "suggested_query": "",
+   "audit_error": ""
+  }
+ ],
+ "answer": {
+  "summary": "You ordered a Sony LED TV from Amazon for ₹45,000 on 2 October 2026, which arrived with a broken screen. The seller refused replacement and closed your ticket, amounting to a defect in goods and an unfair trade practice.",
+  "legal_position": [
+   {
+    "text": "The broken screen on your television qualifies as a defect in goods, which is any fault, imperfection, or shortcoming in the quality or standard of goods required under contract.",
+    "cites": [
+     "CPA2019_S2_10"
+    ]
+   },
+   {
+    "text": "The seller's refusal to take back the defective goods and refund or replace them constitutes an unfair trade practice under the law.",
+    "cites": [
+     "CPA2019_S2_47"
+    ]
+   },
+   {
+    "text": "Since the amount paid for the goods is ₹45,000 (which does not exceed fifty lakh rupees), your complaint falls within the jurisdiction of the District Consumer Disputes Redressal Commission.",
+    "cites": [
+     "CPJR2021_R3_5"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "District Consumer Commission Complaint",
+    "detail": "You can file a formal consumer complaint before the District Consumer Disputes Redressal Commission (which can be done electronically through the e-Daakhil portal) to seek replacement of the goods, return of the price paid with interest, or compensation.",
+    "cites": [
+     "CPA2019_S35",
+     "CPA2019_S39",
+     "CPJR2021_R3_5"
+    ]
+   }
+  ],
+  "deadlines": [
+   {
+    "text": "You must file your consumer complaint within two years from 2 October 2026, the date on which the cause of action arose.",
+    "cites": [
+     "CPA2019_S69"
+    ]
+   }
+  ],
+  "next_steps": [
+   "Check Amazon's platform details for the designated grievance officer to ensure all digital communications and ticket closures are documented.",
+   "Organize your purchase invoice, payment proof of ₹45,000 dated 2 October 2026, and photographs of the broken screen.",
+   "Draft your consumer complaint summary detailing the purchase and the seller's refusal to replace the defective TV.",
+   "Access the e-Daakhil portal to prepare for filing your complaint before the District Consumer Disputes Redressal Commission."
+  ],
+  "evidence_to_collect": [
+   "Invoice or cash memo for the Sony LED TV showing the purchase date of 2 October 2026 and amount of ₹45,000",
+   "Photographs and video evidence of the broken screen as received",
+   "Screenshots of the closed support ticket and the seller's refusal to provide a replacement"
+  ],
+  "draft_document": {
+   "type": "Consumer complaint summary",
+   "text": "Before the District Consumer Disputes Redressal Commission\n\nComplainant: [Your Name], residing at [Your Address]\nOpposite Party: Amazon / Seller [Seller Name], [Seller Address]\n\nSubject: Complaint regarding defective Sony LED TV with broken screen and unfair trade practice.\n\n1. That on 2 October 2026, I purchased a Sony LED TV from Amazon for an amount of ₹45,000.\n2. That the product arrived with a broken screen, constituting a defect in goods under Section 2(10) of the Consumer Protection Act, 2019.\n3. That I promptly raised a complaint with the seller, but they refused replacement and closed my ticket, amounting to an unfair trade practice under Section 2(47).\n4. That the total consideration paid is ₹45,000, which is within the fifty lakh rupees limit of this District Commission.\n\nPrayer:\nIt is respectfully prayed that the opposite party be ordered to replace the goods or return the price of ₹45,000 along with interest, and pay adequate compensation and costs as per Section 39.\n\n[Your Name]"
+  },
+  "assumptions": [
+   "It is assumed that no formal refund or replacement has been processed by the seller since the ticket was closed."
+  ]
+ },
+ "answer_en_md": "### Understanding your situation\nYou ordered a Sony LED TV from Amazon for ₹45,000 on 2 October 2026, which arrived with a broken screen. The seller refused replacement and closed your ticket, amounting to a defect in goods and an unfair trade practice.\n\n### Where you stand legally\n- The broken screen on your television qualifies as a defect in goods, which is any fault, imperfection, or shortcoming in the quality or standard of goods required under contract. [1]\n- The seller's refusal to take back the defective goods and refund or replace them constitutes an unfair trade practice under the law. [2]\n- Since the amount paid for the goods is ₹45,000 (which does not exceed fifty lakh rupees), your complaint falls within the jurisdiction of the District Consumer Disputes Redressal Commission. [3]\n\n### Your options\n1. **District Consumer Commission Complaint** — You can file a formal consumer complaint before the District Consumer Disputes Redressal Commission (which can be done electronically through the e-Daakhil portal) to seek replacement of the goods, return of the price paid with interest, or compensation. [4][5][3]\n\n### Time limits\n- You must file your consumer complaint within two years from 2 October 2026, the date on which the cause of action arose. [6]\n\n### What to do next\n1. Check Amazon's platform details for the designated grievance officer to ensure all digital communications and ticket closures are documented.\n2. Organize your purchase invoice, payment proof of ₹45,000 dated 2 October 2026, and photographs of the broken screen.\n3. Draft your consumer complaint summary detailing the purchase and the seller's refusal to replace the defective TV.\n4. Access the e-Daakhil portal to prepare for filing your complaint before the District Consumer Disputes Redressal Commission.\n\n### Keep these ready\n- Invoice or cash memo for the Sony LED TV showing the purchase date of 2 October 2026 and amount of ₹45,000\n- Photographs and video evidence of the broken screen as received\n- Screenshots of the closed support ticket and the seller's refusal to provide a replacement\n\n### Draft: Consumer complaint summary (edit before using)\n> Before the District Consumer Disputes Redressal Commission\n>\n> Complainant: [Your Name], residing at [Your Address]\n> Opposite Party: Amazon / Seller [Seller Name], [Seller Address]\n>\n> Subject: Complaint regarding defective Sony LED TV with broken screen and unfair trade practice.\n>\n> 1. That on 2 October 2026, I purchased a Sony LED TV from Amazon for an amount of ₹45,000.\n> 2. That the product arrived with a broken screen, constituting a defect in goods under Section 2(10) of the Consumer Protection Act, 2019.\n> 3. That I promptly raised a complaint with the seller, but they refused replacement and closed my ticket, amounting to an unfair trade practice under Section 2(47).\n> 4. That the total consideration paid is ₹45,000, which is within the fifty lakh rupees limit of this District Commission.\n>\n> Prayer:\n> It is respectfully prayed that the opposite party be ordered to replace the goods or return the price of ₹45,000 along with interest, and pay adequate compensation and costs as per Section 39.\n>\n> [Your Name]\n\n### When to involve a lawyer\n- You can usually start this yourself. If the other side does not respond, or you are unsure about any step, consult a lawyer.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- It is assumed that no formal refund or replacement has been processed by the seller since the ticket was closed.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 2(10), *Consumer Protection Act, 2019* — Defect in goods\n2. Section 2(47), *Consumer Protection Act, 2019* — Unfair trade practice (including refusal to take back defective goods)\n3. Rules 3 to 5, *Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021* — Money limits for District, State and National Commissions\n4. Section 35, *Consumer Protection Act, 2019* — How to file a consumer complaint\n5. Section 39, *Consumer Protection Act, 2019* — What the District Commission can order\n6. Section 69, *Consumer Protection Act, 2019* — Limitation period for consumer complaints\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+ "removed_items": [],
+ "usage": [
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1148,
+   "prompt_tokens": 991,
+   "completion_tokens": 144
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1945,
+   "prompt_tokens": 1417,
+   "completion_tokens": 211
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1199,
+   "prompt_tokens": 1057,
+   "completion_tokens": 103
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 8192,
+   "prompt_tokens": 232,
+   "completion_tokens": 22
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3203,
+   "prompt_tokens": 1604,
+   "completion_tokens": 809
+  },
+  {
+   "role": "llm3",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 1698,
+   "prompt_tokens": 1689,
+   "completion_tokens": 564
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 4198,
+   "prompt_tokens": 2185,
+   "completion_tokens": 1004
+  },
+  {
+   "role": "llm3",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3062,
+   "prompt_tokens": 2337,
+   "completion_tokens": 511
+  }
+ ],
+ "last_error": null
+}

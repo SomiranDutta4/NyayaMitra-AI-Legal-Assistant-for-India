@@ -1,0 +1,17 @@
+# secrets
+.env
+.streamlit/secrets.toml
+
+# local data
+*.db
+*.sqlite3
+
+# python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# OS
+.DS_Store

@@ -1,0 +1,612 @@
+{
+ "session_id": "07_emergency-1794199186",
+ "status": "COMPLETED",
+ "language": "en",
+ "language_locked": true,
+ "language_override": null,
+ "domains": [
+  "Family Law",
+  "Criminal Law"
+ ],
+ "transcript": [
+  {
+   "role": "user",
+   "display": "hi i am in danger",
+   "en": "hi i am in danger"
+  },
+  {
+   "role": "assistant",
+   "display": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n\nI am very sorry to hear that you are in danger. Please tell me what happened, who is involved, and when this started so I can guide you on the immediate legal steps you can take.",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "my husband beats me and says he will kill me",
+   "en": "my husband beats me and says he will kill me"
+  },
+  {
+   "role": "assistant",
+   "display": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n- **181** — Women Helpline\n\nSince you mentioned that your husband beats you and threatens you, are you safe right now and still living with him?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "I am at my sister's house now, I am safe for now.",
+   "en": "I am at my sister's house now, I am safe for now."
+  },
+  {
+   "role": "assistant",
+   "display": "Since your husband beats you and threatens you, what would you like to do next—such as seeking protection, maintenance, or something else?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "I want protection from him and money to support myself and my son.",
+   "en": "I want protection from him and money to support myself and my son."
+  },
+  {
+   "role": "assistant",
+   "display": "Since you are facing such difficult abuse, has either you or your husband filed any police case or court case, or sent any legal notice yet?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "No case has been filed.",
+   "en": "No case has been filed."
+  },
+  {
+   "role": "assistant",
+   "display": "By what religious rites or law were you and your husband married?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "Hindu rites.",
+   "en": "Hindu rites."
+  },
+  {
+   "role": "assistant",
+   "display": "When were you married, and how long have you been living separately from your husband? (a rough month or year is fine)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "We married in 2019. I left last week.",
+   "en": "We married in 2019. I left last week."
+  },
+  {
+   "role": "assistant",
+   "display": "Thank you. Do you have your marriage certificate or wedding photos, messages, or any medical or police records? Anything else I should know? (You can reply 'no'.)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "no",
+   "en": "no"
+  },
+  {
+   "role": "assistant",
+   "display": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n- **181** — Women Helpline\n\n### Understanding your situation\nYou are currently staying safely at your sister's house after leaving your husband last week due to physical abuse and threats to kill you. You want legal protection and financial support for yourself and your son.\n\n### Where you stand legally\n- Your husband's acts of physical abuse and threats to your life constitute domestic violence, which allows you to seek protection and monetary relief from a Magistrate. [1][2]\n- Subjecting a wife to cruelty, including physical abuse and grave danger to her life, is a criminal offence punishable with imprisonment up to three years and fine under the Bharatiya Nyaya Sanhita, 2023. [3]\n- Threatening you with death constitutes criminal intimidation, which is punishable under the law with imprisonment up to seven years, or fine, or both. [4]\n\n### Your options\n1. **Domestic Violence Application** — Apply to the Magistrate for protection orders to stop your husband from committing violence or contacting you, and monetary relief orders covering expenses and maintenance for you and your child. [5][2]\n2. **Police Complaint / FIR** — Provide information about the cognizable offences of cruelty and criminal intimidation to the police station to record your complaint and receive a free copy. [6]\n3. **Hindu Marriage Act Maintenance** — If court proceedings are initiated under the Hindu Marriage Act, you can ask the court to order your husband to pay a monthly sum and litigation expenses during the case if you have no independent income sufficient for your support. [7][8]\n\n### Time limits\n- The first hearing for a domestic violence application is ordinarily fixed within three days of the Magistrate receiving the application, and the Magistrate should try to dispose of it within sixty days of the first hearing. [5]\n\n### What to do next\n1. Go to the nearest police station to report the physical abuse and threats to your life, and obtain a free copy of the recorded information.\n2. Consult a lawyer or a Protection Officer to file an application before the Magistrate for protection and monetary relief.\n3. Gather and secure any medical reports, photographs, or text messages related to the abuse.\n4. Prepare details of your and your son's financial needs for your support application.\n\n### Keep these ready\n- Medical reports or prescriptions if you sought treatment for injuries\n- Photographs of any injuries\n- Chat messages, call logs, or recordings showing threats or abuse\n- Marriage certificate or wedding photographs as proof of marriage\n\n### Draft: Police complaint (edit before using)\n> To,\n> The Officer in Charge,\n> [Police Station Name],\n> [City/District].\n>\n> Subject: Complaint regarding domestic violence, physical abuse, and criminal threats.\n>\n> Respected Sir/Madam,\n>\n> I, [Your Name], aged about [Your Age], am married to [Husband's Name], resident of [Husband's Address]. We were married in 2019 according to Hindu rites. I have a son from this marriage.\n>\n> My husband has been subjecting me to severe physical abuse and beating me. Last week, he threatened to kill me, due to which I fled and am currently staying safely at my sister's house at [Sister's Address]. \n>\n> He has committed acts of cruelty and criminal intimidation against me, putting my life and safety in grave danger. \n>\n> I request you to take immediate legal action, register an FIR, and provide protection to me and my son.\n>\n> Date: 2026-11-09\n> Signature: [Your Signature]\n> Name: [Your Name]\n\n### When to involve a lawyer\n- Criminal matters can affect your liberty and record; have a lawyer review the complaint or FIR before you file or respond.\n- Family disputes (divorce, maintenance, custody) depend heavily on facts and evidence; a family lawyer or the DLSA should handle the court filing.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- I assumed that the offences occurred on or after 1 July 2024, making the Bharatiya Nyaya Sanhita, 2023 and Bharatiya Nagarik Suraksha Sanhita, 2023 applicable.\n- I assumed you do not have independent income sufficient for your support, as specific income details were not provided.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 3, *Protection of Women from Domestic Violence Act, 2005* — What counts as domestic violence\n2. Sections 18 to 20, *Protection of Women from Domestic Violence Act, 2005* — Protection, residence and monetary relief orders\n3. Sections 85 and 86, *Bharatiya Nyaya Sanhita, 2023* — Cruelty by husband or his relatives\n4. Section 351, *Bharatiya Nyaya Sanhita, 2023* — Criminal intimidation (threats)\n5. Section 12, *Protection of Women from Domestic Violence Act, 2005* — Applying to the Magistrate for protection\n6. Section 173, *Bharatiya Nagarik Suraksha Sanhita, 2023* — Filing an FIR (including Zero FIR and e-FIR)\n7. Section 24, *Hindu Marriage Act, 1955* — Maintenance and litigation expenses during the case\n8. Section 25, *Hindu Marriage Act, 1955* — Permanent alimony\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+   "en": ""
+  }
+ ],
+ "case_statements_en": [
+  "hi i am in danger",
+  "my husband beats me and says he will kill me",
+  "I am at my sister's house now, I am safe for now.",
+  "I want protection from him and money to support myself and my son.",
+  "No case has been filed.",
+  "Hindu rites.",
+  "We married in 2019. I left last week."
+ ],
+ "checklist": {
+  "f_safe": {
+   "field_id": "f_safe",
+   "domain": "Family Law",
+   "label": "Safe right now",
+   "category": "critical",
+   "description": "Whether the user is safe now and still living with the abuser.",
+   "group": "f_safe",
+   "status": "COLLECTED",
+   "value": "User is at her sister's house and is safe for now"
+  },
+  "f_relationship": {
+   "field_id": "f_relationship",
+   "domain": "Family Law",
+   "label": "Relationship",
+   "category": "critical",
+   "description": "Who the user is and who the other party is (e.g. user is the husband, other party is his wife).",
+   "group": "f_relationship",
+   "status": "COLLECTED",
+   "value": "User is the wife; the other party is her husband"
+  },
+  "f_situation": {
+   "field_id": "f_situation",
+   "domain": "Family Law",
+   "label": "What is happening",
+   "category": "critical",
+   "description": "What has happened so far.",
+   "group": "f_situation",
+   "status": "COLLECTED",
+   "value": "Husband beats the user and threatens to kill her"
+  },
+  "f_goal": {
+   "field_id": "f_goal",
+   "domain": "Family Law",
+   "label": "What you want",
+   "category": "critical",
+   "description": "Outcome wanted: reconcile, divorce, maintenance, custody, protection.",
+   "group": "f_goal",
+   "status": "COLLECTED",
+   "value": "User wants protection from him and money to support herself and her son"
+  },
+  "f_case_filed": {
+   "field_id": "f_case_filed",
+   "domain": "Family Law",
+   "label": "Any case or notice already",
+   "category": "critical",
+   "description": "Whether either side has filed a case or sent a legal notice.",
+   "group": "f_case_filed",
+   "status": "COLLECTED",
+   "value": "No case has been filed"
+  },
+  "f_marriage_law": {
+   "field_id": "f_marriage_law",
+   "domain": "Family Law",
+   "label": "Marriage law / rites",
+   "category": "critical",
+   "description": "Hindu rites, Muslim law, Christian law or Special Marriage Act (only Hindu Marriage Act is covered).",
+   "group": "f_marriage_law",
+   "status": "COLLECTED",
+   "value": "Hindu rites"
+  },
+  "f_marriage_date": {
+   "field_id": "f_marriage_date",
+   "domain": "Family Law",
+   "label": "Marriage date and time apart",
+   "category": "critical",
+   "description": "When married and how long living separately (1-year rules for divorce).",
+   "group": "f_marriage_date",
+   "status": "COLLECTED",
+   "value": "Married in 2019; user left last week"
+  },
+  "f_children": {
+   "field_id": "f_children",
+   "domain": "Family Law",
+   "label": "Children",
+   "category": "critical",
+   "description": "Children and their ages.",
+   "group": "f_children",
+   "status": "UNRESOLVED",
+   "value": null
+  },
+  "f_income": {
+   "field_id": "f_income",
+   "domain": "Family Law",
+   "label": "Incomes",
+   "category": "critical",
+   "description": "Who earns what (user and spouse).",
+   "group": "f_income",
+   "status": "UNRESOLVED",
+   "value": null
+  },
+  "f_evidence": {
+   "field_id": "f_evidence",
+   "domain": "Family Law",
+   "label": "Proof",
+   "category": "supporting",
+   "description": "Marriage certificate, messages, medical reports, police complaints.",
+   "group": "f_evidence",
+   "status": "MISSING",
+   "value": null
+  },
+  "r_safe": {
+   "field_id": "r_safe",
+   "domain": "Criminal Law",
+   "label": "Safe right now",
+   "category": "critical",
+   "description": "Whether the user is safe now and whether the threat/harassment is ongoing.",
+   "group": "r_safe",
+   "status": "COLLECTED",
+   "value": "User is at her sister's house and is safe for now"
+  },
+  "r_incident": {
+   "field_id": "r_incident",
+   "domain": "Criminal Law",
+   "label": "What happened and who",
+   "category": "critical",
+   "description": "The incident and who did it (known or unknown person).",
+   "group": "r_incident",
+   "status": "COLLECTED",
+   "value": "Husband beats the user and threatens to kill her"
+  },
+  "r_date": {
+   "field_id": "r_date",
+   "domain": "Criminal Law",
+   "label": "Date of incident",
+   "category": "critical",
+   "description": "When it happened (before or after 1 July 2024 decides IPC vs BNS).",
+   "group": "r_date",
+   "status": "UNRESOLVED",
+   "value": null
+  },
+  "r_injuries": {
+   "field_id": "r_injuries",
+   "domain": "Criminal Law",
+   "label": "Injuries / medical report",
+   "category": "critical",
+   "description": "Whether the user was injured and has a medical report.",
+   "group": "r_injuries",
+   "status": "UNRESOLVED",
+   "value": null
+  },
+  "r_place": {
+   "field_id": "r_place",
+   "domain": "Criminal Law",
+   "label": "City / place",
+   "category": "critical",
+   "description": "Where it happened (which police station area).",
+   "group": "r_place",
+   "status": "UNRESOLVED",
+   "value": null
+  },
+  "r_police": {
+   "field_id": "r_police",
+   "domain": "Criminal Law",
+   "label": "Police complaint status",
+   "category": "critical",
+   "description": "Whether the user went to the police / filed an FIR and what happened.",
+   "group": "r_police",
+   "status": "UNRESOLVED",
+   "value": null
+  },
+  "r_evidence": {
+   "field_id": "r_evidence",
+   "domain": "Criminal Law",
+   "label": "Evidence",
+   "category": "supporting",
+   "description": "Bank records, chats, call logs, recordings, CCTV, witnesses.",
+   "group": "r_evidence",
+   "status": "MISSING",
+   "value": null
+  }
+ },
+ "sub_issues": {
+  "Family Law": [
+   "domestic_violence",
+   "maintenance",
+   "custody"
+  ],
+  "Criminal Law": [
+   "threat",
+   "assault"
+  ]
+ },
+ "key_date": null,
+ "amount_inr": null,
+ "pending_field": null,
+ "pending_retries": 0,
+ "questions_asked": 5,
+ "additional_asked": true,
+ "grounding_retries": 0,
+ "safety_flags": [
+  "danger",
+  "women"
+ ],
+ "retrieval_calls": 1,
+ "retrieval_log": [
+  {
+   "call": 1,
+   "queries": [
+    "protection order domestic violence residence maintenance wife child",
+    "cruelty by husband criminal breach of trust dowry",
+    "hi i am in danger my husband beats me and says he will kill me I am at my sister's house now, I am safe for now. I want protection from him and money to support myself and my son. No case has been filed. Hindu rites. We married in 2019. I left last week."
+   ],
+   "doc_ids": [
+    "PWDVA2005_S18_20",
+    "BNS2023_S85",
+    "HMA1955_S24",
+    "PWDVA2005_S3",
+    "IPC1860_S498A",
+    "BNS2023_S316",
+    "IPC1860_S406",
+    "BNS2023_S351",
+    "BNSS2023_S173",
+    "PWDVA2005_S12",
+    "HMA1955_S25",
+    "CRPC1973_S154"
+   ]
+  }
+ ],
+ "evidence_ids": [
+  "PWDVA2005_S18_20",
+  "BNS2023_S85",
+  "HMA1955_S24",
+  "PWDVA2005_S3",
+  "IPC1860_S498A",
+  "BNS2023_S316",
+  "IPC1860_S406",
+  "BNS2023_S351",
+  "BNSS2023_S173",
+  "PWDVA2005_S12",
+  "HMA1955_S25",
+  "CRPC1973_S154"
+ ],
+ "computed": {
+  "today": "2026-11-09"
+ },
+ "audit_reports": [
+  {
+   "attempt": 1,
+   "status": "PASS",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user's stated facts regarding location, safety, and needs."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly identifies physical abuse and threats as domestic violence under PWDVA S3 and links to relief under S18-20."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly cites BNS S85 for cruelty, noting the 3-year imprisonment and fine, applicable to current dates."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly cites BNS S351 for criminal intimidation involving threats of death, noting the 7-year penalty."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly advises applying to the Magistrate for protection and monetary relief as per PWDVA S12 and S18-20."
+    },
+    {
+     "id": "O2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly advises filing an FIR for cognizable offences (cruelty/intimidation) under BNSS S173."
+    },
+    {
+     "id": "O3",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly cites HMA S24 for interim maintenance and S25 for permanent alimony in the context of Hindu marriage."
+    },
+    {
+     "id": "D1",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately states the timeline for hearing (3 days) and disposal (60 days) under PWDVA S12."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with BNSS S173 (free copy of FIR)."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice; Protection Officers are authorized under PWDVA to assist."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to preserve evidence."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to prepare financial details for maintenance claims."
+    }
+   ],
+   "failing_items": [],
+   "feedback": "",
+   "suggested_query": "",
+   "audit_error": ""
+  }
+ ],
+ "answer": {
+  "summary": "You are currently staying safely at your sister's house after leaving your husband last week due to physical abuse and threats to kill you. You want legal protection and financial support for yourself and your son.",
+  "legal_position": [
+   {
+    "text": "Your husband's acts of physical abuse and threats to your life constitute domestic violence, which allows you to seek protection and monetary relief from a Magistrate.",
+    "cites": [
+     "PWDVA2005_S3",
+     "PWDVA2005_S18_20"
+    ]
+   },
+   {
+    "text": "Subjecting a wife to cruelty, including physical abuse and grave danger to her life, is a criminal offence punishable with imprisonment up to three years and fine under the Bharatiya Nyaya Sanhita, 2023.",
+    "cites": [
+     "BNS2023_S85"
+    ]
+   },
+   {
+    "text": "Threatening you with death constitutes criminal intimidation, which is punishable under the law with imprisonment up to seven years, or fine, or both.",
+    "cites": [
+     "BNS2023_S351"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Domestic Violence Application",
+    "detail": "Apply to the Magistrate for protection orders to stop your husband from committing violence or contacting you, and monetary relief orders covering expenses and maintenance for you and your child.",
+    "cites": [
+     "PWDVA2005_S12",
+     "PWDVA2005_S18_20"
+    ]
+   },
+   {
+    "title": "Police Complaint / FIR",
+    "detail": "Provide information about the cognizable offences of cruelty and criminal intimidation to the police station to record your complaint and receive a free copy.",
+    "cites": [
+     "BNSS2023_S173"
+    ]
+   },
+   {
+    "title": "Hindu Marriage Act Maintenance",
+    "detail": "If court proceedings are initiated under the Hindu Marriage Act, you can ask the court to order your husband to pay a monthly sum and litigation expenses during the case if you have no independent income sufficient for your support.",
+    "cites": [
+     "HMA1955_S24",
+     "HMA1955_S25"
+    ]
+   }
+  ],
+  "deadlines": [
+   {
+    "text": "The first hearing for a domestic violence application is ordinarily fixed within three days of the Magistrate receiving the application, and the Magistrate should try to dispose of it within sixty days of the first hearing.",
+    "cites": [
+     "PWDVA2005_S12"
+    ]
+   }
+  ],
+  "next_steps": [
+   "Go to the nearest police station to report the physical abuse and threats to your life, and obtain a free copy of the recorded information.",
+   "Consult a lawyer or a Protection Officer to file an application before the Magistrate for protection and monetary relief.",
+   "Gather and secure any medical reports, photographs, or text messages related to the abuse.",
+   "Prepare details of your and your son's financial needs for your support application."
+  ],
+  "evidence_to_collect": [
+   "Medical reports or prescriptions if you sought treatment for injuries",
+   "Photographs of any injuries",
+   "Chat messages, call logs, or recordings showing threats or abuse",
+   "Marriage certificate or wedding photographs as proof of marriage"
+  ],
+  "draft_document": {
+   "type": "Police complaint",
+   "text": "To,\nThe Officer in Charge,\n[Police Station Name],\n[City/District].\n\nSubject: Complaint regarding domestic violence, physical abuse, and criminal threats.\n\nRespected Sir/Madam,\n\nI, [Your Name], aged about [Your Age], am married to [Husband's Name], resident of [Husband's Address]. We were married in 2019 according to Hindu rites. I have a son from this marriage.\n\nMy husband has been subjecting me to severe physical abuse and beating me. Last week, he threatened to kill me, due to which I fled and am currently staying safely at my sister's house at [Sister's Address]. \n\nHe has committed acts of cruelty and criminal intimidation against me, putting my life and safety in grave danger. \n\nI request you to take immediate legal action, register an FIR, and provide protection to me and my son.\n\nDate: 2026-11-09\nSignature: [Your Signature]\nName: [Your Name]"
+  },
+  "assumptions": [
+   "I assumed that the offences occurred on or after 1 July 2024, making the Bharatiya Nyaya Sanhita, 2023 and Bharatiya Nagarik Suraksha Sanhita, 2023 applicable.",
+   "I assumed you do not have independent income sufficient for your support, as specific income details were not provided."
+  ]
+ },
+ "answer_en_md": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n- **181** — Women Helpline\n\n### Understanding your situation\nYou are currently staying safely at your sister's house after leaving your husband last week due to physical abuse and threats to kill you. You want legal protection and financial support for yourself and your son.\n\n### Where you stand legally\n- Your husband's acts of physical abuse and threats to your life constitute domestic violence, which allows you to seek protection and monetary relief from a Magistrate. [1][2]\n- Subjecting a wife to cruelty, including physical abuse and grave danger to her life, is a criminal offence punishable with imprisonment up to three years and fine under the Bharatiya Nyaya Sanhita, 2023. [3]\n- Threatening you with death constitutes criminal intimidation, which is punishable under the law with imprisonment up to seven years, or fine, or both. [4]\n\n### Your options\n1. **Domestic Violence Application** — Apply to the Magistrate for protection orders to stop your husband from committing violence or contacting you, and monetary relief orders covering expenses and maintenance for you and your child. [5][2]\n2. **Police Complaint / FIR** — Provide information about the cognizable offences of cruelty and criminal intimidation to the police station to record your complaint and receive a free copy. [6]\n3. **Hindu Marriage Act Maintenance** — If court proceedings are initiated under the Hindu Marriage Act, you can ask the court to order your husband to pay a monthly sum and litigation expenses during the case if you have no independent income sufficient for your support. [7][8]\n\n### Time limits\n- The first hearing for a domestic violence application is ordinarily fixed within three days of the Magistrate receiving the application, and the Magistrate should try to dispose of it within sixty days of the first hearing. [5]\n\n### What to do next\n1. Go to the nearest police station to report the physical abuse and threats to your life, and obtain a free copy of the recorded information.\n2. Consult a lawyer or a Protection Officer to file an application before the Magistrate for protection and monetary relief.\n3. Gather and secure any medical reports, photographs, or text messages related to the abuse.\n4. Prepare details of your and your son's financial needs for your support application.\n\n### Keep these ready\n- Medical reports or prescriptions if you sought treatment for injuries\n- Photographs of any injuries\n- Chat messages, call logs, or recordings showing threats or abuse\n- Marriage certificate or wedding photographs as proof of marriage\n\n### Draft: Police complaint (edit before using)\n> To,\n> The Officer in Charge,\n> [Police Station Name],\n> [City/District].\n>\n> Subject: Complaint regarding domestic violence, physical abuse, and criminal threats.\n>\n> Respected Sir/Madam,\n>\n> I, [Your Name], aged about [Your Age], am married to [Husband's Name], resident of [Husband's Address]. We were married in 2019 according to Hindu rites. I have a son from this marriage.\n>\n> My husband has been subjecting me to severe physical abuse and beating me. Last week, he threatened to kill me, due to which I fled and am currently staying safely at my sister's house at [Sister's Address]. \n>\n> He has committed acts of cruelty and criminal intimidation against me, putting my life and safety in grave danger. \n>\n> I request you to take immediate legal action, register an FIR, and provide protection to me and my son.\n>\n> Date: 2026-11-09\n> Signature: [Your Signature]\n> Name: [Your Name]\n\n### When to involve a lawyer\n- Criminal matters can affect your liberty and record; have a lawyer review the complaint or FIR before you file or respond.\n- Family disputes (divorce, maintenance, custody) depend heavily on facts and evidence; a family lawyer or the DLSA should handle the court filing.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- I assumed that the offences occurred on or after 1 July 2024, making the Bharatiya Nyaya Sanhita, 2023 and Bharatiya Nagarik Suraksha Sanhita, 2023 applicable.\n- I assumed you do not have independent income sufficient for your support, as specific income details were not provided.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 3, *Protection of Women from Domestic Violence Act, 2005* — What counts as domestic violence\n2. Sections 18 to 20, *Protection of Women from Domestic Violence Act, 2005* — Protection, residence and monetary relief orders\n3. Sections 85 and 86, *Bharatiya Nyaya Sanhita, 2023* — Cruelty by husband or his relatives\n4. Section 351, *Bharatiya Nyaya Sanhita, 2023* — Criminal intimidation (threats)\n5. Section 12, *Protection of Women from Domestic Violence Act, 2005* — Applying to the Magistrate for protection\n6. Section 173, *Bharatiya Nagarik Suraksha Sanhita, 2023* — Filing an FIR (including Zero FIR and e-FIR)\n7. Section 24, *Hindu Marriage Act, 1955* — Maintenance and litigation expenses during the case\n8. Section 25, *Hindu Marriage Act, 1955* — Permanent alimony\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+ "removed_items": [],
+ "usage": [
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 616,
+   "prompt_tokens": 954,
+   "completion_tokens": 135
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1128,
+   "prompt_tokens": 1045,
+   "completion_tokens": 116
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1885,
+   "prompt_tokens": 2614,
+   "completion_tokens": 329
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 664,
+   "prompt_tokens": 1078,
+   "completion_tokens": 122
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1552,
+   "prompt_tokens": 2669,
+   "completion_tokens": 171
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 655,
+   "prompt_tokens": 1051,
+   "completion_tokens": 124
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1737,
+   "prompt_tokens": 2715,
+   "completion_tokens": 273
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 619,
+   "prompt_tokens": 1022,
+   "completion_tokens": 110
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1967,
+   "prompt_tokens": 2738,
+   "completion_tokens": 376
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 607,
+   "prompt_tokens": 1009,
+   "completion_tokens": 75
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1623,
+   "prompt_tokens": 2750,
+   "completion_tokens": 250
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 626,
+   "prompt_tokens": 1039,
+   "completion_tokens": 118
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1498,
+   "prompt_tokens": 2770,
+   "completion_tokens": 307
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1472,
+   "prompt_tokens": 1050,
+   "completion_tokens": 103
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 891,
+   "prompt_tokens": 309,
+   "completion_tokens": 38
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 4167,
+   "prompt_tokens": 2363,
+   "completion_tokens": 1148
+  },
+  {
+   "role": "llm3",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 1874,
+   "prompt_tokens": 2714,
+   "completion_tokens": 684
+  }
+ ],
+ "last_error": null
+}

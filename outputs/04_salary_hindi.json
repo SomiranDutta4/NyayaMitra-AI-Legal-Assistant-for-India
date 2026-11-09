@@ -1,0 +1,416 @@
+{
+ "session_id": "04_salary_hindi-1794199033",
+ "status": "COMPLETED",
+ "language": "hi",
+ "language_locked": true,
+ "language_override": null,
+ "domains": [
+  "Employment and Labour Law"
+ ],
+ "transcript": [
+  {
+   "role": "user",
+   "display": "मेरी कंपनी ने अक्टूबर 2026 में मुझे बिना नोटिस नौकरी से निकाल दिया और पिछले 2 महीने का ₹80,000 वेतन नहीं दे रही है।",
+   "en": "My company terminated me without notice in October 2026 and is not paying my salary of ₹80,000 for the last 2 months."
+  },
+  {
+   "role": "assistant",
+   "display": "आप किस तरह की कंपनी या संस्थान में काम करते थे?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "प्राइवेट कंपनी है।",
+   "en": "It is a private company."
+  },
+  {
+   "role": "assistant",
+   "display": "आप उस कंपनी में कितने साल से काम कर रहे थे? [छंटनी और कानूनी कार्रवाई के नियमों के लिए यह जानना जरूरी है]",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "मैंने वहाँ 3 साल काम किया।",
+   "en": "I worked there for 3 years."
+  },
+  {
+   "role": "assistant",
+   "display": "धन्यवाद। क्या आपके पास ऑफर या नियुक्ति पत्र, सैलरी स्लिप, या वेतन दिखाने वाले बैंक स्टेटमेंट हैं? कुछ और जो मुझे जानना चाहिए? (आप 'नहीं' लिख सकते हैं।)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "नहीं",
+   "en": "No"
+  },
+  {
+   "role": "assistant",
+   "display": "### आपकी स्थिति को समझना\nआपको अक्टूबर 2026 में 3 साल की सेवा के बाद बिना किसी नोटिस के अपनी प्राइवेट कंपनी से निकाल दिया गया, और आपके पिछले 2 महीने का ₹80,000 वेतन बकाया है।\n\n### कानूनी रूप से आपकी स्थिति\n- चूँकि आपकी नौकरी 21 November 2025 के बाद समाप्त की गई है, इसलिए Code on Wages के तहत नौकरी छोड़ने पर आपका बकाया वेतन दो कामकाजी दिनों के भीतर भुगतान किया जाना चाहिए। [1]\n- यदि आप Industrial Relations Code के तहत एक वर्कर (worker) के रूप में आते हैं, और आपने 3 साल की निरंतर सेवा पूरी कर ली है, तो आपकी छंटनी (retrenchment) के लिए एक महीने का लिखित नोटिस (या नोटिस के बदले वेतन) और सेवा के प्रत्येक पूर्ण वर्ष के लिए 15 दिनों के औसत वेतन के बराबर छंटनी मुआवजा आवश्यक है, जब तक कि आप बाहर रखे गए प्रबंधकीय (managerial) या पर्यवेक्षी (supervisory) श्रेणियों में न आते हों। [2]\n- आपके पास नामित वेतन प्राधिकारी (designated wage authority) के समक्ष बकाया वेतन के लिए आवेदन करने हेतु दावा उत्पन्न होने की तारीख से तीन साल तक का समय है। [3]\n\n### आपके विकल्प\n1. **वेतन प्राधिकारी दावा (Wage Authority Claim)** — सरकार (श्रम विभाग) द्वारा नियुक्त प्राधिकारी के समक्ष बिना भुगतान या देर से भुगतान किए गए वेतन के लिए दावा दायर करें ताकि आपको अपना ₹80,000 और मुआवजा मिल सके। [3]\n\n### समय सीमा\n- वेतन प्राधिकारी के समक्ष दावा दायर करने के लिए वेतन दावा उत्पन्न होने की तारीख से 3 साल। [3]\n- नौकरी समाप्त होने पर मिलने वाला बकाया वेतन अक्टूबर 2026 में आपकी नौकरी समाप्त होने के दो कामकाजी दिनों के भीतर भुगतान किया जाना आवश्यक था। [1]\n\n### आगे क्या करना है\n1. अपने वर्कर की स्थिति और सटीक वेतन संरचना की पुष्टि करने के लिए अपना रोजगार समझौता (employment agreement) और वेतन पर्ची (salary slips) जांचें।\n2. अपने नियोक्ता को अपने ₹80,000 बकाया वेतन और नोटिस/छंटनी वेतन का अनुरोध करते हुए एक औपचारिक लिखित मांग पत्र तैयार करें।\n3. मांग पत्र ईमेल या रजिस्टर्ड डाक (registered post) के माध्यम से भेजें और डिलीवरी का प्रमाण अपने पास रखें।\n4. यदि कंपनी आपकी मांग के बाद उचित समय के भीतर भुगतान करने में विफल रहती है, तो स्थानीय श्रम विभाग (Labour Department) के कार्यालय में संपर्क करें।\n5. यदि आपसी बातचीत (mediation) विफल हो जाती है, तो वेतन प्राधिकारी के लिए अपना आवेदन तैयार करें।\n\n### इन्हें तैयार रखें\n- रोजगार नियुक्ति पत्र (employment appointment letter) या अनुबंध (contract)\n- पिछले 3 वर्षों की वेतन पर्चियां (salary slips)\n- बैंक स्टेटमेंट जो वेतन क्रेडिट और गायब 2 महीनों को दर्शाते हों\n- समाप्ति पत्र (termination letter) या अक्टूबर 2026 से समाप्ति के संबंध में कोई भी लिखित संचार\n\n### प्रारूप: वेतन दावा आवेदन (उपयोग करने से पहले संपादित करें)\n> सेवा में,\n> The Authority Appointed under the Code on Wages, 2019,\n> [District/Labour Department Office Address]\n>\n> आवेदक: [Your Name], निवासी [Your Address]\n> विपक्षी पक्ष: [Company Name], जिसका कार्यालय [Company Address] पर है\n>\n> विषय: ₹80,000 के बकाया वेतन और नौकरी समाप्ति के बकाये के लिए दावा।\n>\n> 1. मैंने विपक्षी पक्ष के साथ 3 साल तक काम किया, और अक्टूबर 2026 में बिना किसी नोटिस के मेरी नौकरी समाप्त कर दी गई।\n> 2. विपक्षी पक्ष पिछले 2 महीनों का मेरा ₹80,000 वेतन देने में विफल रहा है।\n> 3. Code on Wages, 2019 की Section 17 के तहत, नौकरी समाप्ति पर देय वेतन का भुगतान दो कामकाजी दिनों के भीतर किया जाना चाहिए।\n>\n> प्रार्थना:\n> विनम्रतापूर्वक यह प्रार्थना की जाती है कि विपक्षी पक्ष को Code on Wages, 2019 की Section 45 के तहत प्रदान किए गए उचित मुआवजे के साथ कुल ₹80,000 की राशि का भुगतान करने का निर्देश दिया जाए।\n>\n> दिनांक: 2026-11-09\n> हस्ताक्षर: [Your Name]\n\n### वकील को कब शामिल करें\n- आप आमतौर पर इसे खुद शुरू कर सकते हैं। यदि दूसरा पक्ष जवाब नहीं देता है, या आप किसी भी चरण के बारे में अनिश्चित हैं, तो किसी वकील से सलाह लें।\n- मुफ्त कानूनी सहायता: NALSA हेल्पलाइन **15100**, या आपका जिला विधिक सेवा प्राधिकरण (DLSA)।\n\n### मान्यताएं और कमियां\n- यह मान लिया गया है कि आप वर्कर की परिभाषा के अंतर्गत आते हैं और Industrial Relations Code के तहत प्रबंधकीय या पर्यवेक्षी वेतन सीमा द्वारा बाहर नहीं किए गए हैं।\n\n---\n**स्रोत (बेयर एक्ट प्रावधान)**\n1. Section 17, *Code on Wages, 2019* — वेतन भुगतान की समय सीमा (नौकरी छोड़ने पर भी)\n2. Section 70, *Industrial Relations Code, 2020* — किसी वर्कर की छंटनी करने से पहले की शर्तें\n3. Section 45, *Code on Wages, 2019* — वेतन प्राधिकारी के समक्ष बकाया या विलंबित वेतन के लिए दावा\n\n_NyayaMitra ऊपर सूचीबद्ध बेयर एक्ट प्रावधानों के आधार पर सामान्य कानूनी जानकारी देता है। यह कानूनी सलाह नहीं है और वकील-क्लाइंट का रिश्ता नहीं बनाता है। कानून और राज्य के नियम बदलते रहते हैं; फाइल करने से पहले किसी वकील या अपने जिला विधिक सेवा प्राधिकरण से पुष्टि कर लें।_",
+   "en": ""
+  }
+ ],
+ "case_statements_en": [
+  "My company terminated me without notice in October 2026 and is not paying my salary of ₹80,000 for the last 2 months.",
+  "It is a private company.",
+  "I worked there for 3 years."
+ ],
+ "checklist": {
+  "l_status": {
+   "field_id": "l_status",
+   "domain": "Employment and Labour Law",
+   "label": "Employment status",
+   "category": "critical",
+   "description": "Still working, resigned, or fired — stated by the user, not assumed.",
+   "group": "l_status",
+   "status": "COLLECTED",
+   "value": "Terminated by company"
+  },
+  "l_employer": {
+   "field_id": "l_employer",
+   "domain": "Employment and Labour Law",
+   "label": "Type of employer",
+   "category": "critical",
+   "description": "Private company, shop/small business, government office, or household (government staff have different rules).",
+   "group": "l_employer",
+   "status": "COLLECTED",
+   "value": "Private company"
+  },
+  "l_unpaid": {
+   "field_id": "l_unpaid",
+   "domain": "Employment and Labour Law",
+   "label": "What is unpaid and how much",
+   "category": "critical",
+   "description": "Which months' salary / which dues, and the amount in rupees.",
+   "group": "l_unpaid",
+   "status": "COLLECTED",
+   "value": "Salary of 80000 rupees for the last 2 months"
+  },
+  "l_since": {
+   "field_id": "l_since",
+   "domain": "Employment and Labour Law",
+   "label": "Since when",
+   "category": "critical",
+   "description": "From which month the payment is pending.",
+   "group": "l_since",
+   "status": "COLLECTED",
+   "value": "2 months ago"
+  },
+  "l_left_date": {
+   "field_id": "l_left_date",
+   "domain": "Employment and Labour Law",
+   "label": "Date of leaving / termination",
+   "category": "critical",
+   "description": "When the user resigned or was fired.",
+   "group": "l_left_date",
+   "status": "COLLECTED",
+   "value": "October 2026"
+  },
+  "l_service_years": {
+   "field_id": "l_service_years",
+   "domain": "Employment and Labour Law",
+   "label": "Years of service",
+   "category": "critical",
+   "description": "How long the user worked there (1 year matters for retrenchment, 5 years for gratuity).",
+   "group": "l_service_years",
+   "status": "COLLECTED",
+   "value": "3 years"
+  },
+  "l_notice_given": {
+   "field_id": "l_notice_given",
+   "domain": "Employment and Labour Law",
+   "label": "Notice or reason given",
+   "category": "critical",
+   "description": "Whether a written notice / reason / notice pay was given before termination.",
+   "group": "l_notice_given",
+   "status": "COLLECTED",
+   "value": "No notice given"
+  },
+  "l_role": {
+   "field_id": "l_role",
+   "domain": "Employment and Labour Law",
+   "label": "Job role",
+   "category": "supporting",
+   "description": "Job title (worker, supervisor, manager) and monthly salary.",
+   "group": "l_role",
+   "status": "MISSING",
+   "value": null
+  },
+  "l_proof": {
+   "field_id": "l_proof",
+   "domain": "Employment and Labour Law",
+   "label": "Proof of employment",
+   "category": "supporting",
+   "description": "Offer letter, salary slips, bank credits, ID card, emails.",
+   "group": "l_proof",
+   "status": "MISSING",
+   "value": null
+  }
+ },
+ "sub_issues": {
+  "Employment and Labour Law": [
+   "terminated",
+   "unpaid_salary"
+  ]
+ },
+ "key_date": "2026-10",
+ "amount_inr": 80000.0,
+ "pending_field": null,
+ "pending_retries": 0,
+ "questions_asked": 2,
+ "additional_asked": true,
+ "grounding_retries": 0,
+ "safety_flags": [],
+ "retrieval_calls": 1,
+ "retrieval_log": [
+  {
+   "call": 1,
+   "queries": [
+    "recovery of wages non-payment employee",
+    "termination without notice compensation salary",
+    "My company terminated me without notice in October 2026 and is not paying my salary of ₹80,000 for the last 2 months. It is a private company. I worked there for 3 years."
+   ],
+   "doc_ids": [
+    "PWA1936_S5",
+    "COW2019_S17",
+    "IRC2020_S70",
+    "COW2019_S45",
+    "PWA1936_S15"
+   ]
+  }
+ ],
+ "evidence_ids": [
+  "PWA1936_S5",
+  "COW2019_S17",
+  "IRC2020_S70",
+  "COW2019_S45",
+  "PWA1936_S15"
+ ],
+ "computed": {
+  "today": "2026-11-09",
+  "key_date": "October 2026 (month only, approximate)",
+  "time_elapsed": "about 1 months since October 2026",
+  "months_elapsed": 1,
+  "amount": "₹80,000"
+ },
+ "audit_reports": [
+  {
+   "attempt": 1,
+   "status": "PASS",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user's stated facts regarding termination date, service duration, lack of notice, and unpaid amount."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly applies Section 17 of the Code on Wages, 2019, which is in force for the termination date (October 2026), mandating payment within two working days."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly summarizes Section 70 of the Industrial Relations Code, 2020, including the conditions for retrenchment (notice, compensation) and the exclusion of managerial/supervisory staff."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the three-year limitation period for filing claims under Section 45 of the Code on Wages, 2019."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly identifies the remedy (claim before wage authority) and the potential outcome (payment plus compensation) under Section 45 of the Code on Wages, 2019."
+    },
+    {
+     "id": "D1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the limitation period under Section 45 of the Code on Wages, 2019."
+    },
+    {
+     "id": "D2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the deadline for payment upon termination under Section 17 of the Code on Wages, 2019."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to verify status and wage structure, which is essential for determining applicability of the IR Code and wage calculations."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to send a formal demand, which is a standard preliminary step in wage disputes."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice regarding proof of delivery for legal correspondence."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to approach the Labour Department, which is the relevant authority for wage claims."
+    },
+    {
+     "id": "N5",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to prepare for formal legal proceedings if informal resolution fails."
+    }
+   ],
+   "failing_items": [],
+   "feedback": "",
+   "suggested_query": "",
+   "audit_error": ""
+  }
+ ],
+ "answer": {
+  "summary": "You were terminated from your private company in October 2026 after 3 years of service without notice, and you are owed ₹80,000 for your last 2 months of salary.",
+  "legal_position": [
+   {
+    "text": "Because your termination happened after 21 November 2025, your unpaid wages upon termination must be paid within two working days under the Code on Wages.",
+    "cites": [
+     "COW2019_S17"
+    ]
+   },
+   {
+    "text": "If you are classified as a worker under the Industrial Relations Code, having completed 3 years of continuous service, your retrenchment requires one month's notice in writing (or wages in lieu of notice) and retrenchment compensation equal to 15 days' average pay for every completed year of service, unless you fall into excluded managerial or supervisory categories.",
+    "cites": [
+     "IRC2020_S70"
+    ]
+   },
+   {
+    "text": "You have up to three years from the date the claim arises to file an application for unpaid wages before the designated wage authority.",
+    "cites": [
+     "COW2019_S45"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Wage Authority Claim",
+    "detail": "File a claim for non-payment or delayed payment of wages before the authority appointed by the government (Labour Department) to get your ₹80,000 and compensation.",
+    "cites": [
+     "COW2019_S45"
+    ]
+   }
+  ],
+  "deadlines": [
+   {
+    "text": "3 years from the date the wage claim arises to file a claim before the wage authority.",
+    "cites": [
+     "COW2019_S45"
+    ]
+   },
+   {
+    "text": "Unpaid wages upon termination were required to be paid within two working days of your termination in October 2026.",
+    "cites": [
+     "COW2019_S17"
+    ]
+   }
+  ],
+  "next_steps": [
+   "Check your employment agreement and salary slips to confirm your worker status and exact wage structure.",
+   "Draft a formal written demand to your employer requesting your ₹80,000 unpaid salary and notice/retrenchment pay.",
+   "Send the demand letter via email or registered post and keep proof of delivery.",
+   "Approach the local Labour Department office if the company fails to pay within a reasonable time after your demand.",
+   "Prepare your application for the wage authority if mediation fails."
+  ],
+  "evidence_to_collect": [
+   "Employment appointment letter or contract",
+   "Salary slips for the last 3 years",
+   "Bank statements showing salary credits and the missing 2 months",
+   "Termination letter or any written communication regarding the termination from October 2026"
+  ],
+  "draft_document": {
+   "type": "Wage claim application",
+   "text": "To,\nThe Authority Appointed under the Code on Wages, 2019,\n[District/Labour Department Office Address]\n\nApplicant: [Your Name], residing at [Your Address]\nOpposite Party: [Company Name], having its office at [Company Address]\n\nSubject: Claim for unpaid wages amounting to ₹80,000 and termination dues.\n\n1. I was employed with the Opposite Party for 3 years, and my employment was terminated without notice in October 2026.\n2. The Opposite Party has failed to pay my salary of ₹80,000 for the last 2 months.\n3. Under Section 17 of the Code on Wages, 2019, wages due upon termination must be paid within two working days.\n\nPrayer:\nIt is respectfully prayed that the Opposite Party be directed to pay the total sum of ₹80,000 along with appropriate compensation as provided under Section 45 of the Code on Wages, 2019.\n\nDate: 2026-11-09\nSignature: [Your Name]"
+  },
+  "assumptions": [
+   "It is assumed you are covered under the definition of a worker and not excluded by managerial or supervisory wage limits under the Industrial Relations Code."
+  ]
+ },
+ "answer_en_md": "### Understanding your situation\nYou were terminated from your private company in October 2026 after 3 years of service without notice, and you are owed ₹80,000 for your last 2 months of salary.\n\n### Where you stand legally\n- Because your termination happened after 21 November 2025, your unpaid wages upon termination must be paid within two working days under the Code on Wages. [1]\n- If you are classified as a worker under the Industrial Relations Code, having completed 3 years of continuous service, your retrenchment requires one month's notice in writing (or wages in lieu of notice) and retrenchment compensation equal to 15 days' average pay for every completed year of service, unless you fall into excluded managerial or supervisory categories. [2]\n- You have up to three years from the date the claim arises to file an application for unpaid wages before the designated wage authority. [3]\n\n### Your options\n1. **Wage Authority Claim** — File a claim for non-payment or delayed payment of wages before the authority appointed by the government (Labour Department) to get your ₹80,000 and compensation. [3]\n\n### Time limits\n- 3 years from the date the wage claim arises to file a claim before the wage authority. [3]\n- Unpaid wages upon termination were required to be paid within two working days of your termination in October 2026. [1]\n\n### What to do next\n1. Check your employment agreement and salary slips to confirm your worker status and exact wage structure.\n2. Draft a formal written demand to your employer requesting your ₹80,000 unpaid salary and notice/retrenchment pay.\n3. Send the demand letter via email or registered post and keep proof of delivery.\n4. Approach the local Labour Department office if the company fails to pay within a reasonable time after your demand.\n5. Prepare your application for the wage authority if mediation fails.\n\n### Keep these ready\n- Employment appointment letter or contract\n- Salary slips for the last 3 years\n- Bank statements showing salary credits and the missing 2 months\n- Termination letter or any written communication regarding the termination from October 2026\n\n### Draft: Wage claim application (edit before using)\n> To,\n> The Authority Appointed under the Code on Wages, 2019,\n> [District/Labour Department Office Address]\n>\n> Applicant: [Your Name], residing at [Your Address]\n> Opposite Party: [Company Name], having its office at [Company Address]\n>\n> Subject: Claim for unpaid wages amounting to ₹80,000 and termination dues.\n>\n> 1. I was employed with the Opposite Party for 3 years, and my employment was terminated without notice in October 2026.\n> 2. The Opposite Party has failed to pay my salary of ₹80,000 for the last 2 months.\n> 3. Under Section 17 of the Code on Wages, 2019, wages due upon termination must be paid within two working days.\n>\n> Prayer:\n> It is respectfully prayed that the Opposite Party be directed to pay the total sum of ₹80,000 along with appropriate compensation as provided under Section 45 of the Code on Wages, 2019.\n>\n> Date: 2026-11-09\n> Signature: [Your Name]\n\n### When to involve a lawyer\n- You can usually start this yourself. If the other side does not respond, or you are unsure about any step, consult a lawyer.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- It is assumed you are covered under the definition of a worker and not excluded by managerial or supervisory wage limits under the Industrial Relations Code.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 17, *Code on Wages, 2019* — Deadline for paying wages (including on leaving a job)\n2. Section 70, *Industrial Relations Code, 2020* — Conditions before retrenching a worker\n3. Section 45, *Code on Wages, 2019* — Claim for unpaid or delayed wages before the wage authority\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+ "removed_items": [],
+ "usage": [
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1553,
+   "prompt_tokens": 985,
+   "completion_tokens": 135
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 11963,
+   "prompt_tokens": 1669,
+   "completion_tokens": 228
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 690,
+   "prompt_tokens": 1023,
+   "completion_tokens": 102
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 11473,
+   "prompt_tokens": 1718,
+   "completion_tokens": 220
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 708,
+   "prompt_tokens": 1039,
+   "completion_tokens": 111
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1789,
+   "prompt_tokens": 1732,
+   "completion_tokens": 245
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 518,
+   "prompt_tokens": 1075,
+   "completion_tokens": 70
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 7005,
+   "prompt_tokens": 239,
+   "completion_tokens": 19
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3510,
+   "prompt_tokens": 1669,
+   "completion_tokens": 1002
+  },
+  {
+   "role": "llm3",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 2011,
+   "prompt_tokens": 1946,
+   "completion_tokens": 766
+  },
+  {
+   "role": "translate",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 4567,
+   "prompt_tokens": 1138,
+   "completion_tokens": 1212
+  }
+ ],
+ "last_error": null
+}

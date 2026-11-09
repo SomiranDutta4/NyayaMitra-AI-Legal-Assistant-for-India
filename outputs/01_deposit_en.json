@@ -1,0 +1,450 @@
+{
+ "session_id": "01_deposit_en-1794198907",
+ "status": "COMPLETED",
+ "language": "en",
+ "language_locked": true,
+ "language_override": null,
+ "domains": [
+  "Property Law"
+ ],
+ "transcript": [
+  {
+   "role": "user",
+   "display": "My landlord in Pune is not returning my ₹40,000 security deposit. I vacated the flat on 15 August 2026 and handed over the keys. I am the tenant.",
+   "en": "My landlord in Pune is not returning my ₹40,000 security deposit. I vacated the flat on 15 August 2026 and handed over the keys. I am the tenant."
+  },
+  {
+   "role": "assistant",
+   "display": "Did your landlord give any reason, like property damage or unpaid bills, for not returning your deposit?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "He has not given any reason. There was no damage and no rent pending.",
+   "en": "He has not given any reason. There was no damage and no rent pending."
+  },
+  {
+   "role": "assistant",
+   "display": "Thank you. Do you have a rent or sale agreement, rent or deposit payment receipts, or messages with the other side? Anything else I should know? (You can reply 'no'.)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "I have the rent agreement and the bank transfer proof of the deposit.",
+   "en": "I have the rent agreement and the bank transfer proof of the deposit."
+  },
+  {
+   "role": "assistant",
+   "display": "### Understanding your situation\nYou are a tenant who vacated a flat in Pune on 15 August 2026 and handed over the keys. Your landlord is withholding your ₹40,000 security deposit without giving any reason, despite there being no damage and no pending rent.\n\n### Where you stand legally\n- Your landlord is required to refund the security deposit at the time of taking over vacant possession, after making due deductions for any liability, if the state has enacted a law based on the Model Tenancy Act. [1]\n- At the end of the lease, you are required to hand back possession of the property to the landlord. [2]\n- You have a general limitation period of three years from when the right to sue accrues to file a civil suit to recover money such as an unreturned security deposit. [3]\n\n### Your options\n1. **Civil Suit for Money Recovery** — File a civil suit in the appropriate civil court to recover the ₹40,000 security deposit based on the three-year limitation period. [3]\n\n### Time limits\n- You have a limitation period of three years from when the right to sue accrues to file a civil suit for recovering the unreturned security deposit. [3]\n\n### What to do next\n1. Send a written demand to your landlord asking for the return of your ₹40,000 security deposit.\n2. Organize your rent agreement and bank transfer proof of the deposit.\n3. Consult a local advocate in Pune to discuss filing a civil money recovery suit if the landlord continues to withhold the amount.\n\n### Keep these ready\n- Rent agreement\n- Bank transfer proof of the deposit\n- Any written communication with the landlord regarding the handover of keys and the deposit\n\n### Draft: Legal notice (edit before using)\n> To,\n> [Landlord's Name]\n> [Landlord's Address]\n>\n> Subject: Demand for refund of security deposit of ₹40,000\n>\n> Dear Sir/Madam,\n>\n> I was a tenant at your property in Pune under our rent agreement. I vacated the flat and handed over the keys to you on 15 August 2026.\n>\n> There was no damage to the property and no rent pending at the time of vacating. You have withheld my security deposit of ₹40,000 without providing any reason.\n>\n> I request you to kindly refund the amount of ₹40,000 to my bank account within [Number] days of receiving this notice.\n>\n> Sincerely,\n> [Your Name]\n> [Your Contact Information]\n\n### When to involve a lawyer\n- You can usually start this yourself. If the other side does not respond, or you are unsure about any step, consult a lawyer.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- The Model Tenancy Act provisions depend on whether Maharashtra has enacted a law based on it; otherwise, the state's rent law and your rent agreement govern the deposit.\n- It is assumed there are no other written clauses in your rent agreement that alter the standard deposit refund terms.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 11, *Model Tenancy Act, 2021* — Security deposit limits and refund\n2. Section 108, *Transfer of Property Act, 1882* — Rights and duties of landlord and tenant\n3. Article 113 (Schedule), *Limitation Act, 1963* — General limitation period for civil money suits\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+   "en": ""
+  }
+ ],
+ "case_statements_en": [
+  "My landlord in Pune is not returning my ₹40,000 security deposit. I vacated the flat on 15 August 2026 and handed over the keys. I am the tenant.",
+  "He has not given any reason. There was no damage and no rent pending.",
+  "I have the rent agreement and the bank transfer proof of the deposit."
+ ],
+ "checklist": {
+  "p_role": {
+   "field_id": "p_role",
+   "domain": "Property Law",
+   "label": "Your role",
+   "category": "critical",
+   "description": "Whether the user is the tenant, the landlord, or a buyer from a builder.",
+   "group": "p_role",
+   "status": "COLLECTED",
+   "value": "Tenant"
+  },
+  "p_problem": {
+   "field_id": "p_problem",
+   "domain": "Property Law",
+   "label": "The dispute",
+   "category": "critical",
+   "description": "The main problem in one line (deposit, eviction, lock-out, builder delay...).",
+   "group": "p_problem",
+   "status": "COLLECTED",
+   "value": "Landlord in Pune is not returning the security deposit"
+  },
+  "p_location": {
+   "field_id": "p_location",
+   "domain": "Property Law",
+   "label": "City and state",
+   "category": "critical",
+   "description": "City and state of the property (tenancy and RERA rules differ by state).",
+   "group": "p_location",
+   "status": "COLLECTED",
+   "value": "Pune, Maharashtra"
+  },
+  "p_deposit_amount": {
+   "field_id": "p_deposit_amount",
+   "domain": "Property Law",
+   "label": "Deposit amount",
+   "category": "critical",
+   "description": "Security deposit paid, in rupees.",
+   "group": "p_deposit_amount",
+   "status": "COLLECTED",
+   "value": "40000"
+  },
+  "p_vacated": {
+   "field_id": "p_vacated",
+   "domain": "Property Law",
+   "label": "Date vacated / keys returned",
+   "category": "critical",
+   "description": "When the user vacated and handed over the keys.",
+   "group": "p_vacated",
+   "status": "COLLECTED",
+   "value": "2026-08-15"
+  },
+  "p_deduction_reason": {
+   "field_id": "p_deduction_reason",
+   "domain": "Property Law",
+   "label": "Landlord's reason for keeping it",
+   "category": "critical",
+   "description": "Any reason the landlord gave (damage, unpaid rent, bills) or 'no reason'.",
+   "group": "p_deduction_reason",
+   "status": "COLLECTED",
+   "value": "No reason given; no damage and no rent pending"
+  },
+  "p_agreement": {
+   "field_id": "p_agreement",
+   "domain": "Property Law",
+   "label": "Written agreement",
+   "category": "supporting",
+   "description": "Rent agreement / builder-buyer agreement, registered or not; RERA registration.",
+   "group": "p_agreement",
+   "status": "COLLECTED",
+   "value": "Rent agreement and bank transfer proof of deposit available"
+  }
+ },
+ "sub_issues": {
+  "Property Law": [
+   "deposit"
+  ]
+ },
+ "key_date": "2026-08-15",
+ "amount_inr": 40000.0,
+ "pending_field": null,
+ "pending_retries": 0,
+ "questions_asked": 1,
+ "additional_asked": true,
+ "grounding_retries": 1,
+ "safety_flags": [],
+ "retrieval_calls": 1,
+ "retrieval_log": [
+  {
+   "call": 1,
+   "queries": [
+    "refund of security deposit tenant landlord",
+    "recovery of deposit rent agreement",
+    "My landlord in Pune is not returning my ₹40,000 security deposit. I vacated the flat on 15 August 2026 and handed over the keys. I am the tenant. He has not given any reason. There was no damage and no rent pending. I have the rent agreement and the bank transfer proof of the deposit."
+   ],
+   "doc_ids": [
+    "MTA2021_S11",
+    "TPA1882_S105",
+    "TPA1882_S108",
+    "MTA2021_S20",
+    "RERA2016_S18",
+    "LIM1963_A113",
+    "TPA1882_S106",
+    "RERA2016_S31"
+   ]
+  }
+ ],
+ "evidence_ids": [
+  "MTA2021_S11",
+  "TPA1882_S105",
+  "TPA1882_S108",
+  "MTA2021_S20",
+  "RERA2016_S18",
+  "LIM1963_A113",
+  "TPA1882_S106",
+  "RERA2016_S31"
+ ],
+ "computed": {
+  "today": "2026-11-09",
+  "key_date": "2026-08-15",
+  "time_elapsed": "about 2 months since 2026-08-15",
+  "months_elapsed": 2,
+  "amount": "₹40,000"
+ },
+ "audit_reports": [
+  {
+   "attempt": 1,
+   "status": "REVISE",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user's stated facts."
+    },
+    {
+     "id": "L1",
+     "verdict": "UNSUPPORTED",
+     "reason": "Section 108 of the Transfer of Property Act does not mention security deposits or their refund; it only covers possession, rent, and condition of property."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the rule and the applicability caveat from Section 11 of the Model Tenancy Act."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the general limitation period from Article 113 of the Limitation Act."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to file a civil suit is supported by the limitation period and general contract principles implied by the evidence."
+    },
+    {
+     "id": "O2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly advises checking if the Model Tenancy Act applies in Maharashtra, as per the note in the evidence."
+    },
+    {
+     "id": "D1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly applies the 3-year limitation period starting from the date of withholding."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to organize documents."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to send a demand letter."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to consult a local advocate."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to keep records."
+    }
+   ],
+   "failing_items": [
+    "L1"
+   ],
+   "feedback": "- [L1] unsupported: Section 108 of the Transfer of Property Act does not mention security deposits or their refund; it only covers possession, rent, and condition of property.",
+   "suggested_query": "",
+   "audit_error": ""
+  },
+  {
+   "attempt": 2,
+   "status": "PASS",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately reflects the user facts and system-computed details."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Matches MTA2021_S11 regarding refund upon vacant possession and the conditional application of the Model Tenancy Act."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Directly supported by TPA1882_S108 regarding the tenant's duty to hand back possession."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately cites LIM1963_A113 for the three-year limitation period."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical legal recourse matching the limitation law cited."
+    },
+    {
+     "id": "D1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the limitation period under LIM1963_A113."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice that makes no legal claim."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice matching available user facts."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice making no legal claim."
+    }
+   ],
+   "failing_items": [],
+   "feedback": "",
+   "suggested_query": "Maharashtra Rent Control Act security deposit return procedure",
+   "audit_error": ""
+  }
+ ],
+ "answer": {
+  "summary": "You are a tenant who vacated a flat in Pune on 15 August 2026 and handed over the keys. Your landlord is withholding your ₹40,000 security deposit without giving any reason, despite there being no damage and no pending rent.",
+  "legal_position": [
+   {
+    "text": "Your landlord is required to refund the security deposit at the time of taking over vacant possession, after making due deductions for any liability, if the state has enacted a law based on the Model Tenancy Act.",
+    "cites": [
+     "MTA2021_S11"
+    ]
+   },
+   {
+    "text": "At the end of the lease, you are required to hand back possession of the property to the landlord.",
+    "cites": [
+     "TPA1882_S108"
+    ]
+   },
+   {
+    "text": "You have a general limitation period of three years from when the right to sue accrues to file a civil suit to recover money such as an unreturned security deposit.",
+    "cites": [
+     "LIM1963_A113"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "Civil Suit for Money Recovery",
+    "detail": "File a civil suit in the appropriate civil court to recover the ₹40,000 security deposit based on the three-year limitation period.",
+    "cites": [
+     "LIM1963_A113"
+    ]
+   }
+  ],
+  "deadlines": [
+   {
+    "text": "You have a limitation period of three years from when the right to sue accrues to file a civil suit for recovering the unreturned security deposit.",
+    "cites": [
+     "LIM1963_A113"
+    ]
+   }
+  ],
+  "next_steps": [
+   "Send a written demand to your landlord asking for the return of your ₹40,000 security deposit.",
+   "Organize your rent agreement and bank transfer proof of the deposit.",
+   "Consult a local advocate in Pune to discuss filing a civil money recovery suit if the landlord continues to withhold the amount."
+  ],
+  "evidence_to_collect": [
+   "Rent agreement",
+   "Bank transfer proof of the deposit",
+   "Any written communication with the landlord regarding the handover of keys and the deposit"
+  ],
+  "draft_document": {
+   "type": "Legal notice",
+   "text": "To,\n[Landlord's Name]\n[Landlord's Address]\n\nSubject: Demand for refund of security deposit of ₹40,000\n\nDear Sir/Madam,\n\nI was a tenant at your property in Pune under our rent agreement. I vacated the flat and handed over the keys to you on 15 August 2026.\n\nThere was no damage to the property and no rent pending at the time of vacating. You have withheld my security deposit of ₹40,000 without providing any reason.\n\nI request you to kindly refund the amount of ₹40,000 to my bank account within [Number] days of receiving this notice.\n\nSincerely,\n[Your Name]\n[Your Contact Information]"
+  },
+  "assumptions": [
+   "The Model Tenancy Act provisions depend on whether Maharashtra has enacted a law based on it; otherwise, the state's rent law and your rent agreement govern the deposit.",
+   "It is assumed there are no other written clauses in your rent agreement that alter the standard deposit refund terms."
+  ]
+ },
+ "answer_en_md": "### Understanding your situation\nYou are a tenant who vacated a flat in Pune on 15 August 2026 and handed over the keys. Your landlord is withholding your ₹40,000 security deposit without giving any reason, despite there being no damage and no pending rent.\n\n### Where you stand legally\n- Your landlord is required to refund the security deposit at the time of taking over vacant possession, after making due deductions for any liability, if the state has enacted a law based on the Model Tenancy Act. [1]\n- At the end of the lease, you are required to hand back possession of the property to the landlord. [2]\n- You have a general limitation period of three years from when the right to sue accrues to file a civil suit to recover money such as an unreturned security deposit. [3]\n\n### Your options\n1. **Civil Suit for Money Recovery** — File a civil suit in the appropriate civil court to recover the ₹40,000 security deposit based on the three-year limitation period. [3]\n\n### Time limits\n- You have a limitation period of three years from when the right to sue accrues to file a civil suit for recovering the unreturned security deposit. [3]\n\n### What to do next\n1. Send a written demand to your landlord asking for the return of your ₹40,000 security deposit.\n2. Organize your rent agreement and bank transfer proof of the deposit.\n3. Consult a local advocate in Pune to discuss filing a civil money recovery suit if the landlord continues to withhold the amount.\n\n### Keep these ready\n- Rent agreement\n- Bank transfer proof of the deposit\n- Any written communication with the landlord regarding the handover of keys and the deposit\n\n### Draft: Legal notice (edit before using)\n> To,\n> [Landlord's Name]\n> [Landlord's Address]\n>\n> Subject: Demand for refund of security deposit of ₹40,000\n>\n> Dear Sir/Madam,\n>\n> I was a tenant at your property in Pune under our rent agreement. I vacated the flat and handed over the keys to you on 15 August 2026.\n>\n> There was no damage to the property and no rent pending at the time of vacating. You have withheld my security deposit of ₹40,000 without providing any reason.\n>\n> I request you to kindly refund the amount of ₹40,000 to my bank account within [Number] days of receiving this notice.\n>\n> Sincerely,\n> [Your Name]\n> [Your Contact Information]\n\n### When to involve a lawyer\n- You can usually start this yourself. If the other side does not respond, or you are unsure about any step, consult a lawyer.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- The Model Tenancy Act provisions depend on whether Maharashtra has enacted a law based on it; otherwise, the state's rent law and your rent agreement govern the deposit.\n- It is assumed there are no other written clauses in your rent agreement that alter the standard deposit refund terms.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 11, *Model Tenancy Act, 2021* — Security deposit limits and refund\n2. Section 108, *Transfer of Property Act, 1882* — Rights and duties of landlord and tenant\n3. Article 113 (Schedule), *Limitation Act, 1963* — General limitation period for civil money suits\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+ "removed_items": [],
+ "usage": [
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 771,
+   "prompt_tokens": 993,
+   "completion_tokens": 135
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1787,
+   "prompt_tokens": 2149,
+   "completion_tokens": 199
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 641,
+   "prompt_tokens": 1022,
+   "completion_tokens": 121
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 2028,
+   "prompt_tokens": 2206,
+   "completion_tokens": 177
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 583,
+   "prompt_tokens": 1061,
+   "completion_tokens": 111
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1737,
+   "prompt_tokens": 2234,
+   "completion_tokens": 188
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 882,
+   "prompt_tokens": 274,
+   "completion_tokens": 18
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3281,
+   "prompt_tokens": 1910,
+   "completion_tokens": 788
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3286,
+   "prompt_tokens": 1925,
+   "completion_tokens": 1005
+  },
+  {
+   "role": "llm3",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 1788,
+   "prompt_tokens": 2216,
+   "completion_tokens": 580
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3088,
+   "prompt_tokens": 1976,
+   "completion_tokens": 838
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 3258,
+   "prompt_tokens": 1991,
+   "completion_tokens": 823
+  },
+  {
+   "role": "llm3",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 2226,
+   "prompt_tokens": 2015,
+   "completion_tokens": 469
+  }
+ ],
+ "last_error": null
+}

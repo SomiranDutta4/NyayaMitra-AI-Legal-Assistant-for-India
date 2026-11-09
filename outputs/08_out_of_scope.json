@@ -1,0 +1,49 @@
+{
+ "session_id": "08_out_of_scope-1794199229",
+ "status": "INTAKE",
+ "language": "en",
+ "language_locked": false,
+ "language_override": null,
+ "domains": [],
+ "transcript": [
+  {
+   "role": "user",
+   "display": "How do I reduce my income tax with section 80C?",
+   "en": "How do I reduce my income tax with section 80C?"
+  },
+  {
+   "role": "assistant",
+   "display": "I am unable to assist with income tax queries as tax matters fall outside the legal areas I cover. For guidance on section 80C and tax savings, I recommend consulting a chartered accountant or a tax professional.",
+   "en": ""
+  }
+ ],
+ "case_statements_en": [],
+ "checklist": {},
+ "sub_issues": {},
+ "key_date": null,
+ "amount_inr": null,
+ "pending_field": null,
+ "pending_retries": 0,
+ "questions_asked": 0,
+ "additional_asked": false,
+ "grounding_retries": 0,
+ "safety_flags": [],
+ "retrieval_calls": 0,
+ "retrieval_log": [],
+ "evidence_ids": [],
+ "computed": {},
+ "audit_reports": [],
+ "answer": null,
+ "answer_en_md": null,
+ "removed_items": [],
+ "usage": [
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1364,
+   "prompt_tokens": 963,
+   "completion_tokens": 136
+  }
+ ],
+ "last_error": null
+}

@@ -1,0 +1,1022 @@
+{
+  "_about": "Curated plain-language summaries of Indian Bare Act provisions. Each entry is one citeable unit (doc_id). Summaries were written from the official text on indiacode.nic.in; they are not the verbatim Act text. 'related' links pull companion provisions (e.g. limitation, forum, fee) into the evidence set.",
+  "provisions": [
+    {
+      "doc_id": "CPA2019_S2_7",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 2(7)",
+      "title": "Who is a consumer",
+      "text": "A consumer is any person who buys goods or hires or avails of any service for a consideration that has been paid, promised, partly paid or deferred, including transactions made online, through e-commerce, teleshopping or multi-level marketing. A person who obtains goods for resale or for a commercial purpose is not a consumer, but use of goods or services for earning a livelihood by self-employment is not a commercial purpose.",
+      "keywords": "consumer buyer customer purchase online order e-commerce service",
+      "related": [
+        "CPA2019_S35"
+      ]
+    },
+    {
+      "doc_id": "CPA2019_S2_10",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 2(10)",
+      "title": "Defect in goods",
+      "text": "A defect means any fault, imperfection or shortcoming in the quality, quantity, potency, purity or standard of goods which is required to be maintained under any law, or under any contract (express or implied), or as claimed by the trader.",
+      "keywords": "defective product broken damaged faulty goods not working quality",
+      "related": [
+        "CPA2019_S39",
+        "CPA2019_S2_47"
+      ]
+    },
+    {
+      "doc_id": "CPA2019_S2_11",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 2(11)",
+      "title": "Deficiency in service",
+      "text": "Deficiency means any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance of a service which is required to be maintained under any law or contract, and includes any act of negligence, omission or commission by the service provider which causes loss or injury to the consumer, and deliberate withholding of relevant information from the consumer.",
+      "keywords": "deficiency service poor service negligence airline bank courier refund not given delay",
+      "related": [
+        "CPA2019_S39"
+      ]
+    },
+    {
+      "doc_id": "CPA2019_S2_47",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 2(47)",
+      "title": "Unfair trade practice (including refusal to take back defective goods)",
+      "text": "Unfair trade practice includes false or misleading representations about goods or services, misleading advertisements, and not taking back defective goods or not withdrawing deficient services and not refunding the consideration within the period stipulated in the bill or cash memo, or, if no period is stipulated, within thirty days.",
+      "keywords": "unfair trade practice refund refused misleading advertisement return refused seller refused replacement",
+      "related": [
+        "CPA2019_S39"
+      ]
+    },
+    {
+      "doc_id": "CPA2019_S34",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 34",
+      "title": "Where to file: territorial jurisdiction of the District Commission",
+      "text": "A complaint may be filed before the District Commission within whose local limits the opposite party resides or carries on business or has a branch office, or the cause of action wholly or partly arises, or the complainant resides or personally works for gain. The money limits for each Commission are now set by the 2021 Jurisdiction Rules.",
+      "keywords": "which consumer court where to file district commission jurisdiction location",
+      "related": [
+        "CPJR2021_R3_5",
+        "CPA2019_S35"
+      ]
+    },
+    {
+      "doc_id": "CPJR2021_R3_5",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021",
+      "section": "Rules 3 to 5",
+      "title": "Money limits for District, State and National Commissions",
+      "text": "The District Commission hears complaints where the value of goods or services paid as consideration does not exceed fifty lakh rupees. The State Commission hears complaints above fifty lakh rupees and up to two crore rupees. The National Commission hears complaints above two crore rupees.",
+      "keywords": "pecuniary jurisdiction value limit district state national commission amount",
+      "related": [
+        "CPA2019_S34"
+      ]
+    },
+    {
+      "doc_id": "CPA2019_S35",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 35",
+      "title": "How to file a consumer complaint",
+      "text": "A complaint about goods sold or services provided may be filed with the District Commission by the consumer, by a recognised consumer association, by one or more consumers with the same interest, or by the government. The complaint may be filed electronically (in practice through the e-Daakhil portal).",
+      "keywords": "file consumer complaint how to complain consumer court e-daakhil online complaint",
+      "related": [
+        "CPA2019_S69",
+        "CPJR2021_R3_5",
+        "CDRC2020_R7",
+        "CPA2019_S38"
+      ]
+    },
+    {
+      "doc_id": "CPA2019_S38",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 38",
+      "title": "Procedure and timeline of the District Commission",
+      "text": "On admitting a complaint, the District Commission sends a copy to the opposite party, who must give its version within thirty days, extendable by up to fifteen days. The complaint is to be decided, as far as possible, within three months from the date the opposite party receives notice where no testing of goods is needed, and within five months where analysis or testing of goods is needed.",
+      "keywords": "how long consumer case takes procedure hearing timeline",
+      "related": [
+        "CPA2019_S39"
+      ]
+    },
+    {
+      "doc_id": "CPA2019_S39",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 39",
+      "title": "What the District Commission can order",
+      "text": "If the complaint is proved, the District Commission can order the opposite party to remove the defect, replace the goods, return the price or charges paid along with interest, pay compensation for loss or injury suffered, pay punitive damages in appropriate cases, remove deficiencies in service, discontinue the unfair trade practice, and pay adequate costs to the complainant.",
+      "keywords": "remedy relief refund replacement compensation interest damages order",
+      "related": [
+        "CPA2019_S35"
+      ]
+    },
+    {
+      "doc_id": "CPA2019_S41",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 41",
+      "title": "Appeal against a District Commission order",
+      "text": "A person aggrieved by an order of the District Commission may appeal to the State Commission within forty-five days from the date of the order. An appeal by the person ordered to pay is entertained only after depositing fifty per cent of the amount ordered.",
+      "keywords": "appeal state commission against order",
+      "related": []
+    },
+    {
+      "doc_id": "CPA2019_S69",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection Act, 2019",
+      "section": "Section 69",
+      "title": "Limitation period for consumer complaints",
+      "text": "A consumer complaint must be filed within two years from the date on which the cause of action arises. A complaint filed later can be admitted only if the complainant satisfies the Commission that there was sufficient cause for the delay, and the Commission records its reasons for condoning the delay.",
+      "keywords": "time limit limitation deadline how many years to file consumer complaint late delay",
+      "related": []
+    },
+    {
+      "doc_id": "CDRC2020_R7",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020",
+      "section": "Rule 7",
+      "title": "Court fee for consumer complaints (District level)",
+      "text": "No fee is payable for complaints where the value of goods or services paid as consideration is up to five lakh rupees. The fee is two hundred rupees above five lakh and up to ten lakh rupees, four hundred rupees above ten lakh and up to twenty lakh rupees, and one thousand rupees above twenty lakh and up to fifty lakh rupees. (The fee table was substituted by a 2023 amendment; confirm the current fee with the District Commission before filing.)",
+      "keywords": "fee cost court fee consumer complaint charges free",
+      "related": []
+    },
+    {
+      "doc_id": "ECOM2020_R4",
+      "domains": [
+        "Consumer Law"
+      ],
+      "act": "Consumer Protection (E-Commerce) Rules, 2020",
+      "section": "Rule 4",
+      "title": "Duties of e-commerce platforms: grievance officer and timelines",
+      "text": "Every e-commerce entity must set up a grievance redressal mechanism and appoint a grievance officer whose details are displayed on its platform. The grievance officer must acknowledge a consumer complaint within forty-eight hours and redress it within one month from the date of receipt.",
+      "keywords": "amazon flipkart e-commerce online platform grievance officer complaint marketplace seller",
+      "related": [
+        "CPA2019_S35"
+      ]
+    },
+    {
+      "doc_id": "TPA1882_S105",
+      "domains": [
+        "Property Law"
+      ],
+      "act": "Transfer of Property Act, 1882",
+      "section": "Section 105",
+      "title": "What a lease is",
+      "text": "A lease of immovable property is a transfer of a right to enjoy the property for a certain time, express or implied, or in perpetuity, in consideration of a price paid or promised, or money or other value to be rendered periodically. The transferor is the lessor (landlord), the transferee is the lessee (tenant), and the price is the rent.",
+      "keywords": "lease rent tenant landlord tenancy flat house room rented",
+      "related": [
+        "TPA1882_S106"
+      ]
+    },
+    {
+      "doc_id": "TPA1882_S106",
+      "domains": [
+        "Property Law"
+      ],
+      "act": "Transfer of Property Act, 1882",
+      "section": "Section 106",
+      "title": "Notice to end a lease when the agreement is silent",
+      "text": "If there is no contract or local law to the contrary, a lease of immovable property for purposes other than agriculture or manufacturing is treated as a month-to-month lease, which either party can end by giving fifteen days' notice. A lease for agricultural or manufacturing purposes is treated as year-to-year and needs six months' notice. The notice must be in writing, signed, and delivered to the other party.",
+      "keywords": "notice period vacate eviction notice terminate lease landlord asking to leave",
+      "related": [
+        "TPA1882_S108"
+      ]
+    },
+    {
+      "doc_id": "TPA1882_S108",
+      "domains": [
+        "Property Law"
+      ],
+      "act": "Transfer of Property Act, 1882",
+      "section": "Section 108",
+      "title": "Rights and duties of landlord and tenant",
+      "text": "Unless the contract says otherwise, the landlord must on the tenant's request put the tenant in possession, and must let the tenant hold the property peacefully during the lease if the tenant pays rent and performs the contract. The tenant must pay rent on time, keep the property in as good condition as received (subject to normal wear and tear), and on the end of the lease must hand back possession to the landlord.",
+      "keywords": "landlord duties tenant duties repairs possession handover peaceful enjoyment",
+      "related": []
+    },
+    {
+      "doc_id": "MTA2021_S11",
+      "domains": [
+        "Property Law"
+      ],
+      "act": "Model Tenancy Act, 2021",
+      "section": "Section 11",
+      "title": "Security deposit limits and refund",
+      "text": "The security deposit for residential premises cannot exceed two months' rent, and for non-residential premises cannot exceed six months' rent. The landlord must refund the security deposit to the tenant at the time of taking over vacant possession, after making due deductions for any liability of the tenant. Note: the Model Tenancy Act applies only in states that have enacted a law based on it; elsewhere the state's rent law and the rent agreement govern the deposit.",
+      "keywords": "security deposit refund landlord not returning deposit advance rent withheld",
+      "related": [
+        "LIM1963_A113",
+        "TPA1882_S108"
+      ]
+    },
+    {
+      "doc_id": "MTA2021_S20",
+      "domains": [
+        "Property Law"
+      ],
+      "act": "Model Tenancy Act, 2021",
+      "section": "Section 20",
+      "title": "Landlord cannot cut essential supplies",
+      "text": "A landlord or property manager must not cut off or withhold any essential supply or service (such as water or electricity) in premises occupied by the tenant. The Rent Authority can order restoration of the supply. Note: applies only in states that have enacted a law based on the Model Tenancy Act.",
+      "keywords": "electricity cut water cut landlord harassment essential supply",
+      "related": []
+    },
+    {
+      "doc_id": "SRA1963_S6",
+      "domains": [
+        "Property Law"
+      ],
+      "act": "Specific Relief Act, 1963",
+      "section": "Section 6",
+      "title": "Suit to recover possession after illegal dispossession",
+      "text": "If a person is dispossessed of immovable property without their consent and otherwise than in due course of law, they can file a suit to recover possession, without having to prove title. Such a suit must be filed within six months from the date of dispossession, and cannot be filed against the Government. No appeal lies from an order in such a suit.",
+      "keywords": "locked out locked my room locked room landlord locked lock on door locks changed thrown out illegal eviction forced out belongings thrown dispossessed possession taken",
+      "related": []
+    },
+    {
+      "doc_id": "LIM1963_A113",
+      "domains": [
+        "Property Law",
+        "Contract Law",
+        "Employment and Labour Law"
+      ],
+      "act": "Limitation Act, 1963",
+      "section": "Article 113 (Schedule)",
+      "title": "General limitation period for civil money suits",
+      "text": "For any suit for which no specific period of limitation is provided elsewhere in the Schedule, the limitation period is three years from when the right to sue accrues. This is commonly used for civil suits to recover money such as an unreturned security deposit.",
+      "keywords": "limitation time limit civil suit recover money deadline years",
+      "related": []
+    },
+    {
+      "doc_id": "RERA2016_S18",
+      "domains": [
+        "Property Law"
+      ],
+      "act": "Real Estate (Regulation and Development) Act, 2016",
+      "section": "Section 18",
+      "title": "Builder delay: refund with interest or interest for delay",
+      "text": "If a promoter fails to complete or is unable to give possession of an apartment, plot or building as per the agreement for sale, an allottee who wishes to withdraw is entitled to a refund of the amount paid with interest and compensation. An allottee who does not wish to withdraw is entitled to interest for every month of delay until possession is handed over.",
+      "keywords": "builder delay possession flat purchase rera refund interest under construction",
+      "related": [
+        "RERA2016_S31"
+      ]
+    },
+    {
+      "doc_id": "RERA2016_S31",
+      "domains": [
+        "Property Law"
+      ],
+      "act": "Real Estate (Regulation and Development) Act, 2016",
+      "section": "Section 31",
+      "title": "Complaint to the RERA Authority",
+      "text": "Any aggrieved person may file a complaint with the Real Estate Regulatory Authority or the adjudicating officer for any violation of the Act, rules or regulations by a promoter, allottee or real estate agent.",
+      "keywords": "rera complaint builder authority file complaint",
+      "related": []
+    },
+    {
+      "doc_id": "COW2019_S17",
+      "domains": [
+        "Employment and Labour Law"
+      ],
+      "act": "Code on Wages, 2019",
+      "section": "Section 17",
+      "title": "Deadline for paying wages (including on leaving a job)",
+      "text": "Monthly wages must be paid before the expiry of the seventh day of the following month; weekly wages on the last working day of the week; daily wages at the end of the shift; and fortnightly wages before the end of the second day after the fortnight. If an employee is removed, dismissed, retrenched, resigns, or becomes unemployed due to closure of the establishment, wages due must be paid within two working days. Note: this section of the Code on Wages came into force on 21 November 2025 (most of the Code was brought into force on that date); for wage periods before that date the Payment of Wages Act, 1936 may apply.",
+      "keywords": "salary not paid wages delayed unpaid salary final settlement full and final resigned terminated dues",
+      "related": [
+        "COW2019_S45",
+        "PWA1936_S5"
+      ]
+    },
+    {
+      "doc_id": "COW2019_S45",
+      "domains": [
+        "Employment and Labour Law"
+      ],
+      "act": "Code on Wages, 2019",
+      "section": "Section 45",
+      "title": "Claim for unpaid or delayed wages before the wage authority",
+      "text": "Claims for non-payment or delayed payment of wages, payment of less than minimum wages, unauthorised deductions or bonus can be filed before the authority appointed by the government (an officer not below the rank of Gazetted Officer, usually in the Labour Department). The authority can direct payment of the amount due along with compensation. A claim must be filed within three years from the date on which the claim arises.",
+      "keywords": "labour commissioner wage claim complaint unpaid salary authority labour department",
+      "related": [
+        "COW2019_S17"
+      ]
+    },
+    {
+      "doc_id": "PWA1936_S5",
+      "domains": [
+        "Employment and Labour Law"
+      ],
+      "act": "Payment of Wages Act, 1936",
+      "section": "Section 5",
+      "title": "Time of payment of wages (older law, for periods before 21 November 2025)",
+      "text": "In establishments with fewer than one thousand persons employed, wages must be paid before the expiry of the seventh day after the last day of the wage period; in other establishments before the tenth day. Wages of an employee whose employment is terminated must be paid before the expiry of the second working day from the day of termination.",
+      "keywords": "payment of wages act salary delay older law",
+      "related": [
+        "PWA1936_S15"
+      ]
+    },
+    {
+      "doc_id": "PWA1936_S15",
+      "domains": [
+        "Employment and Labour Law"
+      ],
+      "act": "Payment of Wages Act, 1936",
+      "section": "Section 15",
+      "title": "Wage claims under the older law",
+      "text": "Claims arising from deductions from wages or delay in payment of wages can be filed before the authority appointed under the Act, within twelve months from the date the deduction was made or the wages became payable. The authority may allow a later application if there was sufficient cause for the delay.",
+      "keywords": "payment of wages authority claim older law",
+      "related": []
+    },
+    {
+      "doc_id": "PGA1972_S4",
+      "domains": [
+        "Employment and Labour Law"
+      ],
+      "act": "Payment of Gratuity Act, 1972",
+      "section": "Section 4",
+      "title": "Gratuity: eligibility and amount",
+      "text": "Gratuity is payable when employment ends after at least five years of continuous service (the five-year condition does not apply on death or disablement). It is calculated at fifteen days' wages (based on last drawn wages) for every completed year of service, subject to a ceiling of twenty lakh rupees. Note: from 21 November 2025 gratuity is governed by the Code on Social Security, 2020, under which fixed-term employees become eligible after one year of service.",
+      "keywords": "gratuity five years service resignation retirement",
+      "related": [
+        "PGA1972_S7"
+      ]
+    },
+    {
+      "doc_id": "PGA1972_S7",
+      "domains": [
+        "Employment and Labour Law"
+      ],
+      "act": "Payment of Gratuity Act, 1972",
+      "section": "Section 7",
+      "title": "Gratuity: payment deadline and disputes",
+      "text": "The employer must pay gratuity within thirty days from the date it becomes payable; if not, the employer must pay simple interest for the delay. Disputes about the amount or eligibility can be referred to the Controlling Authority.",
+      "keywords": "gratuity not paid controlling authority interest delay",
+      "related": []
+    },
+    {
+      "doc_id": "IRC2020_S70",
+      "domains": [
+        "Employment and Labour Law"
+      ],
+      "act": "Industrial Relations Code, 2020",
+      "section": "Section 70",
+      "title": "Conditions before retrenching a worker",
+      "text": "A worker who has been in continuous service for at least one year cannot be retrenched unless the worker is given one month's notice in writing stating the reasons (or wages in lieu of notice) and is paid retrenchment compensation equal to fifteen days' average pay (or such other number of days as the government may notify) for every completed year of continuous service or any part of a year in excess of six months, and notice is also given to the appropriate government. This applies to 'workers' as defined in the Code, which excludes most managerial staff and supervisory staff above the notified wage limit.",
+      "keywords": "fired terminated without notice retrenchment laid off job loss compensation",
+      "related": [
+        "COW2019_S17"
+      ]
+    },
+    {
+      "doc_id": "ICA1872_S10",
+      "domains": [
+        "Contract Law"
+      ],
+      "act": "Indian Contract Act, 1872",
+      "section": "Section 10",
+      "title": "What makes an agreement a valid contract",
+      "text": "An agreement is a contract if it is made with the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and is not expressly declared void. A contract can be oral, written or formed through messages, unless a law requires a particular form.",
+      "keywords": "valid contract agreement oral written whatsapp email enforceable",
+      "related": [
+        "ICA1872_S73"
+      ]
+    },
+    {
+      "doc_id": "ICA1872_S39",
+      "domains": [
+        "Contract Law"
+      ],
+      "act": "Indian Contract Act, 1872",
+      "section": "Section 39",
+      "title": "When the other side refuses to perform",
+      "text": "When a party to a contract refuses to perform, or disables itself from performing, its promise in full, the other party may put an end to the contract, unless it has signified by words or conduct that it accepts the contract continuing.",
+      "keywords": "refused to perform backed out cancel contract terminate breach",
+      "related": [
+        "ICA1872_S73"
+      ]
+    },
+    {
+      "doc_id": "ICA1872_S73",
+      "domains": [
+        "Contract Law"
+      ],
+      "act": "Indian Contract Act, 1872",
+      "section": "Section 73",
+      "title": "Compensation for breach of contract",
+      "text": "When a contract is broken, the party who suffers is entitled to receive compensation from the party who broke it for any loss or damage which naturally arose in the usual course of things from the breach, or which both parties knew when making the contract was likely to result from it. Compensation is not given for remote and indirect loss.",
+      "keywords": "breach of contract damages compensation loss not paid freelancer vendor client",
+      "related": [
+        "LIM1963_A55",
+        "ICA1872_S74"
+      ]
+    },
+    {
+      "doc_id": "ICA1872_S74",
+      "domains": [
+        "Contract Law"
+      ],
+      "act": "Indian Contract Act, 1872",
+      "section": "Section 74",
+      "title": "Penalty or fixed damages named in the contract",
+      "text": "If a contract names a sum to be paid on breach, or contains a penalty clause, the party who suffers the breach is entitled to reasonable compensation not exceeding the amount named, whether or not actual loss is proved.",
+      "keywords": "penalty clause liquidated damages fixed amount on breach",
+      "related": []
+    },
+    {
+      "doc_id": "LIM1963_A55",
+      "domains": [
+        "Contract Law"
+      ],
+      "act": "Limitation Act, 1963",
+      "section": "Article 55 (Schedule)",
+      "title": "Limitation for suits on breach of contract",
+      "text": "A suit for compensation for breaking a contract must be filed within three years from the date when the contract is broken.",
+      "keywords": "limitation contract breach time limit years",
+      "related": []
+    },
+    {
+      "doc_id": "SRA1963_S10",
+      "domains": [
+        "Contract Law"
+      ],
+      "act": "Specific Relief Act, 1963",
+      "section": "Section 10",
+      "title": "Court-ordered performance of a contract",
+      "text": "The court can order a party to actually perform its contract (specific performance), subject to the conditions and exceptions in sections 11(2), 14 and 16 of the Act.",
+      "keywords": "specific performance enforce contract force them to perform sale agreement",
+      "related": []
+    },
+    {
+      "doc_id": "ACA1996_S8",
+      "domains": [
+        "Contract Law"
+      ],
+      "act": "Arbitration and Conciliation Act, 1996",
+      "section": "Section 8",
+      "title": "If the contract has an arbitration clause",
+      "text": "If a dispute is the subject of an arbitration agreement, a court before which a case is filed must refer the parties to arbitration if a party applies for it no later than when submitting its first statement on the substance of the dispute, unless the court finds that no valid arbitration agreement exists.",
+      "keywords": "arbitration clause arbitrator dispute resolution clause",
+      "related": []
+    },
+    {
+      "doc_id": "BNS2023_S318",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Section 318",
+      "title": "Cheating",
+      "text": "Cheating means deceiving a person and fraudulently or dishonestly inducing them to deliver property or to do or omit something they would not otherwise do, causing or likely to cause them harm. Cheating is punishable with imprisonment up to three years, or fine, or both. Cheating that dishonestly induces the person to deliver property is punishable with imprisonment up to seven years and fine. Applies to offences committed on or after 1 July 2024.",
+      "keywords": "cheated fraud scam deceived took money cheating 420",
+      "related": [
+        "BNSS2023_S173"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S316",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Section 316",
+      "title": "Criminal breach of trust",
+      "text": "Criminal breach of trust is when a person entrusted with property dishonestly misappropriates it, converts it to their own use, or disposes of it in violation of the trust. It is punishable with imprisonment up to five years, or fine, or both. Applies to offences committed on or after 1 July 2024.",
+      "keywords": "breach of trust misappropriated entrusted money kept my belongings 406",
+      "related": [
+        "BNSS2023_S173"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S351",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Section 351",
+      "title": "Criminal intimidation (threats)",
+      "text": "Threatening a person with injury to their person, reputation or property, with intent to cause alarm or to make them do or not do something, is criminal intimidation, punishable with imprisonment up to two years, or fine, or both. If the threat is to cause death or grievous hurt, or similar serious threats, it is punishable with imprisonment up to seven years, or fine, or both. Applies to offences committed on or after 1 July 2024.",
+      "keywords": "threat threatened intimidation dhamki beat me kill me 506",
+      "related": [
+        "BNSS2023_S173"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S115",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Section 115",
+      "title": "Voluntarily causing hurt",
+      "text": "Voluntarily causing hurt (bodily pain, disease or infirmity) is punishable with imprisonment up to one year, or fine up to ten thousand rupees, or both. Applies to offences committed on or after 1 July 2024.",
+      "keywords": "hit beaten assault slapped hurt maar peet physical attack 323",
+      "related": [
+        "BNSS2023_S173"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S303",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Section 303",
+      "title": "Theft",
+      "text": "Dishonestly taking movable property out of a person's possession without their consent is theft, punishable with imprisonment up to three years, or fine, or both. Applies to offences committed on or after 1 July 2024.",
+      "keywords": "theft stole stolen took my laptop phone chori 379",
+      "related": [
+        "BNSS2023_S173"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S329",
+      "domains": [
+        "Criminal Law",
+        "Property Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Section 329",
+      "title": "Criminal trespass and house-trespass",
+      "text": "Entering or remaining on property in another's possession with intent to commit an offence, intimidate, insult or annoy is criminal trespass, punishable with imprisonment up to three months, or fine up to five thousand rupees, or both. Trespass into a building used as a dwelling (house-trespass) is punishable with imprisonment up to one year, or fine up to five thousand rupees, or both. Applies to offences committed on or after 1 July 2024.",
+      "keywords": "trespass entered my room broke into house landlord entered without permission",
+      "related": [
+        "BNSS2023_S173",
+        "SRA1963_S6"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S85",
+      "domains": [
+        "Criminal Law",
+        "Family Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Sections 85 and 86",
+      "title": "Cruelty by husband or his relatives",
+      "text": "If the husband of a woman, or his relative, subjects her to cruelty, they are punishable with imprisonment up to three years and fine. Cruelty means wilful conduct likely to drive the woman to suicide or cause grave injury or danger to her life, limb or health (mental or physical), or harassment to coerce her or her relatives to meet an unlawful demand for property or valuable security, such as dowry. Applies to offences committed on or after 1 July 2024.",
+      "keywords": "cruelty dowry harassment husband in-laws 498a wife harassed",
+      "related": [
+        "BNSS2023_S173",
+        "PWDVA2005_S12"
+      ]
+    },
+    {
+      "doc_id": "BNSS2023_S173",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+      "section": "Section 173",
+      "title": "Filing an FIR (including Zero FIR and e-FIR)",
+      "text": "Information about a cognizable offence can be given to any police station, orally or by electronic communication, irrespective of where the offence was committed (Zero FIR). Information given electronically must be signed by the informant within three days. The informant gets a free copy of the recorded information. For offences punishable with three years or more but less than seven years, the officer may, with prior permission, conduct a preliminary enquiry within fourteen days. If the police refuse to record the information, the person may send it to the Superintendent of Police.",
+      "keywords": "fir police complaint police refused zero fir e-fir report crime",
+      "related": [
+        "BNSS2023_S175"
+      ]
+    },
+    {
+      "doc_id": "BNSS2023_S175",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+      "section": "Section 175(3)",
+      "title": "Asking the Magistrate to order investigation",
+      "text": "If the police do not act, a Magistrate empowered under the law can order an investigation on an application supported by an affidavit, after the applicant has first approached the Superintendent of Police and after considering any submissions of the police officer.",
+      "keywords": "magistrate complaint police not acting order investigation 156(3)",
+      "related": []
+    },
+    {
+      "doc_id": "BNS2023_S34_35",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Sections 34 and 35",
+      "title": "Right of private defence (self-defence) of body and property",
+      "text": "Nothing done in the exercise of the right of private defence is an offence. Every person has a right, subject to the restrictions in Section 37, to defend their own body and the body of any other person against any offence affecting the human body, and to defend their own or another person's movable or immovable property against theft, robbery, mischief or criminal trespass, or an attempt to commit them. (These replaced Sections 96 and 97 of the Indian Penal Code from 1 July 2024.)",
+      "keywords": "self defence self-defense private defence defend myself protect myself thief intruder burglar attack fight back can i hit back protect my family protect my house",
+      "related": [
+        "BNS2023_S37",
+        "BNS2023_S38",
+        "BNS2023_S41",
+        "BNS2023_S40_43"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S37",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Section 37",
+      "title": "Limits of private defence: no more harm than necessary",
+      "text": "The right of private defence does not apply where there is time to seek the protection of the public authorities (such as the police), and does not apply against acts of a public servant acting in good faith under colour of office unless they cause a reasonable fear of death or grievous hurt. In no case does the right extend to causing more harm than is necessary for the purpose of defence.",
+      "keywords": "limit self defence excessive force how much force police time to call police more harm than necessary",
+      "related": [
+        "BNS2023_S34_35"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S38",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Sections 38 and 39",
+      "title": "When self-defence of the body can extend to causing death",
+      "text": "The right of private defence of the body extends, within the limits of Section 37, to voluntarily causing death or any other harm to the attacker if the assault reasonably causes fear of death or of grievous hurt, or is made with the intention of rape, unnatural lust, kidnapping or abduction, or wrongful confinement where the victim cannot reach the authorities, or is an act of throwing or attempting to throw acid that reasonably causes fear of grievous hurt. In other cases the right extends to causing any harm other than death.",
+      "keywords": "self defence kill attacker death grievous hurt rape acid attack kidnapping deadly force",
+      "related": [
+        "BNS2023_S37"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S41",
+      "domains": [
+        "Criminal Law",
+        "Property Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Sections 41 and 42",
+      "title": "When defence of property can extend to causing death",
+      "text": "The right of private defence of property extends, within the limits of Section 37, to voluntarily causing death or any other harm to the wrongdoer if the offence is robbery, house-breaking after sunset and before sunrise, mischief by fire or explosive to a building, tent or vessel used as a dwelling or to keep property, or theft, mischief or house-trespass in circumstances that reasonably cause fear of death or grievous hurt. In other cases of theft, mischief or criminal trespass, the right extends to causing any harm other than death.",
+      "keywords": "thief at night burglar break in house-breaking robbery defend property defend house intruder at home",
+      "related": [
+        "BNS2023_S37",
+        "BNS2023_S40_43"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S40_43",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Sections 40 and 43",
+      "title": "When the right of self-defence starts and ends",
+      "text": "The right of private defence of the body starts as soon as a reasonable fear of danger to the body arises from an attempt or threat to commit an offence, and continues as long as that fear continues. The right of private defence of property against theft continues until the offender has escaped with the property, the help of public authorities is obtained, or the property is recovered; against robbery, as long as the offender causes or attempts to cause death, hurt or wrongful restraint or the fear of it continues; against criminal trespass or mischief, as long as the trespass or mischief continues; and against house-breaking at night, as long as the house-trespass continues.",
+      "keywords": "when does self defence start end chase thief after he runs away continue defence",
+      "related": [
+        "BNS2023_S37"
+      ]
+    },
+    {
+      "doc_id": "BNS2023_S358",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Bharatiya Nyaya Sanhita, 2023",
+      "section": "Section 358",
+      "title": "Repeal of the IPC and which law applies",
+      "text": "The Indian Penal Code, 1860 is repealed by the Bharatiya Nyaya Sanhita, which came into force on 1 July 2024. Offences committed before 1 July 2024 continue to be dealt with under the Indian Penal Code; offences committed on or after that date fall under the Bharatiya Nyaya Sanhita.",
+      "keywords": "ipc bns which law old new criminal law transition",
+      "related": []
+    },
+    {
+      "doc_id": "IPC1860_S420",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Indian Penal Code, 1860",
+      "section": "Section 420",
+      "title": "Cheating and dishonestly inducing delivery of property (offences before 1 July 2024)",
+      "text": "Cheating and thereby dishonestly inducing the deceived person to deliver property is punishable with imprisonment up to seven years and fine. Applies only to offences committed before 1 July 2024.",
+      "keywords": "cheating fraud 420 old law",
+      "related": [
+        "CRPC1973_S154"
+      ]
+    },
+    {
+      "doc_id": "IPC1860_S406",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Indian Penal Code, 1860",
+      "section": "Section 406",
+      "title": "Criminal breach of trust (offences before 1 July 2024)",
+      "text": "Criminal breach of trust is punishable with imprisonment up to three years, or fine, or both. Applies only to offences committed before 1 July 2024.",
+      "keywords": "breach of trust 406 old law",
+      "related": [
+        "CRPC1973_S154"
+      ]
+    },
+    {
+      "doc_id": "IPC1860_S506",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Indian Penal Code, 1860",
+      "section": "Section 506",
+      "title": "Criminal intimidation (offences before 1 July 2024)",
+      "text": "Criminal intimidation is punishable with imprisonment up to two years, or fine, or both. If the threat is to cause death or grievous hurt, it is punishable with imprisonment up to seven years, or fine, or both. Applies only to offences committed before 1 July 2024.",
+      "keywords": "threat intimidation 506 old law",
+      "related": [
+        "CRPC1973_S154"
+      ]
+    },
+    {
+      "doc_id": "IPC1860_S323",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Indian Penal Code, 1860",
+      "section": "Section 323",
+      "title": "Voluntarily causing hurt (offences before 1 July 2024)",
+      "text": "Voluntarily causing hurt is punishable with imprisonment up to one year, or fine up to one thousand rupees, or both. Applies only to offences committed before 1 July 2024.",
+      "keywords": "hurt assault 323 old law",
+      "related": [
+        "CRPC1973_S154"
+      ]
+    },
+    {
+      "doc_id": "IPC1860_S379",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Indian Penal Code, 1860",
+      "section": "Section 379",
+      "title": "Theft (offences before 1 July 2024)",
+      "text": "Theft is punishable with imprisonment up to three years, or fine, or both. Applies only to offences committed before 1 July 2024.",
+      "keywords": "theft 379 old law",
+      "related": [
+        "CRPC1973_S154"
+      ]
+    },
+    {
+      "doc_id": "IPC1860_S498A",
+      "domains": [
+        "Criminal Law",
+        "Family Law"
+      ],
+      "act": "Indian Penal Code, 1860",
+      "section": "Section 498A",
+      "title": "Cruelty by husband or relatives (offences before 1 July 2024)",
+      "text": "A husband or his relative who subjects a woman to cruelty is punishable with imprisonment up to three years and fine. Applies only to offences committed before 1 July 2024.",
+      "keywords": "498a cruelty dowry old law",
+      "related": [
+        "CRPC1973_S154"
+      ]
+    },
+    {
+      "doc_id": "CRPC1973_S154",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Code of Criminal Procedure, 1973",
+      "section": "Section 154",
+      "title": "FIR under the older procedure law (offences before 1 July 2024)",
+      "text": "Information about a cognizable offence given to the officer in charge of a police station must be recorded in writing and a free copy given to the informant. If the officer refuses, the person may send the information in writing to the Superintendent of Police. Note: from 1 July 2024 this is replaced by Section 173 of the Bharatiya Nagarik Suraksha Sanhita for new FIRs.",
+      "keywords": "fir 154 old procedure",
+      "related": []
+    },
+    {
+      "doc_id": "NIA1881_S138",
+      "domains": [
+        "Criminal Law",
+        "Contract Law"
+      ],
+      "act": "Negotiable Instruments Act, 1881",
+      "section": "Section 138",
+      "title": "Cheque bounce",
+      "text": "If a cheque issued to pay a debt is returned unpaid for insufficient funds, it is an offence if the cheque was presented within three months of its date (or within its validity), the payee sends a written demand notice within thirty days of receiving information of the dishonour from the bank, and the drawer fails to pay within fifteen days of receiving the notice. Punishment is imprisonment up to two years, or fine up to twice the cheque amount, or both.",
+      "keywords": "cheque bounce dishonour returned cheque insufficient funds",
+      "related": [
+        "NIA1881_S142"
+      ]
+    },
+    {
+      "doc_id": "NIA1881_S142",
+      "domains": [
+        "Criminal Law",
+        "Contract Law"
+      ],
+      "act": "Negotiable Instruments Act, 1881",
+      "section": "Section 142",
+      "title": "Cheque bounce complaint: deadline and court",
+      "text": "A cheque bounce complaint must be made in writing by the payee within one month from the date the cause of action arises (that is, after the fifteen-day payment period following the notice expires), before a Metropolitan Magistrate or Judicial Magistrate of the first class. The court may take a complaint after this period if sufficient cause for the delay is shown. The complaint is filed where the payee's bank branch (where the cheque was presented for collection) is located.",
+      "keywords": "cheque bounce complaint court time limit magistrate",
+      "related": []
+    },
+    {
+      "doc_id": "ITA2000_S66D",
+      "domains": [
+        "Criminal Law"
+      ],
+      "act": "Information Technology Act, 2000",
+      "section": "Section 66D",
+      "title": "Online fraud by impersonation",
+      "text": "Cheating by personation using any communication device or computer resource is punishable with imprisonment up to three years and fine up to one lakh rupees.",
+      "keywords": "online fraud upi scam cyber fraud fake call impersonation phishing otp",
+      "related": [
+        "BNSS2023_S173"
+      ]
+    },
+    {
+      "doc_id": "HMA1955_S9",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Hindu Marriage Act, 1955",
+      "section": "Section 9",
+      "title": "Restitution of conjugal rights (spouse has left)",
+      "text": "When a husband or wife has withdrawn from the society of the other without reasonable excuse, the aggrieved spouse may petition the district court for restitution of conjugal rights. If the court is satisfied that the statements are true and there is no legal ground to refuse, it may decree restitution. The burden of proving reasonable excuse is on the spouse who withdrew.",
+      "keywords": "wife left husband left spouse leaving me went to parents home come back restitution conjugal",
+      "related": [
+        "HMA1955_S13",
+        "BNSS2023_S144"
+      ]
+    },
+    {
+      "doc_id": "HMA1955_S13",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Hindu Marriage Act, 1955",
+      "section": "Section 13",
+      "title": "Grounds for divorce",
+      "text": "Either spouse may seek divorce on grounds including: voluntary sexual intercourse with another person after marriage; cruelty; desertion for a continuous period of not less than two years immediately before the petition; conversion to another religion; incurable unsoundness of mind or serious mental disorder; virulent and incurable venereal disease in communicable form; renouncing the world by entering a religious order; or not being heard of as alive for seven years or more. Divorce may also be sought where there has been no resumption of cohabitation for one year or more after a decree of judicial separation, or no restitution for one year or more after a decree of restitution of conjugal rights.",
+      "keywords": "divorce grounds cruelty desertion contested divorce separation",
+      "related": [
+        "HMA1955_S14",
+        "HMA1955_S13B"
+      ]
+    },
+    {
+      "doc_id": "HMA1955_S13B",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Hindu Marriage Act, 1955",
+      "section": "Section 13B",
+      "title": "Divorce by mutual consent",
+      "text": "Both spouses may jointly petition for divorce by mutual consent if they have been living separately for one year or more, have not been able to live together, and have mutually agreed that the marriage should be dissolved. They must make a second motion not earlier than six months and not later than eighteen months after presenting the petition, after which the court may pass a decree of divorce.",
+      "keywords": "mutual consent divorce both agree separation settlement",
+      "related": [
+        "HMA1955_S25"
+      ]
+    },
+    {
+      "doc_id": "HMA1955_S14",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Hindu Marriage Act, 1955",
+      "section": "Section 14",
+      "title": "No divorce petition within one year of marriage",
+      "text": "A divorce petition cannot be presented within one year of the date of marriage, unless the court allows it on the ground of exceptional hardship to the petitioner or exceptional depravity on the part of the respondent.",
+      "keywords": "divorce within one year newly married",
+      "related": []
+    },
+    {
+      "doc_id": "HMA1955_S24",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Hindu Marriage Act, 1955",
+      "section": "Section 24",
+      "title": "Maintenance and litigation expenses during the case",
+      "text": "In any proceeding under the Act, a husband or wife who has no independent income sufficient for support and the necessary expenses of the proceeding may ask the court to order the other spouse to pay those expenses and a monthly sum during the proceeding. Such an application should, as far as possible, be decided within sixty days from service of notice on the other spouse.",
+      "keywords": "interim maintenance during divorce case expenses pendente lite",
+      "related": [
+        "HMA1955_S25"
+      ]
+    },
+    {
+      "doc_id": "HMA1955_S25",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Hindu Marriage Act, 1955",
+      "section": "Section 25",
+      "title": "Permanent alimony",
+      "text": "At the time of passing any decree (such as divorce) or later, the court may order a spouse to pay the other a gross sum or periodic payments for maintenance and support, considering the income and property of both, the conduct of the parties and other circumstances.",
+      "keywords": "alimony permanent maintenance after divorce settlement amount",
+      "related": []
+    },
+    {
+      "doc_id": "HMA1955_S26",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Hindu Marriage Act, 1955",
+      "section": "Section 26",
+      "title": "Custody of children",
+      "text": "In any proceeding under the Act, the court may pass interim orders and make provisions in the decree, as it considers just, about the custody, maintenance and education of minor children, consistent with their wishes wherever possible.",
+      "keywords": "child custody children kids visitation who keeps the child",
+      "related": []
+    },
+    {
+      "doc_id": "BNSS2023_S144",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+      "section": "Section 144",
+      "title": "Maintenance for wife, children and parents",
+      "text": "If a person with sufficient means neglects or refuses to maintain his wife who is unable to maintain herself, his minor children, or his parents who are unable to maintain themselves, a Magistrate of the first class can order a monthly allowance. 'Wife' includes a divorced woman who has not remarried. The Magistrate can order interim maintenance during the proceeding, and such an application should, as far as possible, be decided within sixty days of notice. A wife is not entitled to maintenance if she is living in adultery, or if without sufficient reason she refuses to live with her husband, or if they are living separately by mutual consent. (This replaced Section 125 of the Code of Criminal Procedure from 1 July 2024.)",
+      "keywords": "maintenance kharcha monthly allowance wife maintenance child maintenance 125",
+      "related": [
+        "HMA1955_S24"
+      ]
+    },
+    {
+      "doc_id": "PWDVA2005_S3",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Protection of Women from Domestic Violence Act, 2005",
+      "section": "Section 3",
+      "title": "What counts as domestic violence",
+      "text": "Domestic violence includes physical abuse, sexual abuse, verbal and emotional abuse (including insults and ridicule), and economic abuse (including deprivation of money or resources the woman is entitled to), as well as harassment to meet unlawful dowry demands, by a person in a domestic relationship with the woman.",
+      "keywords": "domestic violence abuse beating wife harassment at home economic abuse",
+      "related": [
+        "PWDVA2005_S12"
+      ]
+    },
+    {
+      "doc_id": "PWDVA2005_S12",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Protection of Women from Domestic Violence Act, 2005",
+      "section": "Section 12",
+      "title": "Applying to the Magistrate for protection",
+      "text": "An aggrieved woman, a Protection Officer, or any other person on her behalf can apply to the Magistrate for reliefs under the Act. The first hearing is ordinarily fixed within three days of the Magistrate receiving the application, and the Magistrate should try to dispose of the application within sixty days of the first hearing.",
+      "keywords": "domestic violence case protection officer magistrate application",
+      "related": [
+        "PWDVA2005_S18_20"
+      ]
+    },
+    {
+      "doc_id": "PWDVA2005_S18_20",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Protection of Women from Domestic Violence Act, 2005",
+      "section": "Sections 18 to 20",
+      "title": "Protection, residence and monetary relief orders",
+      "text": "The Magistrate can pass protection orders stopping the respondent from committing domestic violence or contacting the woman; residence orders preventing her from being thrown out of the shared household; and monetary relief orders covering expenses and losses suffered due to the violence, including maintenance for her and her children.",
+      "keywords": "protection order residence order thrown out of house monetary relief",
+      "related": []
+    },
+    {
+      "doc_id": "FCA1984_S7",
+      "domains": [
+        "Family Law"
+      ],
+      "act": "Family Courts Act, 1984",
+      "section": "Section 7",
+      "title": "Family Court jurisdiction",
+      "text": "Where a Family Court has been set up, it hears matrimonial cases (divorce, restitution of conjugal rights, judicial separation, nullity), disputes about matrimonial property, maintenance, and guardianship or custody of children.",
+      "keywords": "family court where to file divorce court",
+      "related": []
+    },
+    {
+      "doc_id": "LSAA1987_S12",
+      "domains": [
+        "Consumer Law",
+        "Property Law",
+        "Employment and Labour Law",
+        "Contract Law",
+        "Criminal Law",
+        "Family Law"
+      ],
+      "act": "Legal Services Authorities Act, 1987",
+      "section": "Section 12",
+      "title": "Who can get free legal aid",
+      "text": "Free legal services are available to women and children, members of Scheduled Castes and Scheduled Tribes, victims of trafficking or begar, persons with disability, victims of mass disaster, ethnic violence, caste atrocity, flood, drought, earthquake or industrial disaster, industrial workmen, persons in custody, and persons whose annual income is below the limit notified by the government. Aid is given through the District Legal Services Authority.",
+      "keywords": "free lawyer legal aid cannot afford lawyer dlsa nalsa",
+      "related": []
+    }
+  ]
+}

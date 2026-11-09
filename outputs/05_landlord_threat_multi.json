@@ -1,0 +1,602 @@
+{
+ "session_id": "05_landlord_threat_multi-1794199084",
+ "status": "COMPLETED",
+ "language": "en",
+ "language_locked": true,
+ "language_override": null,
+ "domains": [
+  "Property Law",
+  "Criminal Law"
+ ],
+ "transcript": [
+  {
+   "role": "user",
+   "display": "My landlord locked my room on 1 November 2026, kept my laptop when I asked for my deposit, and threatened to beat me if I go to the police.",
+   "en": "My landlord locked my room on 1 November 2026, kept my laptop when I asked for my deposit, and threatened to beat me if I go to the police."
+  },
+  {
+   "role": "assistant",
+   "display": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n\nWhich city and state is the property located in?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "Bengaluru, Karnataka.",
+   "en": "Bengaluru, Karnataka."
+  },
+  {
+   "role": "assistant",
+   "display": "How much security deposit did you pay to your landlord?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "₹30,000.",
+   "en": "₹30,000."
+  },
+  {
+   "role": "assistant",
+   "display": "When did you vacate the room and hand over the keys to your landlord?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "I did not vacate — he locked me out.",
+   "en": "I did not vacate — he locked me out."
+  },
+  {
+   "role": "assistant",
+   "display": "Has the landlord given any reason for keeping the deposit, such as damage or unpaid rent?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "He gave no reason.",
+   "en": "He gave no reason."
+  },
+  {
+   "role": "assistant",
+   "display": "Since you mentioned the threat of assault, are you safe right now and is the harassment or threat ongoing?",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "I am staying at a friend's place now, so I am safe.",
+   "en": "I am staying at a friend's place now, so I am safe."
+  },
+  {
+   "role": "assistant",
+   "display": "Thank you. Do you have a rent or sale agreement, rent or deposit payment receipts, or messages with the other side? Anything else I should know? (You can reply 'no'.)",
+   "en": ""
+  },
+  {
+   "role": "user",
+   "display": "no",
+   "en": "no"
+  },
+  {
+   "role": "assistant",
+   "display": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n\n### Understanding your situation\nYour landlord locked you out of your room on 1 November 2026, kept your laptop and ₹30,000 deposit without giving a reason, and threatened to beat you if you go to the police. Since you did not vacate voluntarily and are currently staying safely at a friend's place, you have legal remedies under both civil and criminal laws.\n\n### Where you stand legally\n- Your landlord dispossessed you of your immovable property without your consent and otherwise than in due course of law when he locked your room. [1]\n- The landlord is required to let you hold the property peacefully during the lease if you perform your obligations, and he cannot lock you out or keep your belongings. [2]\n- Threatening to beat you if you go to the police constitutes criminal intimidation, which is punishable under criminal law. [3]\n- Withholding your laptop and refusing to return your deposit or belongings without consent can amount to criminal breach of trust or theft. [4][5]\n\n### Your options\n1. **File a Police Complaint (FIR)** — You can report the criminal intimidation, withholding of your laptop, and illegal lockout at a police station under the Bharatiya Nagarik Suraksha Sanhita, 2023. If the police refuse to record the information, you may send it to the Superintendent of Police. [6][3][4]\n2. **File a Civil Suit to Recover Possession** — You can file a suit to recover possession of your room without having to prove title, as you were dispossessed without your consent otherwise than in due course of law. [1]\n3. **File a Civil Money Suit for Deposit Recovery** — You can file a civil suit to recover your ₹30,000 security deposit, which has a general limitation period of three years from when the right to sue accrues. [7]\n\n### Time limits\n- A suit to recover possession after illegal dispossession must be filed within six months from the date of dispossession (1 November 2026). [1]\n- A civil money suit for recovering your security deposit can be filed within three years from when the right to sue accrues. [7]\n\n### What to do next\n1. Gather all evidence related to your tenancy, rent receipts, and the locked room.\n2. Approach the local police station in Bengaluru to file a complaint regarding the threats and your kept laptop.\n3. If the police refuse to record the information, send the complaint details to the Superintendent of Police.\n4. Consult a local advocate in Bengaluru to evaluate filing a suit for recovery of possession and your security deposit.\n5. Maintain a record of all communications with your landlord.\n\n### Keep these ready\n- Rent agreement or rent receipts showing your tenancy\n- Proof of payment of the ₹30,000 deposit\n- Any messages, call logs, or written communications with the landlord\n- Receipts or invoices proving ownership of the laptop kept inside the room\n\n### Draft: Police complaint (edit before using)\n> To,\n> The Officer in Charge,\n> Police Station, Bengaluru, Karnataka.\n>\n> Subject: Complaint regarding illegal lockout, withholding of laptop, security deposit, and criminal intimidation.\n>\n> Respected Sir/Madam,\n>\n> I am a tenant residing at [Landlord's Property Address], Bengaluru. On 1 November 2026, my landlord, [Landlord's Name], illegally locked my room without my consent and without any reason while I did not vacate the premises.\n>\n> My personal laptop and a security deposit of ₹30,000 are currently locked inside the room. When I asked for my deposit and access to my belongings, the landlord threatened to beat me if I approached the police.\n>\n> I am currently staying safely at a friend's place at [Friend's Address], but I require immediate assistance to retrieve my laptop, recover my deposit, and take action against the threats and illegal lockout.\n>\n> Kindly register an FIR and take strict legal action.\n>\n> Yours faithfully,\n> [Your Name]\n> [Your Contact Information]\n\n### When to involve a lawyer\n- Criminal matters can affect your liberty and record; have a lawyer review the complaint or FIR before you file or respond.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- The Model Tenancy Act, 2021 provisions are noted, but it applies only in states that have enacted a law based on it; Karnataka's specific state rent control laws or the lease agreement govern if the Model Tenancy Act has not been formally adopted there.\n- The exact status of any police complaint filed by you is currently unresolved as it was not provided.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 6, *Specific Relief Act, 1963* — Suit to recover possession after illegal dispossession\n2. Section 108, *Transfer of Property Act, 1882* — Rights and duties of landlord and tenant\n3. Section 351, *Bharatiya Nyaya Sanhita, 2023* — Criminal intimidation (threats)\n4. Section 316, *Bharatiya Nyaya Sanhita, 2023* — Criminal breach of trust\n5. Section 303, *Bharatiya Nyaya Sanhita, 2023* — Theft\n6. Section 173, *Bharatiya Nagarik Suraksha Sanhita, 2023* — Filing an FIR (including Zero FIR and e-FIR)\n7. Article 113 (Schedule), *Limitation Act, 1963* — General limitation period for civil money suits\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+   "en": ""
+  }
+ ],
+ "case_statements_en": [
+  "My landlord locked my room on 1 November 2026, kept my laptop when I asked for my deposit, and threatened to beat me if I go to the police.",
+  "Bengaluru, Karnataka.",
+  "₹30,000.",
+  "I did not vacate — he locked me out.",
+  "He gave no reason.",
+  "I am staying at a friend's place now, so I am safe."
+ ],
+ "checklist": {
+  "p_role": {
+   "field_id": "p_role",
+   "domain": "Property Law",
+   "label": "Your role",
+   "category": "critical",
+   "description": "Whether the user is the tenant, the landlord, or a buyer from a builder.",
+   "group": "p_role",
+   "status": "COLLECTED",
+   "value": "Tenant"
+  },
+  "p_problem": {
+   "field_id": "p_problem",
+   "domain": "Property Law",
+   "label": "The dispute",
+   "category": "critical",
+   "description": "The main problem in one line (deposit, eviction, lock-out, builder delay...).",
+   "group": "p_problem",
+   "status": "COLLECTED",
+   "value": "Room locked on 1 November 2026; deposit and laptop kept; threat of assault"
+  },
+  "p_location": {
+   "field_id": "p_location",
+   "domain": "Property Law",
+   "label": "City and state",
+   "category": "critical",
+   "description": "City and state of the property (tenancy and RERA rules differ by state).",
+   "group": "p_location",
+   "status": "COLLECTED",
+   "value": "Bengaluru, Karnataka"
+  },
+  "p_deposit_amount": {
+   "field_id": "p_deposit_amount",
+   "domain": "Property Law",
+   "label": "Deposit amount",
+   "category": "critical",
+   "description": "Security deposit paid, in rupees.",
+   "group": "p_deposit_amount",
+   "status": "COLLECTED",
+   "value": "30000"
+  },
+  "p_vacated": {
+   "field_id": "p_vacated",
+   "domain": "Property Law",
+   "label": "Date vacated / keys returned",
+   "category": "critical",
+   "description": "When the user vacated and handed over the keys.",
+   "group": "p_vacated",
+   "status": "COLLECTED",
+   "value": "I did not vacate — he locked me out."
+  },
+  "p_deduction_reason": {
+   "field_id": "p_deduction_reason",
+   "domain": "Property Law",
+   "label": "Landlord's reason for keeping it",
+   "category": "critical",
+   "description": "Any reason the landlord gave (damage, unpaid rent, bills) or 'no reason'.",
+   "group": "p_deduction_reason",
+   "status": "COLLECTED",
+   "value": "He gave no reason."
+  },
+  "p_lockout_date": {
+   "field_id": "p_lockout_date",
+   "domain": "Property Law",
+   "label": "Date locked out",
+   "category": "critical",
+   "description": "When the user was locked out / dispossessed (6-month limit for the possession suit).",
+   "group": "p_lockout_date",
+   "status": "COLLECTED",
+   "value": "2026-11-01"
+  },
+  "p_belongings": {
+   "field_id": "p_belongings",
+   "domain": "Property Law",
+   "label": "Belongings kept",
+   "category": "critical",
+   "description": "Whether the user's belongings are still inside or kept by the other side.",
+   "group": "p_belongings",
+   "status": "COLLECTED",
+   "value": "Laptop kept inside"
+  },
+  "p_agreement": {
+   "field_id": "p_agreement",
+   "domain": "Property Law",
+   "label": "Written agreement",
+   "category": "supporting",
+   "description": "Rent agreement / builder-buyer agreement, registered or not; RERA registration.",
+   "group": "p_agreement",
+   "status": "MISSING",
+   "value": null
+  },
+  "r_safe": {
+   "field_id": "r_safe",
+   "domain": "Criminal Law",
+   "label": "Safe right now",
+   "category": "critical",
+   "description": "Whether the user is safe now and whether the threat/harassment is ongoing.",
+   "group": "r_safe",
+   "status": "COLLECTED",
+   "value": "I am staying at a friend's place now, so I am safe."
+  },
+  "r_incident": {
+   "field_id": "r_incident",
+   "domain": "Criminal Law",
+   "label": "What happened and who",
+   "category": "critical",
+   "description": "The incident and who did it (known or unknown person).",
+   "group": "r_incident",
+   "status": "COLLECTED",
+   "value": "Landlord locked room, kept laptop, and threatened to beat user if they go to the police"
+  },
+  "r_date": {
+   "field_id": "r_date",
+   "domain": "Criminal Law",
+   "label": "Date of incident",
+   "category": "critical",
+   "description": "When it happened (before or after 1 July 2024 decides IPC vs BNS).",
+   "group": "r_date",
+   "status": "COLLECTED",
+   "value": "2026-11-01"
+  },
+  "r_place": {
+   "field_id": "r_place",
+   "domain": "Criminal Law",
+   "label": "City / place",
+   "category": "critical",
+   "description": "Where it happened (which police station area).",
+   "group": "r_place",
+   "status": "COLLECTED",
+   "value": "Bengaluru, Karnataka"
+  },
+  "r_police": {
+   "field_id": "r_police",
+   "domain": "Criminal Law",
+   "label": "Police complaint status",
+   "category": "critical",
+   "description": "Whether the user went to the police / filed an FIR and what happened.",
+   "group": "r_police",
+   "status": "UNRESOLVED",
+   "value": null
+  },
+  "r_evidence": {
+   "field_id": "r_evidence",
+   "domain": "Criminal Law",
+   "label": "Evidence",
+   "category": "supporting",
+   "description": "Bank records, chats, call logs, recordings, CCTV, witnesses.",
+   "group": "r_evidence",
+   "status": "MISSING",
+   "value": null
+  }
+ },
+ "sub_issues": {
+  "Property Law": [
+   "lockout",
+   "deposit"
+  ],
+  "Criminal Law": [
+   "threat"
+  ]
+ },
+ "key_date": "2026-11-01",
+ "amount_inr": 30000.0,
+ "pending_field": null,
+ "pending_retries": 0,
+ "questions_asked": 5,
+ "additional_asked": true,
+ "grounding_retries": 0,
+ "safety_flags": [
+  "danger"
+ ],
+ "retrieval_calls": 1,
+ "retrieval_log": [
+  {
+   "call": 1,
+   "queries": [
+    "wrongful confinement criminal intimidation tenant landlord",
+    "recovery of moveable property security deposit illegal eviction",
+    "My landlord locked my room on 1 November 2026, kept my laptop when I asked for my deposit, and threatened to beat me if I go to the police. Bengaluru, Karnataka. ₹30,000. I did not vacate — he locked me out. He gave no reason. I am staying at a friend's place now, so I am safe."
+   ],
+   "doc_ids": [
+    "SRA1963_S6",
+    "MTA2021_S11",
+    "TPA1882_S105",
+    "TPA1882_S106",
+    "BNS2023_S351",
+    "BNS2023_S329",
+    "BNS2023_S316",
+    "BNS2023_S303",
+    "LIM1963_A113",
+    "TPA1882_S108",
+    "BNSS2023_S173"
+   ]
+  }
+ ],
+ "evidence_ids": [
+  "SRA1963_S6",
+  "MTA2021_S11",
+  "TPA1882_S105",
+  "TPA1882_S106",
+  "BNS2023_S351",
+  "BNS2023_S329",
+  "BNS2023_S316",
+  "BNS2023_S303",
+  "LIM1963_A113",
+  "TPA1882_S108",
+  "BNSS2023_S173"
+ ],
+ "computed": {
+  "today": "2026-11-09",
+  "key_date": "2026-11-01",
+  "time_elapsed": "less than 1 month since 2026-11-01",
+  "months_elapsed": 0,
+  "criminal_code": "Bharatiya Nyaya Sanhita, 2023 / Bharatiya Nagarik Suraksha Sanhita, 2023 (incident on or after 1 July 2024)",
+  "amount": "₹30,000"
+ },
+ "audit_reports": [
+  {
+   "attempt": 1,
+   "status": "PASS",
+   "deterministic_issues": [],
+   "semantic_results": [
+    {
+     "id": "S",
+     "verdict": "SUPPORTED",
+     "reason": "Accurately summarizes the user's facts and correctly identifies the existence of civil and criminal remedies based on the provided evidence."
+    },
+    {
+     "id": "L1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly applies Section 6 of the Specific Relief Act to the facts of being locked out without consent or legal process."
+    },
+    {
+     "id": "L2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly cites Section 108 of the Transfer of Property Act regarding the landlord's duty to allow peaceful possession."
+    },
+    {
+     "id": "L3",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly identifies the threat of assault as criminal intimidation under Section 351 of the BNS."
+    },
+    {
+     "id": "L4",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly identifies the withholding of the laptop and deposit as potential criminal breach of trust or theft under Sections 316 and 303 of the BNS."
+    },
+    {
+     "id": "O1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly advises filing an FIR and escalating to the Superintendent of Police if refused, as per Section 173 of the BNSS."
+    },
+    {
+     "id": "O2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly advises filing a suit for possession without proving title, as per Section 6 of the Specific Relief Act."
+    },
+    {
+     "id": "O3",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly advises filing a civil suit for the deposit and cites the general 3-year limitation period from Article 113 of the Limitation Act."
+    },
+    {
+     "id": "D1",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the 6-month limitation period for a suit to recover possession under Section 6 of the Specific Relief Act."
+    },
+    {
+     "id": "D2",
+     "verdict": "SUPPORTED",
+     "reason": "Correctly states the 3-year limitation period for a civil money suit under Article 113 of the Limitation Act."
+    },
+    {
+     "id": "N1",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to gather evidence."
+    },
+    {
+     "id": "N2",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to approach the police."
+    },
+    {
+     "id": "N3",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice consistent with the legal provision for escalation to the SP."
+    },
+    {
+     "id": "N4",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to consult a legal professional."
+    },
+    {
+     "id": "N5",
+     "verdict": "SUPPORTED",
+     "reason": "Practical advice to maintain records."
+    }
+   ],
+   "failing_items": [],
+   "feedback": "",
+   "suggested_query": "",
+   "audit_error": ""
+  }
+ ],
+ "answer": {
+  "summary": "Your landlord locked you out of your room on 1 November 2026, kept your laptop and ₹30,000 deposit without giving a reason, and threatened to beat you if you go to the police. Since you did not vacate voluntarily and are currently staying safely at a friend's place, you have legal remedies under both civil and criminal laws.",
+  "legal_position": [
+   {
+    "text": "Your landlord dispossessed you of your immovable property without your consent and otherwise than in due course of law when he locked your room.",
+    "cites": [
+     "SRA1963_S6"
+    ]
+   },
+   {
+    "text": "The landlord is required to let you hold the property peacefully during the lease if you perform your obligations, and he cannot lock you out or keep your belongings.",
+    "cites": [
+     "TPA1882_S108"
+    ]
+   },
+   {
+    "text": "Threatening to beat you if you go to the police constitutes criminal intimidation, which is punishable under criminal law.",
+    "cites": [
+     "BNS2023_S351"
+    ]
+   },
+   {
+    "text": "Withholding your laptop and refusing to return your deposit or belongings without consent can amount to criminal breach of trust or theft.",
+    "cites": [
+     "BNS2023_S316",
+     "BNS2023_S303"
+    ]
+   }
+  ],
+  "options": [
+   {
+    "title": "File a Police Complaint (FIR)",
+    "detail": "You can report the criminal intimidation, withholding of your laptop, and illegal lockout at a police station under the Bharatiya Nagarik Suraksha Sanhita, 2023. If the police refuse to record the information, you may send it to the Superintendent of Police.",
+    "cites": [
+     "BNSS2023_S173",
+     "BNS2023_S351",
+     "BNS2023_S316"
+    ]
+   },
+   {
+    "title": "File a Civil Suit to Recover Possession",
+    "detail": "You can file a suit to recover possession of your room without having to prove title, as you were dispossessed without your consent otherwise than in due course of law.",
+    "cites": [
+     "SRA1963_S6"
+    ]
+   },
+   {
+    "title": "File a Civil Money Suit for Deposit Recovery",
+    "detail": "You can file a civil suit to recover your ₹30,000 security deposit, which has a general limitation period of three years from when the right to sue accrues.",
+    "cites": [
+     "LIM1963_A113"
+    ]
+   }
+  ],
+  "deadlines": [
+   {
+    "text": "A suit to recover possession after illegal dispossession must be filed within six months from the date of dispossession (1 November 2026).",
+    "cites": [
+     "SRA1963_S6"
+    ]
+   },
+   {
+    "text": "A civil money suit for recovering your security deposit can be filed within three years from when the right to sue accrues.",
+    "cites": [
+     "LIM1963_A113"
+    ]
+   }
+  ],
+  "next_steps": [
+   "Gather all evidence related to your tenancy, rent receipts, and the locked room.",
+   "Approach the local police station in Bengaluru to file a complaint regarding the threats and your kept laptop.",
+   "If the police refuse to record the information, send the complaint details to the Superintendent of Police.",
+   "Consult a local advocate in Bengaluru to evaluate filing a suit for recovery of possession and your security deposit.",
+   "Maintain a record of all communications with your landlord."
+  ],
+  "evidence_to_collect": [
+   "Rent agreement or rent receipts showing your tenancy",
+   "Proof of payment of the ₹30,000 deposit",
+   "Any messages, call logs, or written communications with the landlord",
+   "Receipts or invoices proving ownership of the laptop kept inside the room"
+  ],
+  "draft_document": {
+   "type": "Police complaint",
+   "text": "To,\nThe Officer in Charge,\nPolice Station, Bengaluru, Karnataka.\n\nSubject: Complaint regarding illegal lockout, withholding of laptop, security deposit, and criminal intimidation.\n\nRespected Sir/Madam,\n\nI am a tenant residing at [Landlord's Property Address], Bengaluru. On 1 November 2026, my landlord, [Landlord's Name], illegally locked my room without my consent and without any reason while I did not vacate the premises.\n\nMy personal laptop and a security deposit of ₹30,000 are currently locked inside the room. When I asked for my deposit and access to my belongings, the landlord threatened to beat me if I approached the police.\n\nI am currently staying safely at a friend's place at [Friend's Address], but I require immediate assistance to retrieve my laptop, recover my deposit, and take action against the threats and illegal lockout.\n\nKindly register an FIR and take strict legal action.\n\nYours faithfully,\n[Your Name]\n[Your Contact Information]"
+  },
+  "assumptions": [
+   "The Model Tenancy Act, 2021 provisions are noted, but it applies only in states that have enacted a law based on it; Karnataka's specific state rent control laws or the lease agreement govern if the Model Tenancy Act has not been formally adopted there.",
+   "The exact status of any police complaint filed by you is currently unresolved as it was not provided."
+  ]
+ },
+ "answer_en_md": "**If you are in immediate danger, call 112 now.** Your safety comes first.\n- **112** — Emergency (Police / Ambulance)\n\n### Understanding your situation\nYour landlord locked you out of your room on 1 November 2026, kept your laptop and ₹30,000 deposit without giving a reason, and threatened to beat you if you go to the police. Since you did not vacate voluntarily and are currently staying safely at a friend's place, you have legal remedies under both civil and criminal laws.\n\n### Where you stand legally\n- Your landlord dispossessed you of your immovable property without your consent and otherwise than in due course of law when he locked your room. [1]\n- The landlord is required to let you hold the property peacefully during the lease if you perform your obligations, and he cannot lock you out or keep your belongings. [2]\n- Threatening to beat you if you go to the police constitutes criminal intimidation, which is punishable under criminal law. [3]\n- Withholding your laptop and refusing to return your deposit or belongings without consent can amount to criminal breach of trust or theft. [4][5]\n\n### Your options\n1. **File a Police Complaint (FIR)** — You can report the criminal intimidation, withholding of your laptop, and illegal lockout at a police station under the Bharatiya Nagarik Suraksha Sanhita, 2023. If the police refuse to record the information, you may send it to the Superintendent of Police. [6][3][4]\n2. **File a Civil Suit to Recover Possession** — You can file a suit to recover possession of your room without having to prove title, as you were dispossessed without your consent otherwise than in due course of law. [1]\n3. **File a Civil Money Suit for Deposit Recovery** — You can file a civil suit to recover your ₹30,000 security deposit, which has a general limitation period of three years from when the right to sue accrues. [7]\n\n### Time limits\n- A suit to recover possession after illegal dispossession must be filed within six months from the date of dispossession (1 November 2026). [1]\n- A civil money suit for recovering your security deposit can be filed within three years from when the right to sue accrues. [7]\n\n### What to do next\n1. Gather all evidence related to your tenancy, rent receipts, and the locked room.\n2. Approach the local police station in Bengaluru to file a complaint regarding the threats and your kept laptop.\n3. If the police refuse to record the information, send the complaint details to the Superintendent of Police.\n4. Consult a local advocate in Bengaluru to evaluate filing a suit for recovery of possession and your security deposit.\n5. Maintain a record of all communications with your landlord.\n\n### Keep these ready\n- Rent agreement or rent receipts showing your tenancy\n- Proof of payment of the ₹30,000 deposit\n- Any messages, call logs, or written communications with the landlord\n- Receipts or invoices proving ownership of the laptop kept inside the room\n\n### Draft: Police complaint (edit before using)\n> To,\n> The Officer in Charge,\n> Police Station, Bengaluru, Karnataka.\n>\n> Subject: Complaint regarding illegal lockout, withholding of laptop, security deposit, and criminal intimidation.\n>\n> Respected Sir/Madam,\n>\n> I am a tenant residing at [Landlord's Property Address], Bengaluru. On 1 November 2026, my landlord, [Landlord's Name], illegally locked my room without my consent and without any reason while I did not vacate the premises.\n>\n> My personal laptop and a security deposit of ₹30,000 are currently locked inside the room. When I asked for my deposit and access to my belongings, the landlord threatened to beat me if I approached the police.\n>\n> I am currently staying safely at a friend's place at [Friend's Address], but I require immediate assistance to retrieve my laptop, recover my deposit, and take action against the threats and illegal lockout.\n>\n> Kindly register an FIR and take strict legal action.\n>\n> Yours faithfully,\n> [Your Name]\n> [Your Contact Information]\n\n### When to involve a lawyer\n- Criminal matters can affect your liberty and record; have a lawyer review the complaint or FIR before you file or respond.\n- Free legal aid: NALSA helpline **15100**, or your District Legal Services Authority (DLSA).\n\n### Assumptions and gaps\n- The Model Tenancy Act, 2021 provisions are noted, but it applies only in states that have enacted a law based on it; Karnataka's specific state rent control laws or the lease agreement govern if the Model Tenancy Act has not been formally adopted there.\n- The exact status of any police complaint filed by you is currently unresolved as it was not provided.\n\n---\n**Sources (Bare Act provisions)**\n1. Section 6, *Specific Relief Act, 1963* — Suit to recover possession after illegal dispossession\n2. Section 108, *Transfer of Property Act, 1882* — Rights and duties of landlord and tenant\n3. Section 351, *Bharatiya Nyaya Sanhita, 2023* — Criminal intimidation (threats)\n4. Section 316, *Bharatiya Nyaya Sanhita, 2023* — Criminal breach of trust\n5. Section 303, *Bharatiya Nyaya Sanhita, 2023* — Theft\n6. Section 173, *Bharatiya Nagarik Suraksha Sanhita, 2023* — Filing an FIR (including Zero FIR and e-FIR)\n7. Article 113 (Schedule), *Limitation Act, 1963* — General limitation period for civil money suits\n\n_NyayaMitra gives general legal information based on the Bare Act provisions listed above. It is not legal advice and does not create a lawyer–client relationship. Laws and state rules change; confirm with an advocate or your District Legal Services Authority before filing._",
+ "removed_items": [],
+ "usage": [
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1223,
+   "prompt_tokens": 986,
+   "completion_tokens": 146
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 7096,
+   "prompt_tokens": 3051,
+   "completion_tokens": 247
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1964,
+   "prompt_tokens": 1045,
+   "completion_tokens": 81
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1513,
+   "prompt_tokens": 3132,
+   "completion_tokens": 146
+  },
+  {
+   "role": "llm1",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1430,
+   "prompt_tokens": 1000,
+   "completion_tokens": 104
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1637,
+   "prompt_tokens": 3154,
+   "completion_tokens": 270
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 712,
+   "prompt_tokens": 1019,
+   "completion_tokens": 98
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 2969,
+   "prompt_tokens": 3173,
+   "completion_tokens": 295
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 614,
+   "prompt_tokens": 1014,
+   "completion_tokens": 113
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 2248,
+   "prompt_tokens": 3191,
+   "completion_tokens": 339
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 608,
+   "prompt_tokens": 1027,
+   "completion_tokens": 90
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 1948,
+   "prompt_tokens": 3215,
+   "completion_tokens": 363
+  },
+  {
+   "role": "llm1",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 650,
+   "prompt_tokens": 1053,
+   "completion_tokens": 72
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 922,
+   "prompt_tokens": 379,
+   "completion_tokens": 22
+  },
+  {
+   "role": "llm2",
+   "model": "gemini:gemini-3.5-flash-lite",
+   "ms": 4504,
+   "prompt_tokens": 2498,
+   "completion_tokens": 1323
+  },
+  {
+   "role": "llm3",
+   "model": "groq:qwen/qwen3.8-27b",
+   "ms": 2913,
+   "prompt_tokens": 3078,
+   "completion_tokens": 862
+  }
+ ],
+ "last_error": null
+}
