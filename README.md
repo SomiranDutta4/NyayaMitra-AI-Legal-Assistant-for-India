@@ -1,319 +1,324 @@
-# NyayaMitra (न्यायमित्र) — legal help in your language
+# NyayaMitra (न्यायमित्र) — AI Legal Assistant for India
 
-A conversational AI that helps ordinary people in India understand an everyday legal problem
-and act on it. The person types or speaks in English, Hindi or Hinglish. NyayaMitra asks only
-the questions it still needs, one at a time, then answers like a lawyer would:
+**Legal help for ordinary people, in English, हिंदी or Hinglish, by text or voice.**
 
-- where they stand legally
-- the options open to them
-- the time limits that apply
-- what to do next
-- what evidence to keep
-- a draft notice or complaint
-- when to involve a real lawyer
+You describe your problem in your own words. NyayaMitra asks only the questions it still needs, then explains
+where you stand, what you can do and by when, with every legal point cited to an Indian Bare Act and checked
+before you see it. If it cannot verify an answer, it says so and points you to a lawyer or free legal aid.
 
-Every legal statement cites a Bare Act provision and is audited before the person sees it.
-If the audit cannot verify a point, that point is removed. If nothing reliable remains,
-NyayaMitra refers the person to a lawyer or free legal aid instead of guessing.
+![Python](https://img.shields.io/badge/python-3.10%2B-1F4E79)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-1F4E79)
+![Tests](https://img.shields.io/badge/tests-47%20passing-2E7D4F)
+![Languages](https://img.shields.io/badge/languages-English%20%7C%20Hindi%20%7C%20Hinglish-1F4E79)
+
+> **Note:** NyayaMitra gives legal *information*, not legal advice. It does not replace an advocate.
 
 ---
 
-## Run it
+## Contents
+
+- [Example](#example)
+- [Quick start](#quick-start)
+- [How it works](#how-it-works)
+- [Why it doesn't make up laws](#why-it-doesnt-make-up-laws)
+- [What it covers](#what-it-covers)
+- [Test results](#test-results)
+- [Cost](#cost)
+- [Configuration](#configuration)
+- [Project structure](#project-structure)
+- [Limitations](#limitations)
+
+---
+
+## Example
+
+*A shortened conversation. Full transcripts are in [`outputs/`](outputs/).*
+
+> **You:** My landlord in Pune is not returning my ₹40,000 security deposit. I vacated on 15 August.
+>
+> **NyayaMitra:** Has the landlord given any reason for keeping the deposit, such as damage or unpaid rent?
+>
+> **You:** No reason at all.
+>
+> **NyayaMitra:** Do you have the rent agreement or receipts for the deposit? Anything else I should know?
+>
+> **You:** I have the agreement.
+>
+> **NyayaMitra:**
+> **Where you stand legally**: the landlord must refund the deposit when taking back vacant possession,
+> after valid deductions *(Section 11, Model Tenancy Act, 2021; this applies only in states that have adopted it)* …
+> **Your options** · **Time limits** · **What to do next** · **Draft legal notice** · **When to involve a lawyer** · **Sources**
+
+The same conversation works in Hindi (*"मेरा मकान मालिक डिपॉजिट नहीं लौटा रहा…"*) or Hinglish
+(*"mera landlord deposit wapas nahi de raha…"*). The answer comes back in the same language.
+
+**What every answer contains**
+
+| Section | What it tells you |
+|---|---|
+| Understanding your situation | your facts, as the system understood them |
+| Where you stand legally | the law that applies, with its source |
+| Your options | what you can do and where to go (court, commission, police, authority) |
+| Time limits | deadlines that apply to you |
+| What to do next | practical steps for the next week or two |
+| Keep these ready | the documents and proof you need |
+| Draft | a legal notice or complaint you can edit and use |
+| When to involve a lawyer | when to get professional help, and free legal aid (NALSA 15100) |
+| Sources | the exact Bare Act sections used |
+
+---
+
+## Quick start
+
+**1. Install**
 
 ```bash
-cd "AI lawyer Claude"
+git clone <this-repo-url>
+cd nyayamitra
 pip install -r requirements.txt
-cp .env.example .env            # add GROQ_API_KEY and GEMINI_API_KEY (free tiers); SARVAM_API_KEY for voice
-streamlit run app.py            # run from this folder so the light theme in .streamlit/ is picked up
 ```
 
-`.env` is read only when the app starts. Restart Streamlit after changing it.
-
-**Tests and raw outputs**
+**2. Add API keys.** The free tiers are enough.
 
 ```bash
-python3 -m pytest -q tests          # 47 offline tests, scripted fake LLM, no API calls
-python3 scripts/run_cases.py        # live: runs the 11 simulated users in tests/cases.json -> outputs/
-python3 scripts/run_cases.py 02 05  # only some cases
+cp .env.example .env
 ```
 
----
+Open `.env` and fill in:
 
-## Architecture (three LLMs, rules in code)
-
-```
-user message (text, or voice -> Sarvam speech-to-text)
-  │
-  ├─ Safety rules (Python, before any model)
-  │    danger / domestic violence / self-harm / cyber-fraud keywords in English, Hindi, Hinglish
-  │    -> helplines 112 / 181 / 14416 / 1930 shown immediately
-  │
-  ├─ LLM 1  Intake lawyer + classifier + validator (one call per turn)
-  │    · language (en / hi / hinglish, locked once a case starts) and a faithful English translation
-  │    · intent and legal domains
-  │    · was the pending question answered? ANSWERED / PARTIAL / UNRELATED / AMBIGUOUS / DECLINED
-  │    · does the message contain new case facts even if it doesn't answer the question?
-  │    greetings, vague messages, emergencies and out-of-scope questions are answered by LLM 1 directly
-  │    GENERAL_QUESTION ("can I defend myself if a thief comes?") skips the intake: retrieval -> draft -> audit
-  │
-  ├─ LLM 2  Intake form (one call): problem type -> facts -> next question
-  │    · detects the type of problem (e.g. Property: deposit / eviction / lock-out / builder delay)
-  │    · fills checklist fields with SPECIFIC facts only; guessed or hedged values are rejected in code
-  │    · phrases the next question in context, in the user's language
-  │
-  ├─ Checklist engine (Python)
-  │    · only fields that apply to the detected problem type
-  │    · ONE critical fact asked per turn, in priority order (safety first)
-  │    · repeats an unanswered question (MAX_CLARIFICATION_RETRIES), then marks it "not provided"
-  │    · at most MAX_TOTAL_CLARIFICATIONS questions, then a closing question that asks for proof
-  │
-  ├─ Retrieval tool (Python, hard cap MAX_RETRIEVAL_CALLS per consultation)
-  │    LLM 2 writes English queries -> BM25 over kb/provisions.json (74 provisions)
-  │    filtered by domain and by criminal-law date (IPC/CrPC before 1 July 2024, BNS/BNSS after)
-  │    + linked companion provisions (limitation, forum, fees)
-  │
-  ├─ Rules engine (Python): time elapsed, consumer forum by amount, IPC vs BNS, limitation warnings
-  │
-  ├─ LLM 2  Draft (English, JSON): every legal point = {text, cites: [doc_id]}
-  │
-  ├─ LLM 3  Auditor (a different provider from the drafter)
-  │    Layer 1 (deterministic, verification/checks.py)
-  │      · every cited doc_id was actually retrieved
-  │      · every section / Article / Rule mentioned is in the evidence
-  │      · every Act named is in the evidence (no IPC when BNS applies, no Consumer Protection Act 1986)
-  │      · every amount / period / % appears in the cited provision, the user's facts or computed facts
-  │    Layer 2 (semantic): each statement is checked against the provision it cites
-  │    -> PASS | REVISE | RETRIEVE_AGAIN | ABSTAIN        (if the audit cannot run, it fails closed)
-  │
-  ├─ Bounded correction (MAX_GROUNDING_RETRIES = 1)
-  │    one redraft with the exact issues as feedback (plus one extra search if law was missing)
-  │    still failing -> take the better attempt, remove only the failing points, re-check, deliver
-  │    with a note if real content remains; otherwise refuse and refer to a lawyer / NALSA 15100
-  │
-  └─ Deterministic rendering + translation
-       citations, the lawyer-referral block and the disclaimer are written by code, not the model
-       translated to Hindi / Hinglish after the audit; if any number or citation is lost, English is shown
-```
-
-Everything internal runs in English. Only the questions and the final answer are in the user's language.
-The audited English original is always visible in the inspector's "Audit" tab.
-
----
-
-## How a conversation works
-
-**1. Only what's still needed is asked.** From *"meri wife mujhe chhod ke ja rahi hai"* the system already
-knows the relationship (husband and wife), so it never asks about it. It asks what has happened, then what you want.
-
-**2. No guessing.** From *"my boss is not giving me money"* it does **not** record "employed" or "salary
-unpaid". Those aren't stated, so it asks. Values like "probably…" or "given there is a boss…" are rejected in
-code even if the model writes them.
-
-**3. Checklists depend on the type of problem.** A field is critical only if its answer changes the forum,
-the time limit, which law applies, eligibility for a remedy, or safety:
-
-| Domain | Problem types | Examples of critical facts |
+| Key | Needed for | Get it from |
 |---|---|---|
-| Consumer | defective product, poor service, online order | amount (decides the forum), date (2-year limit), already complained? |
-| Property | deposit, eviction, lock-out, builder delay | deposit amount, date vacated; lock-out date (6-month limit); promised possession date |
-| Labour | unpaid salary, terminated, gratuity | employer type, months and amount unpaid, years of service (1 year / 5 years) |
-| Contract | unpaid work, non-performance, cheque bounce | amount, date (3-year limit), arbitration clause, cheque return date |
-| Criminal | fraud, online fraud, threat, assault, theft, stalking… | **safe right now?**, date (IPC vs BNS), money lost and how paid, police status |
-| Family | spouse left, divorce, maintenance, violence, custody… | **safe right now?** (abuse), marriage law, marriage date and time apart, case already filed? |
+| `GROQ_API_KEY` | intake model and auditor | console.groq.com |
+| `GEMINI_API_KEY` | drafting and translation | aistudio.google.com |
+| `SARVAM_API_KEY` | voice input (optional) | dashboard.sarvam.ai |
 
-Full list: [checklists/definitions.py](checklists/definitions.py).
+**3. Run**
 
-**4. One question per turn.** Each turn asks about exactly one missing fact, phrased around what the person
-said (*"Since you are still working there, what kind of employer is it…?"*). If LLM 2's phrasing targets the
-wrong field or is in the wrong script, a fixed question is used instead (47 fixed questions in 3 languages).
-
-**5. Useful facts are kept even when they don't answer the question.** *"I don't remember the date, but he
-threatened me again"* marks the date "not provided", saves the threat, and adds Criminal Law.
-
-**6. An unanswered question is asked again.** If a reply doesn't answer the question, the question is
-repeated (up to `MAX_CLARIFICATION_RETRIES`), then the system moves on:
-- If the reply shared something about the case (*"he is chasing me…"*), the system acknowledges it first:
-  *"Thank you for telling me — I've noted that…"*.
-- If it didn't (*"hello bhai what's up"*), the question is simply asked again.
-- A field is marked "not provided" straight away only when the person actually says they don't know or won't
-  say (*"I don't remember"*, *"pata nahi"*). This is checked in code, not just on the model's label.
-
-**7. A follow-up that raises a new problem gets its own questions.** After an answer, *"he also threatened to
-beat me"* adds Criminal Law and asks its critical questions first, with one retrieval call of its own. Then
-both problems are answered together. A follow-up about the same problem is answered directly.
-
-**8. General questions are answered directly.** *"Can I defend myself if a thief comes?"* or *"How much notice
-must a landlord give?"* is a question about the law, not the person's own incident, so there are no intake
-questions. It retrieves the law, drafts and audits as usual, and answers under "What the law says". If the person
-then describes something that actually happened, a normal case starts with its questions.
-
-**9. Closing question asks for proof.** For example, salary slips and bank statements for a wage claim, or the
-rent agreement and deposit receipt for a deposit dispute.
-
----
-
-## Why the model cannot invent law here
-
-1. It only sees retrieved provisions and must cite their `doc_id`s. Case law is never cited.
-2. Python rejects any unknown `doc_id`, section number, Act name or number before a second model checks
-   the meaning.
-3. The citation list, the lawyer-referral rules and the disclaimer are rendered by code.
-4. When verification fails, the failing points are removed or the system refuses. Unverified statements
-   are never shown.
-
-**What this does not guarantee:**
-- **The Layer-2 auditor is a model and can miss an error.** Layer 1 is exact, but only for citations,
-  sections, Act names and numbers.
-- **Some parts aren't checked for meaning.** The draft notice and the "Assumptions" list get only the Layer-1
-  checks, and "Keep these ready" is not audited.
-- **Answers are checked against the knowledge-base summaries, not the official text.** A wrong summary would
-  be confirmed.
-- **Translation happens after the audit.** Numbers and citations are checked to survive it; subtle changes in
-  meaning are not.
-
----
-
-## Model swap
-
-Each role is one line in `.env`:
-
+```bash
+streamlit run app.py
 ```
-LLM1_MODEL=groq:qwen/qwen3.8-27b          # intake, classifier, validator
-LLM2_MODEL=gemini:gemini-3.5-flash-lite   # facts, questions, queries, drafting
+
+Open http://localhost:8501. Run the command from the project folder so the light theme loads.
+Restart the app whenever you change `.env` or the code.
+
+---
+
+## How it works
+
+```mermaid
+flowchart TD
+    A[User message<br/>text or voice] --> B[Safety check<br/>emergency keywords → helplines]
+    B --> C[LLM 1 · Intake<br/>language, translation to English,<br/>type of message, legal area]
+    C -->|greeting / vague / out of scope| R[Short reply]
+    C -->|general question| G[Answer from the law<br/>no questions asked]
+    C -->|your own case| D[LLM 2 · Fact extraction<br/>+ checklist]
+    D -->|a fact is missing| Q[Ask ONE question]
+    Q --> C
+    D -->|all key facts known| E[Find the law<br/>74 Bare Act provisions]
+    G --> E
+    E --> F[LLM 2 · Draft the answer<br/>every legal point cites a section]
+    F --> H{LLM 3 · Audit}
+    H -->|pass| T[Translate to your language<br/>and show the answer]
+    H -->|fail| I[Fix once with the exact problems]
+    I --> H
+    H -->|still failing| J[Remove the unverified points,<br/>or refer to a lawyer]
+```
+
+### In plain words
+
+1. **Understand.** LLM 1 detects your language, translates your message to English, and decides what it is:
+   your own case, a general question about the law, a greeting, or something out of scope.
+2. **Ask only what's missing.** LLM 2 fills a checklist from what you've said. It records only facts you actually
+   stated, never guesses. Then it asks **one question at a time** about the most important missing fact.
+3. **Find the law.** It searches a curated set of 74 Indian Bare Act provisions. It picks the right criminal
+   law by date: IPC before 1 July 2024, BNS after.
+4. **Draft.** LLM 2 writes the answer in English. Every legal point must cite the provision it comes from.
+5. **Audit.** LLM 3, a different model from the drafter, checks the draft twice: once with exact code checks,
+   once by reading each point against its source.
+6. **Answer.** The verified answer is translated into your language. The citations, the "when to see a lawyer"
+   advice and the disclaimer are added by code, not by the AI.
+
+<details>
+<summary><b>More detail: how the questions work</b></summary>
+
+- **Checklists depend on the type of problem.** A deposit dispute, an eviction and a builder delay each have
+  their own critical facts. A fact counts as critical only if it changes the court, the deadline, the law that
+  applies, eligibility for a remedy, or your safety.
+- **Nothing is guessed.** From *"my boss is not giving me money"* it does not assume you still work there or
+  what's unpaid. It asks. Vague values like "probably…" are rejected in code.
+- **Facts you already gave are never asked again.** From *"my wife has left me"* it already knows the
+  relationship.
+- **Useful information is kept** even when it doesn't answer the question asked
+  (*"I don't remember the date, but he threatened me again"*).
+- **Unanswered questions are asked again,** a limited number of times. A question is marked "not provided" only
+  when you actually say you don't know or won't say.
+- **Safety first.** For threats, assault and domestic violence it asks "Are you safe right now?" before
+  anything else, and shows helplines (112, 181, 1930, 14416) as soon as danger is mentioned.
+- **A new problem in a follow-up** (*"he also threatened me"*) gets its own questions before the answer.
+- **A general question** (*"can I defend myself if a thief comes?"*) is answered straight from the law, with no
+  intake questions.
+
+</details>
+
+---
+
+## Why it doesn't make up laws
+
+AI models often invent sections, penalties and court cases. NyayaMitra is built to stop that:
+
+| Safeguard | How |
+|---|---|
+| Only retrieved law | The drafter sees only the provisions found for this case and must cite their IDs. It never cites case law. |
+| Code checks every citation | Every cited ID must exist, and every section number and Act name mentioned must be in the retrieved law. |
+| Code checks every number | Each amount, deadline and percentage must appear in the cited section or in your own facts. "30 days" can't be invented. |
+| A second model checks the meaning | LLM 3, from a different provider, reads each point against its source. |
+| One fix, then stop | A failed draft gets one correction. If points still fail, they are removed. If nothing reliable remains, the system refers you to a lawyer instead of guessing. |
+| Fails safe | If the audit itself can't run, the answer is not shown as verified. |
+
+You can see all of this in the app's **Case inspector** panel: the facts collected, the law retrieved, the audit
+result, and the model calls used.
+
+---
+
+## What it covers
+
+| Area | Covered | Not covered |
+|---|---|---|
+| Consumer | defective goods, poor service, e-commerce refunds, which commission, fees, 2-year limit | — |
+| Property | security deposit, eviction notice, lock-outs, builder delay (RERA) | state rent-control Acts |
+| Employment | unpaid salary (Code on Wages 2019), termination, gratuity | — |
+| Contracts | breach, compensation, arbitration clause, cheque bounce | — |
+| Criminal | cheating, threats, assault, theft, trespass, self-defence, online fraud, FIR (BNS / IPC by date) | bail, trial strategy |
+| Family | Hindu Marriage Act: spouse left, divorce, maintenance, custody, domestic violence | Muslim / Christian personal law, Special Marriage Act |
+| Elsewhere | — | tax, immigration, company and IP law, court representation |
+
+---
+
+## Test results
+
+11 test conversations are run end to end against the real models, each played by a simulated user who
+answers the system's questions. Full transcripts are in [`outputs/`](outputs/).
+
+| # | Case | Language | Questions | Result |
+|---|---|---|---|---|
+| 01 | Deposit not returned | English | 1 | Model Tenancy Act, with its state caveat; draft legal notice |
+| 02 | Wife has left | Hinglish | 5 | relationship never asked; restitution of conjugal rights |
+| 03 | Broken TV from Amazon | English | 0 | correct consumer commission by amount |
+| 04 | Fired, salary unpaid | Hindi | 2 | Code on Wages; draft wage claim in Hindi |
+| 05 | Landlord lock-out and threat | English | 5 | property and criminal law together; 112 helpline |
+| 06 | Job fraud in March 2024 | English | 3 | IPC applied, not BNS (before July 2024) |
+| 07 | "I am in danger", then abuse | English | 5 | helplines first, then a domestic violence case |
+| 08 | Income tax question | English | 0 | politely declined as out of scope |
+| 09 | Asks about a fake "Section 420B" | English | 1 | says it couldn't find it; explains the real remedy |
+| 10 | Off-topic replies | English | 4 | question asked again, then moved on |
+| 11 | New problem raised in a follow-up | English | 3 | asked about the new problem before answering |
+
+**All 10 cases that reached an answer passed the audit** (7 on the first draft, 3 after one correction).
+None were refused.
+
+```bash
+python3 -m pytest -q tests        # 47 offline tests, no API calls
+python3 scripts/run_cases.py      # re-run the 11 live conversations into outputs/
+```
+
+---
+
+## Cost
+
+Measured over the test conversations:
+
+| | Per conversation |
+|---|---|
+| Model calls | 8 – 21 (more questions = more calls) |
+| Tokens | about 21,600 in and 4,200 out |
+| Cost on free tiers | ₹0 |
+| Cost on paid small models (assumed $0.10 / $0.40 per million tokens, input / output) | about $0.004, or roughly $400 per 100,000 conversations |
+
+The safety check, checklist, search, rules and code-based audit cost nothing.
+
+<details>
+<summary><b>Scaling to real-world use</b></summary>
+
+- **Knowledge base:** move from 74 summaries to the full Bare Acts plus state rules, keeping the same citation
+  format. The auditor doesn't change.
+- **Lower cost:** answer greetings with a rule, cache the repeated instructions, and send the extractor less
+  context per turn.
+- **Human checks:**
+  - Lawyers review the knowledge base.
+  - Every refusal goes to a legal-aid queue.
+  - A sample of answers is reviewed every week.
+
+</details>
+
+---
+
+## Configuration
+
+Everything is set in `.env`.
+
+**Swap a model in one line.** Any OpenAI-compatible provider can be added in `llm/client.py`.
+
+```ini
+LLM1_MODEL=groq:qwen/qwen3.8-27b          # intake and question checking
+LLM2_MODEL=gemini:gemini-3.5-flash-lite   # facts, questions, drafting
 LLM3_MODEL=groq:qwen/qwen3.8-27b          # auditor (keep a different provider from LLM2)
 TRANSLATE_MODEL=gemini:gemini-3.5-flash-lite
 ```
 
-Any OpenAI-compatible endpoint can be added in `llm/client.py → PROVIDERS`. If a provider fails (rate limit,
-outage), the next one in `FALLBACK_MODELS` is tried automatically, and the inspector's Usage tab shows which
-model answered. There is no silent fake output.
+If a provider is down or rate-limited, the next one in `FALLBACK_MODELS` is used automatically. The Usage
+tab shows which model answered.
 
-When Groq is rate-limited, the auditor falls back to Gemini, so for that turn the drafter and auditor share a
-provider. This happened in case 06 below.
+**Limits**
 
-`sarvam-105b` was tried as the translator. It is a reasoning model, spent its whole token budget thinking, and
-returned empty translations, so it is now only a fallback. Sarvam is used for voice input.
-
----
-
-## Results on the test cases (`outputs/`)
-
-The 11 cases in `tests/cases.json` are **simulated users**. Each one knows its facts and answers whatever is
-asked, so the scripts don't break when the questions change. Raw transcripts and full state are in `outputs/`.
-
-| # | Case | Questions | Outcome | Audit |
-|---|---|---|---|---|
-| 01 | Deposit not returned (English) | 1 | Model Tenancy Act s.11 with its state-adoption caveat; legal notice | REVISE, then PASS |
-| 02 | Wife has left (Hinglish) | 5 | relationship never asked; restitution of conjugal rights, HMA s.9 | PASS |
-| 03 | Defective TV from Amazon | 0 | District Commission by amount; e-commerce grievance officer | RETRIEVE_AGAIN, then PASS |
-| 04 | Fired, salary unpaid (Hindi) | 2 | Code on Wages s.17 / s.45, IR Code s.70; draft wage claim in Hindi | PASS |
-| 05 | Landlord lock-out + threat | 5 | Property + Criminal; Specific Relief Act s.6, BNS s.351; helpline 112 | PASS |
-| 06 | Job fraud, March 2024 | 3 | IPC s.420, not BNS (incident before 1 July 2024) | PASS |
-| 07 | "I am in danger", then abuse | 5 | helplines 112 and 181 first; domestic violence case opened | PASS |
-| 08 | Income tax question | 0 | politely declined as out of scope | — |
-| 09 | Fake "Section 420B" | 1 | says it could not find Section 420B; explains the real remedy | PASS |
-| 10 | Off-topic replies | 4 | question repeated, then moved on | PASS |
-| 11 | Follow-up raises a threat | 3 | Criminal questions asked after the deposit answer; BNS s.351 added | REVISE, then PASS |
-
-All 10 cases that reached an answer passed the audit: 7 on the first draft and 3 after one correction.
-None were refused and no points had to be removed.
-
----
-
-## Cost and scale
-
-Measured over the 10 answered cases in `outputs/`:
-- 8–21 model calls per consultation (more questions mean more calls)
-- about 21,600 input and 4,200 output tokens on average
-- 28–93 seconds of total model time across the whole conversation
-
-Every message carries a fixed cost of about 1,000 tokens for LLM 1's instructions, even "hello".
-
-| | Per consultation | 100,000 consultations / month |
+| Setting | Default | Meaning |
 |---|---|---|
-| Free tiers (as built) | ₹0 | rate limits apply; not suitable |
-| Paid small models, assumed $0.10 / $0.40 per million tokens (input / output) | ≈ $0.004 | ≈ $400 |
-
-**Free parts:** safety, checklist, retrieval, rules, the Layer-1 audit and rendering run in Python, cost
-nothing, and take milliseconds.
-
-**To cut cost:**
-- answer plain greetings with a rule instead of LLM 1
-- prompt caching for the repeated instructions and evidence
-- send only the facts collected so far to the extractor instead of the full checklist each turn
-
-**Scaling the knowledge base:** move from 74 summaries to the full Bare Acts plus state rules, chunked by
-section, keeping the same `doc_id` citation contract. The verifier doesn't change.
-
-**Humans in the loop:**
-- Lawyers review the knowledge base (not each answer).
-- Every refusal goes to a legal-aid referral queue.
-- A sample of passed answers is reviewed every week.
+| `MAX_TOTAL_CLARIFICATIONS` | 4 | questions per conversation |
+| `MAX_CLARIFICATION_RETRIES` | 1 | times an unanswered question is asked again |
+| `MAX_RETRIEVAL_CALLS` | 2 | law searches per conversation |
+| `MAX_GROUNDING_RETRIES` | 1 | corrections after a failed audit |
 
 ---
 
-## Configuration (`.env`)
-
-| Setting | Default | What it controls |
-|---|---|---|
-| `MAX_TOTAL_CLARIFICATIONS` | 4 | questions per consultation (a new problem in a follow-up gets its own budget) |
-| `MAX_CLARIFICATION_RETRIES` | 1 | repeats of an unanswered question before it is marked "not provided" |
-| `MAX_RETRIEVAL_CALLS` | 2 | law searches per consultation (+1 for a new problem raised in a follow-up) |
-| `MAX_GROUNDING_RETRIES` | 1 | redrafts after the auditor rejects an answer |
-
----
-
-## What it covers, and what it doesn't
-
-| Covered (central law) | Not covered |
-|---|---|
-| Consumer: defects, deficiency, e-commerce, forum, fees, limitation | Tax, immigration, company / IP law |
-| Tenancy and property: deposit, notice, lock-out, RERA builder delay | State rent-control Acts (flagged as a gap) |
-| Wages: Code on Wages 2019, the older Payment of Wages Act, gratuity, retrenchment | Muslim / Christian personal law, Special Marriage Act |
-| Contracts: breach, damages, limitation, arbitration clause, cheque bounce | Court representation, drafting pleadings |
-| Criminal: cheating, breach of trust, intimidation, hurt, theft, trespass, right of private defence (self-defence), FIR (BNS/BNSS or IPC/CrPC by date), online fraud | Bail, trial strategy |
-| Family (Hindu Marriage Act): restitution, divorce, mutual consent, maintenance, custody, domestic violence | |
-
-The knowledge base holds plain-language summaries written from the official text on indiacode.nic.in, not
-verbatim Act text. The less certain figures were checked against legal-commentary sources (not the official
-gazette). Labour-code commencement, retrenchment compensation and the consumer fee table were corrected as a
-result. A production version would load the full Bare Acts and the state rules.
-
-## Known gaps
-
-- **Stalking:** the criminal checklist has a "stalking / harassment" type, but the knowledge base has no
-  stalking provision (BNS s.78), so those cases get only general provisions or a referral.
-- **Safety keywords miss some phrasings:** *"mujhe darr lag raha hai"*, *"koi peecha kar raha hai"*, and *"I
-  lost money through UPI"* without the word "fraud" don't trigger the helpline banner.
-- **One question per turn means longer intakes** for cases with many critical facts (family cases took 5
-  questions).
-- **The extractor is strict on purpose,** so it sometimes asks for something that was only implied (e.g. "since
-  when" after "September and October salary").
-- **Model-written Hindi questions can have small spelling slips.** The fixed fallback questions are clean.
-
----
-
-## Project layout
+## Project structure
 
 ```
-app.py                     Streamlit UI (light theme in .streamlit/config.toml)
-orchestrator/pipeline.py   turn handling, intake flow, limits, retry/prune/abstain, translation
-orchestrator/render.py     deterministic Markdown rendering of the final answer
-llm/client.py              one client for every provider, per-role models, fallback, usage log
-llm/llm1_classifier.py     LLM 1: intake, language, intent, domains, answer validation
-llm/llm2_agent.py          LLM 2: problem type, facts, next question, queries, draft, translation
-llm/llm3_verifier.py       LLM 3: semantic audit + verdict
-verification/checks.py     Layer-1 deterministic checks (citations, sections, Acts, numbers)
-rules/safety.py            emergency keywords, helplines, lawyer-referral rules
-rules/legal_rules.py       dates, forum by amount, IPC-vs-BNS, limitation warnings
-kb/provisions.json         74 curated Bare Act provisions; kb/retriever.py = BM25 retrieval
-checklists/definitions.py  problem types, checklists, 47 fixed questions in 3 languages, closing questions
-checklists/engine.py       checklist rules: applicable fields, next question, guess rejection
-persistence/db.py          SQLite session store
-voice/transcriber.py       Sarvam speech-to-text
-tests/                     47 offline tests + fake LLM; cases.json = 11 simulated users
+app.py                     Streamlit interface
+orchestrator/pipeline.py   conversation flow, limits, audit retry, translation
+orchestrator/render.py     builds the final answer (citations, lawyer advice, disclaimer)
+llm/client.py              one client for all model providers, with fallback
+llm/llm1_classifier.py     LLM 1: language, message type, legal area, answer checking
+llm/llm2_agent.py          LLM 2: facts, next question, search queries, drafting, translation
+llm/llm3_verifier.py       LLM 3: meaning check and final verdict
+verification/checks.py     code checks: citations, sections, Acts, numbers
+checklists/                problem types, checklists and questions in 3 languages
+kb/provisions.json         74 Bare Act provisions (plain-language summaries)
+kb/retriever.py            search over the provisions
+rules/                     safety keywords, helplines, dates, court by amount, IPC vs BNS
+persistence/db.py          saves conversations (SQLite)
+voice/transcriber.py       speech-to-text (Sarvam)
+tests/                     offline tests and the 11 simulated users
 scripts/run_cases.py       runs the simulated users and writes outputs/
+outputs/                   raw transcripts from the test runs
 ```
 
-An earlier prototype used GraphRAG. It was replaced: the graphs had 36 section nodes and many unconnected
-nodes, so a flat cited knowledge base with linked provisions was simpler and easier to verify.
+---
+
+## Limitations
+
+- **The knowledge base is a summary.** The 74 provisions are plain-language summaries written from
+  indiacode.nic.in, not the official text. The uncertain figures were checked against legal commentary.
+- **The auditor can miss things.** The code checks are exact, but the meaning check is done by a model.
+- **Not every part is checked for meaning.** The draft notice and the "Assumptions" list get only the code
+  checks.
+- **Safety keywords miss some phrasings,** such as *"mujhe darr lag raha hai"* or *"koi peecha kar raha hai"*.
+  There is also no stalking provision yet (BNS s.78).
+- **One question per turn makes some intakes long:** family cases can take 5 questions.
+- **The extractor is strict on purpose,** so it sometimes asks for something you only implied (for example the
+  date after "last night").
+- **Free tiers are rate-limited.** When that happens the system switches provider. It may briefly use the same
+  provider for drafting and auditing.
+
+---
+
+<sub>Built for the Kuku AI Generalist assignment (Problem 2: Build an AI Lawyer). Legal information only, not
+legal advice. For free legal aid in India, call NALSA at 15100.</sub>
